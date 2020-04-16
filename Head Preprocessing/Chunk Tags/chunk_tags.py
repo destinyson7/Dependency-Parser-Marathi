@@ -1,6 +1,6 @@
 possible_tags = set([])
 
-with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Dependency-Parser-Marathi/Corpus/Training Data Combined/combined.txt", "r") as f:
+with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Dependency-Parser-Marathi/Corpus/Training Data Combined/Combined Clean/cleaned.txt", "r") as f:
     for line in f:
         current = line.strip()
 

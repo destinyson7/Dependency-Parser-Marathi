@@ -1,33 +1,24 @@
 import re
 import json
 
-possible_chunk_tags = ['FRAGP', 'RBPP', 'RB', 'CCP', 'VGNF', 'NEGP', 'RP', 'BLK',
-                       'NP', 'UNK', 'VGJJ', 'JJ', 'VGNN', 'RBP', 'JJP', 'CCPP', 'VGF', 'BL', 'VGINF', 'VNF']
+possible_chunk_tags = ['NP', 'JJ', 'VGNF', 'RBP',
+                       'CCP', 'VGNN', 'NEGP', 'VGF', 'JJP', 'BLK', 'VGINF']
 
 possible_tuples = {
-    "FRAGP": [],
-    "RBPP": [],
-    "RB": [],
     "CCP": [],
     "VGNF": [],
     "NEGP": [],
-    "RP": [],
     "BLK": [],
     "NP": [],
-    "UNK": [],
-    "VGJJ": [],
     "JJ": [],
     "VGNN": [],
     "RBP": [],
     "JJP": [],
-    "CCPP": [],
     "VGF": [],
-    "BL": [],
     "VGINF": [],
-    "VNF": [],
 }
 
-with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Dependency-Parser-Marathi/Corpus/Training Data Combined/combined.txt", "r") as f:
+with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Dependency-Parser-Marathi/Corpus/Training Data Combined/Combined Clean/cleaned.txt", "r") as f:
     for line in f:
 
         if line.strip():
@@ -46,7 +37,7 @@ with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Depe
             elif line[0] != '<':
                 cur_tuple.append(line.split(" ")[2])
 
-print(possible_tuples)
+# print(possible_tuples)
 
 with open("possible_tuples.json", "w") as fp:
     json.dump(possible_tuples, fp, indent=2)

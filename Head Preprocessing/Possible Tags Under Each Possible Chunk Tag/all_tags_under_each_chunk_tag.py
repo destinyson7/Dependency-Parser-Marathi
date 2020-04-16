@@ -1,34 +1,24 @@
 import re
 import json
 
-possible_chunk_tags = ['FRAGP', 'RBPP', 'RB', 'CCP', 'VGNF', 'NEGP', 'RP', 'BLK',
-                       'NP', 'UNK', 'VGJJ', 'JJ', 'VGNN', 'RBP', 'JJP', 'CCPP', 'VGF', 'BL', 'VGINF', 'VNF']
-# RBPP, RB, RP, UNK, CCPP, VGJJ, BL, VNF are incorrect chunk tags
-# remove those sentences where these chunk tags are present
+possible_chunk_tags = ['NP', 'JJ', 'VGNF', 'RBP',
+                       'CCP', 'VGNN', 'NEGP', 'VGF', 'JJP', 'BLK', 'VGINF']
+
 possible_tags = {
-    "FRAGP": set([]),
-    "RBPP": set([]),
-    "RB": set([]),
     "CCP": set([]),
     "VGNF": set([]),
     "NEGP": set([]),
-    "RP": set([]),
     "BLK": set([]),
     "NP": set([]),
-    "UNK": set([]),
-    "VGJJ": set([]),
     "JJ": set([]),
     "VGNN": set([]),
     "RBP": set([]),
     "JJP": set([]),
-    "CCPP": set([]),
     "VGF": set([]),
-    "BL": set([]),
     "VGINF": set([]),
-    "VNF": set([]),
 }
 
-with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Dependency-Parser-Marathi/Corpus/Training Data Combined/combined.txt", "r") as f:
+with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Dependency-Parser-Marathi/Corpus/Training Data Combined/Combined Clean/cleaned.txt", "r") as f:
     for line in f:
 
         if line.strip():
