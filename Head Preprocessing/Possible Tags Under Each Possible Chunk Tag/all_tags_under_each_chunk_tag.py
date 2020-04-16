@@ -3,7 +3,8 @@ import json
 
 possible_chunk_tags = ['FRAGP', 'RBPP', 'RB', 'CCP', 'VGNF', 'NEGP', 'RP', 'BLK',
                        'NP', 'UNK', 'VGJJ', 'JJ', 'VGNN', 'RBP', 'JJP', 'CCPP', 'VGF', 'BL', 'VGINF', 'VNF']
-
+# RBPP, RB, RP, UNK, CCPP, VGJJ, BL, VNF are incorrect chunk tags
+# remove those sentences where these chunk tags are present
 possible_tags = {
     "FRAGP": set([]),
     "RBPP": set([]),
