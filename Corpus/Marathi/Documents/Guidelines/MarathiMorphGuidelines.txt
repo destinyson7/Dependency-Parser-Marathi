@@ -1,0 +1,479 @@
+﻿Guidelines  For Morph Analayser
+--------------------------------------------------
+A Morph analyser gives multiple outputs, if a word is ambiguous. For example 'chair' in English is ambiguous having the properties of a noun and a verb. A morph analyser will give both the possibilities. The ambiguities can be within the same category. example Hindi word: 'लड़के'. 'लड़के' in Hindi It is a noun which has two possible interpretations - n,sg,o and n,pl,d. The analyser will provide both these possibilities.   Like any other automatic processing, morph analyser may also make errors therefore the out put of the morph analyser needs to be manually corrected for preparing any GOLD STANDART DATA which includes morph analysis.
+  The task of manually correcting morph output requires the following efforts. Checking of morph feature attributes and values for a given word.
+1. General: In morph analysis for a given word eight values are assigned. 
+1. root, 2. lexical categories, 3. gender, 4. number, 5.person, 6.case, 7. a) case ( in case of noun) /b) TAM(for verbs) marker.
+According to this the analysis for a given word will be,as follows:
+
+    <fs af='root,lcat,gen,num,person,case,case/TAMmarker'>
+
+Examples, If we take Hindi words
+
+noun-  मुलगा, मुलगे, मुलग्यांचा  root is मुलगा
+
+pronoun- याचा, याची, याचे root is हा
+
+postposition- चा, ची, चे root is चा
+
+adjective- चांगला, चांगली, चांगले root is चांगला
+
+verb- खा, खात, खाल्ले, खावे, खाईल root is खाणे
+
+
+If the given word is a noun eg. मुलगा
+                                          -----------
+check its
+--------
+1. gender- masculine, feminine.
+
+Test- चांगला मुलगा, & चांगली मुलगी,
+
+In the above eg. मुलगा, masculine & मुलगी, feminine.
+
+
+2. number- singular-sg, plural-pl
+
+Test- एक मुलगा, & दोन मुलगे,
+
+3. person-1,2,3
+
+Test-1st- मी, आपण,   2nd-  तू, तुम्ही,   3rd- तो, ती  ते (pronoun)
+
+1st- आहे,आहात.  2nd- आहेस, आहात 3rd- आहे, आहेत
+
+4. case- direct-d, oblique-o
+
+If a noun/pronoun/nst is followed by a postpostion its oblique or else its direct 
+
+eg: 1. मुलगा, उभा आहे . --In this मुलगा,is direct.
+
+2. मुलाने भोजन केले . -- In this मुलाने  is oblique.
+
+case marker- In case of noun & pronoun.
+
+TAM ( tense aspect modality ) - In case of verbs.
+
+If a given word is noun then last values will be marked 0, 0.
+If it is a verb then its tense aspect modality will be assigned.
+
+2. Contextual:
+
+For Noun : If the given  word is noun the analyser will give all possible features as outputs.
+
+<fs af='root,n,m,sg,3,d,0,0'>/<fs af='root,n,m,sg,3,o,0,0'>/<fs af='root,n,m,pl,3,d,0,0'>/ <fs af='root,n,m,pl,3,o,0,0'>/<fs af='root,n,f,sg,3,d,0,0'>/<fs af='root,n,f,sg,3,o,0,0'>/ <fs af='root,n,f,pl,3,d,0,0'>/ <fs af='root,n,f,pl,3,o,0,0'>
+
+1. <fs af='मुलगा,n,m,sg,3,d,0,0'>/<fs af='काम,n,n,sg,3,d,0,0'>
+
+eg: मुलगा उभा आहे . / काम चांगले झाले .
+
+2. <fs af='मुलगा,n,m,sg,3,o,0,0'>/<fs af='काम,n,m,sg,3,o,0,0'>
+
+मुलाने भोजन केले ।/ चांगल्या कामात उशीर व्हायला नको.
+
+3. <fs af='मुलगा,n,m,pl,3,d,0,0'>/<fs af='काम,n,m,pl,3,d,0,0'>
+
+तिथे काही मुलगे उभे आहेत. /चांगले काम केल्यावर चांगले फळ मिळते.
+4. <fs af='मुलगा,n,m,pl,3,o,0,0'>/<fs af='काम,n,m,pl,3,o,0,0'>
+
+मुलांनी भोजन केले . / चांगल्या कामांचे फळ चांगले असते.
+
+
+5. <fs af='मुलगी ,n,f,sg,3,d,0,0'>
+
+eg: मुलगी उभी आहे .
+
+6. <fs af='मुलगी,n,f,sg,3,o,0,0'>
+
+मुलीने भोजन केले .
+
+7. <fs af='मुलगी,n,f,pl,3,d,0,0'>
+
+तिथे काही मुली उभ्या आहेत .
+
+8. <fs af='मुलगी,n,f,pl,3,o,0,0'>
+
+मुलींनी भोजन केले .
+
+
+
+Some Cases:
+----------------
+1. If a noun is a compound word / proper name 
+
+eg: गंगा नदी / अटल बिहारी वाजपयी then POS tag will be NNP NN / NNPC NNPC NNP here  all the compound word / proper name  (NNP ,NNPC ,NNC ) will also be marked as noun in morph analysis and all the attribute values will be default entries.
+
+<fs af='root,n,m,sg,3,d,0,0'>/<fs af='root,n,f,sg,3,d,0,0'> accordingly
+
+But if compound word is noun and combination of 2 different categories like : विश्व-प्रसिद्ध  then even though in POS tag it is marked JJC JJ but in morph  the 2 words will have their own analysis. 
+     
+     विश्व-'विश्व,n,m,sg,3,d,0,0'>
+     प्रसिद्ध- 'प्रसिद्ध,any,any,,d,,'>
+
+
+2. Since the word NST can also occur independently and behave like a noun  therefore all NSTs will be treated as noun and will be given feature structure accordingly
+
+eg:  1. आधी स्नान कर मग जेवून घे .
+
+      2.  रामच्या आधी मी जाईन .
+
+In  eg.(1) आधी  is noun and (2) it is part of complex postposition. But for both cases आधी will have this feature structure:<fs af='आधी,nst,m,sg,3,d,,'> 
+
+
+
+
+3. For Pronoun:- In Hindi these can be of 2 types one which change forms and other which does not change forms.
+
+The one which does not change forms like आता, इथे, तिथे, etc will have the following feature structure, in which the sixth field will be marked for d/o .
+
+<fs af='root,pn,,,,d,,'>/<fs af='root,pn,,,,o,,'>
+
+eg. 1. याआधी असे कधीही झाले नव्हते .
+    
+     2. आता हे काम माझाने नाही होणार .
+
+ In the above examples eg.1 will have this feature structure:<fs af='आता,pn,,,,o,,'> and eg.2 will have this feature structure:<fs af='आता,pn,,,,d,,'>
+
+
+The one which change forms like याचा, याची, याचे etc the morph output will vary accordingly.
+*  
+हा =fs af='हा,pn,any,sg,3,d,,'> 
+
+तो=<fs af='तो,pn,any,sg,3,d,,'>
+
+याचा= <fs af='हा,pn,m,sg,3,o,चा,kA'>
+
+याची=<fs af='हा,pn,f,sg,3,o,चा,kA'>
+
+याचे=<fs af='हा,pn,m,sg,3,o,चा, ,'>/<fs af='हा,pn,m,sg,3,o,चे, ,'>
+
+eg 1.याचा हा अर्थ आहे .
+
+feature structure for याचा: <fs af='हा,pn,m,sg,3,o,चा, ,'>
+
+2. याची पाहाणी सुरू झाली आहे .
+
+feature structure for याची: <fs af='हा,pn,f,sg,3,o,चा,kA'>
+
+3.a) याचे घरी पाहुणे येणार आहेत .
+
+feature structure for याचे: <fs af='हा,pn,m,sg,3,o,चा, ,'>
+
+b) याशिवाय तो उशीराने आला .
+
+feature structure for याचे: <fs af='हा,pn,any,sg,3,o,चे, ,'>
+
+*All the derivative pn's like इस,उस, will be in oblique form. In such pronouns all the features will be of pronoun only the gender will be according to postpositon and as there are only eight
+                      ---------------------------------------    
+fields the feature structure of postposition will not be shown here.  
+
+
+
+4. For adjective: In Marathi, these are of 2 types .
+
+Type I: Does not change its form like सुंदर, स्थित etc. The root word will be same and the feature structure will be
+
+<fs af='root,adj,any,any,,d,,'>/<fs af='root,adj,any,any,,o,,'>/<fs af='root,adj,any,any,,,,'>
+
+eg1. सुंदर मुलगी खेळत आहे .<fs af='सुंदर,adj,any,any,,d,,'>
+
+2.सुंदर मुलीने सांगितले .<fs af='सुंदर,adj,any,any,,o,,'>
+
+3. मुलगी सुंदर आहे .<fs af='सुंदर,adj,any,any,,,,'>
+
+
+Type II: Change its forms like चांगला, चांगली ,चांगले; मागचा, मागची, मागचे etc the root will be the first form 
+
+चांगले can have following feature structures:
+
+<fs af='चांगले,adj,n,sg,,d,,'>
+
+eg:1.चांगले काम केल्याने चांगलेच होते . <fs af='चांगला,adj,n,sg,,d,,'>
+
+चांगली can have following feature structures:
+
+<fs af='चांगली,adj,f,sg,,d,,'>, <fs af='चांगली,adj,f,sg,,o,,'>,<fs af='चांगली,adj,f,pl,,d,,'>, <fs af='चांगली,adj,f,pl,,o,,'>
+
+
+2.a) चांगल्या करणीचे फळ चांगले असते . <fs af='चांगले,adj,f,sg,,o,,'>
+
+b) सीता चांगली मुलगी आहे . <fs af='चांगली,adj,f,sg,,d,,'>
+
+c) चांगल्या मुली तिथे उभ्या आहेत . <fs af='चांगली,adj,f,pl,,d,,'>
+
+d) चांगली मुलींनी भोजन केले . <fs af='चांगली,adj,f,pl,,o,,'>
+
+चांगला can have following feature structures:
+
+<fs af='चांगला,adj,m,sg,,o,,'>, <fs af='चांगले,adj,m,pl,,d,,'>, <fs af='चांगले,adj,m,pl,,o,,'>
+
+3.a) चांगले काम करायला हवे . <fs af='चांगले,adj,n,pl,,d,,'>
+
+b)चांगल्या कामात उशीर नको व्हायला . <fs af='चांगले,adj,m,pl,,o,,'>
+
+
+
+5. Hidden postpostion:
+-----------------------
+
+eg. पुढिल महिन्यात बैठक होईल . <fs af='पुढिल,adj,m,sg,,o,,'> 
+
+In this eg. we have to assume a hidden vibhakti(postpostion) after the noun and mark this as oblique and following noun will also be marked as oblique. The reason is पुढिल will never be sg/d.
+
+
+6. For Quantifier : 
+------------------
+
+There will be one feature structure 
+<fs af='root,avy,,,,,,'> 
+
+But if  it  change forms like  an adjective eg. a) थोड़ा,  b) थोड़ी,  c) थोड़े  then it will be marked as  adjective and all the feature structures will be given accordingly.
+
+a) will have this feature structure:<fs af='root,adj,m,sg,,d,,'>
+
+b) will have this feature structure:<fs af='root,adj,f,sg,,d,,'>, <fs af='root,adj,f,sg,,o,,'>,<fs af='root,adj,f,pl,,d,,'>, <fs af='root,adj,f,pl,,o,,'>
+
+c)will have this feature structure: <fs af='root,adj,m,sg,,o,,'>, <fs af='root,adj,m,pl,,d,,'>, <fs af='root,adj,m,pl,,o,,'>
+
+
+
+6. For adverbs: 
+------------------
+
+There will be one feature structure 
+<fs af='root,adv,,,,,,'>
+
+7. For Number: 
+---------------
+
+1.When tag is QC
+-----------------
+
+When a number is followed by a noun then the feature structure for this will be
+<fs af='root,num,any,any,,any,,'> 
+
+eg:1. सहा इंच मोठी लाट <fs af='सहा,num,any,any,,any,,'>
+
+And if  it  is followed by a postposition/vibhakti or has clear agreement with verb then it will be treated as noun and will be given all the feature structure of noun.
+
+
+2. एक आणि एक दोन होतात . 
+
+एक=<fs af='एक,n,m,sg,3,d,0,0'>
+
+दोन= <fs af='दोन,n,m,pl,3,d,0,0'>
+
+
+3. 4-6 ने हरविले .( there is a vibhakti both numbers will be treated as nouns)
+
+4. 25 एकत्र ओरडले . Here the agreement is visible with the verb so 25 will be treated as noun)
+
+   QC 25<fs af='25,n,m,pl,3,d,0,0'>
+
+5. चार वाजत आहेत .
+
+     QC चार=<fs af='चार,n,m,pl,3,d,0,0'>
+	 
+	 --------------
+
+2. When Tag is QO :-These are  of 2 types. 
+
+Type-I: QO which change forms like दूसरा, दूसरी, दूसरे
+ 
+दूसरा can have following feature structures:
+
+<fs af='दूसरा,num,m,sg,,d,,'>
+
+दूसरी can have following feature structures:
+
+<fs af='दूसरी,num,f,sg,,d,,'>, <fs af='दूसरी,num,f,sg,,o,,'>,<fs af='दूसरी,num,f,pl,,d,,'>, <fs af='दूसरी,num,f,pl,,o,,'>
+
+ दूसरा can have following feature structures:
+
+<fs af=',दूसरा,num,m,sg,,o,,'>, <fs af='दूसरे,num,m,pl,,d,,'>, <fs af='दूसरे,num,m,pl,,o,,'>
+
+
+ Type-II: QO which does not change forms like प्रथम, द्वितीय, तृतीय etc. 
+<fs af='root,num,any,any,,any,,'>
+
+
+
+9.For postpostion: 
+-----------------
+
+In Marathi, these can be of 2 types like चा, ची, चे (Type-I) which change forms and other पासून, पर्यंत etc (Type-II) . 
+
+
+Type-I : These will have attribute values according to the following noun. Unlike Hindi, they are attached to root word in most cases. 
+चा =<fs af='चा,psp,m,sg,,d,,'>
+
+eg: 1 रामचा मुलगा आला . 
+
+ची =<fs af='ची,psp,f,sg,,d,,'>|<fs af='ची,psp,f,sg,,o,,'>|<fs af='ची,psp,f,pl,,d,,'>|<fs af='च्या,psp,f,pl,,o,,'>
+
+eg:1. रामची मुलगी आली . <fs af='चा,psp,f,sg,,d,,'>
+
+2. रामच्या मुलीने  भोजन केले . <fs af='चा,psp,f,sg,,o,,'>
+
+3. रामच्या तीन मुली आहेत .  <fs af='चा,psp,f,pl,,d,,'>
+
+4.रामच्या तीनही मुलींनी भोजन केले . <fs af='चा,psp,f,pl,,o,,'>
+
+
+चा =<fs af='चा,psp,m,sg,,o,,'>|<fs af='च्या,psp,m,pl,,d,,'>|<fs af='च्या,psp,m,pl,,o,,'>|<fs af='चा,psp,,,,,,'>
+
+Case1:-eg:1.रामच्या मुलाने भोजन केले . / भारताच्या पंतप्रधानांनी असे सांगितले .<fs af='च्या,psp,m,sg,,o,,'>
+
+2. रामचे मुलगे आले . <fs af='चा,psp,m,pl,,d,,'>
+
+3.रामच्या मुलांनी भोजन केले .<fs af='चा,psp,m,pl,,o,,'>
+
+4.भारताचे पंतप्रधान आले . <fs af='चा,psp,m,sg,3h,d,,'>( here च्या  is used for respect)
+
+5. याच धूळीच्या मिळण्याने हे सिद्ध झाले . <fs af='चा,psp,,,,o,,'>
+
+
+Case2:- When च्या comes before a psp like च्या साठी, च्या द्वारे, च्या कारणाने etc or nst च्या नंतर, च्या दृष्टीने etc then it 
+will have the following feature structure.
+
+5. रामच्या द्वारे मला हे समजले . <fs af='च्या,psp,,,,,,'>
+
+6. रामच्या नंतर श्याम आला . <fs af='च्या,psp,,,,,,'>
+
+List of complex PSP words. These will have following feature structure.
+
+च्या <fs af='चे,psp,,,,,,'> शिवाय <fs af='root,psp,,,,,,'>
+
+च्या<fs af='चे,psp,,,,,,'> अधीन <fs af='root,psp,,,,,,'>
+
+च्या <fs af='चे,psp,,,,,,'>अंतर्गत<fs af='root,psp,,,,,,'>
+
+च्या <fs af='चे,psp,,,,,,'>कारणाने<fs af='root,n,m,,,o,,'>
+
+च्या <fs af='चे,psp,,,,,,'> वेळी <fs af='root,n,m,,,o,,'>
+
+च्या <fs af='चे,psp,,,,,,'> ऐवजी <fs af='root,psp,,,,,,'>
+
+च्या<fs af='चे,psp,,,,,,'> संबधी <fs af='root,psp,,,,,,'> 
+
+च्या <fs af='चे,psp,,,,,,'> साठी <fs af='root,psp,,,,,,'>
+
+च्या<fs af='चे,psp,,,,,,'> प्रमाणे <fs af='root,psp,,,,,,'>
+
+च्या <fs af='चे,psp,,,,,,'> नुसार <fs af='root,psp,,,,,,'>
+
+च्या <fs af='चे,psp,,,,,,'>विरुद्ध <fs af='root,psp,,,,,,'>
+
+च्या<fs af='चे,psp,,,,,,'> प्रति <fs af='root,psp,,,,,,'>
+
+च्या <fs af='चे,psp,,,,,,'>विपरीत<fs af='root,adj,any,any,,,,'>
+
+च्या <fs af='चे,psp,,,,,,'>अनुसार<fs af='root,n,m,,,o,,'>
+
+च्या<fs af='च्या,psp,,,,,,'> मुळे  <fs af='root,n,m,,,o,,'>
+
+च्या <fs af='च्या,psp,,,,,,'>भांति <fs af='root,n,f,,,o,,'>
+
+च्या <fs af='चे,psp,,,,,,'> उपस्थितीत <fs af='root,psp,,,,,,'>
+
+च्या<fs af='चे,psp,,,,,,'> नात्याने <fs af='root,psp,,,,,,'>
+
+च्या<fs af='चे,psp,,,,,,'> दृष्टीने <fs af='root,psp,,,,,,'>
+
+च्या <fs af='चे,psp,,,,,,'>अनुरूप <fs af='root,psp,,,,,,'>
+
+च्या <fs af='चे,psp,,,,,,'>बदल्यात <fs af='root,psp,,,,,,'>
+
+च्या <fs af='चे,psp,,,,,,'>बाबतीत <fs af='root,psp,,,,,,'>
+
+च्या <fs af='चे,psp,,,,,,'>पर्यंत <fs af='root,psp,,,,,,'>
+
+च्या <fs af='चे,psp,,,,,,'>रूपाने <fs af='root,psp,,,,,,'>
+
+च्या <fs af='चे,psp,,,,,,'>हवाले <fs af='root,psp,,,,,,'>
+
+च्या<fs af='चे,psp,,,,,,'> उलट <fs af='root,psp,,,,,,'> 
+
+च्या<fs af='चे,psp,,,,,,'> बहाण्याने<fs af='root,n,m,,,o,,'>
+ 
+च्या<fs af='चे,psp,,,,,,'>जोरावर <fs af='root,psp,,,,,,'>
+ 
+च्या<fs af='चे,psp,,,,,,'>स्वरूप <fs af='root,n,m,,,o,,'>
+
+च्या<fs af='चे,psp,,,,,,'>फलस्वरूप<fs af='root,avy,,,,,,'>
+
+च्या<fs af='चे,psp,,,,,,'>परिणामस्वरूप<fs af='root,avy,,,,,,'>
+
+
+Type-II: This will have one feature structure.
+ 
+<fs af='root,psp,,,,,,'>
+
+eg1. रामने मोहनला सांगितले .
+
+As the postpositions are directly attached to root noun. It won't have separate feature structure info.
+
+
+
+10. For Verbs
+------------
+
+When the verb has 'ऊन' suffix like खावून, मिळून etc the feature structure will be
+
+<fs af='root,v,any,any,any,,0,0'>
+
+Words  झाला, झाली, झाले will have feature structure accordingly.
+
+झाला=<fs af='हो,v,m,sg,any,,,'>|<fs af='हो,v,m,sg,any,,,'>
+
+झाली=<fs af='हो,v,f,sg,any,,एं,eM'>|<fs af='हो,v,f,pl,any,,,'>|<fs af='हो,v,f,sg,any,,,'>/झाल्या=<fs af='हो,v,f,pl,any,,,'>
+
+झाले =<fs af='हो,v,m,pl,any,,,eM'>|<fs af='हो,v,m,sg,any,,,'>|<fs af='हो,v,m,pl,3,,,'>|<fs af='हो,v,m,sg,3h,,,'>
+
+1. आज बज़ारात बॉम्बस्फोट झाला.
+
+झाला=<fs af='हो,v,m,sg,any,,या,yA'>
+
+
+2.  a) मुली गात गात आल्या .
+
+गात=<fs af='गा,v,f,sg,any,,त,wa'>/<fs af='गा,v,f,pl,any,,त,wa'>
+
+
+b) रस्त्यात गाड़ी बंद पडल्याने सर्वांना त्रास झाला .
+
+झाला=<fs af='हो,v,f,sg,any,,ला, ,'>
+
+
+c) मुलांकडून चूका झाल्या आहेत .
+
+झाल्या=<fs af='हो,v,f,pl,any,,ला,'>
+
+आहेत=<fs af='आहे,v,any,pl,3,,आहे,hE'>
+
+
+3. गाणाऱ्या मुलाने 
+
+गाणाऱ्या  =<fs af='गा,v,m,sg,any,,ता,wA'>
+
+
+4. When Tag is VGNN the feature structure will be
+
+<fs af='root,v,any,any,any,o,ना,nA'>|<fs af='root,v,any,any,any,d,ना,nA'>
+
+Eg: राम फिरण्यासाठी बाहेर जात आहे ।
+
+ फिरण्यासाठी =<fs af='फिरणे,v,any,any,any,0,साठी,'>
+ 
+
+  आहे=<fs af='आहे,v,any,sg,3,,आहे,hE'>
+
+
+5. when Honorific words
+
+भारताचे पंतप्रधान आले 
+
+आले=<fs af='आ,v,m,sg,3h,,ले, '>
+
+ 
+
