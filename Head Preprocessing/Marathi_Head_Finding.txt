@@ -14,7 +14,7 @@
         // heirarchy stops after
         PR_PRQ
     ],
-    "NEGP": ["RP_NEG", "N_NN"],
+    "NEGP": [["RP_NEG", "N_NN"]],
     "BLK": [
         ["RP_INJ", "V_VM", "N_NN", "RP_RPD", "RP_NEG", "CC_CCS", "RD_RDF", "UT", "RD_UNK", "RD_PUNC", "RD_SYM", "NULL"]
 
