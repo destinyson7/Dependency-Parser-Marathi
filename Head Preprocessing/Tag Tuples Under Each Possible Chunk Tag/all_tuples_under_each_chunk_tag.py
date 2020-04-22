@@ -1,7 +1,7 @@
 import re
 import json
 
-possible_chunk_tags = ['NP', 'JJ', 'VGNF', 'RBP',
+possible_chunk_tags = ['NP', 'VGNF', 'RBP',
                        'CCP', 'VGNN', 'NEGP', 'VGF', 'JJP', 'BLK', 'VGINF']
 
 possible_tuples = {
@@ -10,7 +10,6 @@ possible_tuples = {
     "NEGP": [],
     "BLK": [],
     "NP": [],
-    "JJ": [],
     "VGNN": [],
     "RBP": [],
     "JJP": [],
@@ -18,7 +17,7 @@ possible_tuples = {
     "VGINF": [],
 }
 
-with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Dependency-Parser-Marathi/Corpus/Training Data Combined/Combined Clean/cleaned.txt", "r") as f:
+with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Dependency-Parser-Marathi/Corpus/Training Data Combined/Combined Clean/numbered.txt", "r") as f:
     for line in f:
 
         if line.strip():

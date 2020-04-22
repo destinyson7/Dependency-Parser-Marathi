@@ -8,7 +8,7 @@ def add_sentence(cur_sentence):
         sentences.append(line)
 
 
-with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Dependency-Parser-Marathi/Corpus/Training Data Combined/Combined Clean/cleaned.txt", "r") as f:
+with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Dependency-Parser-Marathi/Corpus/Training Data Combined/Combined Clean/more_cleaned.txt", "r") as f:
 
     cur_sentence = []
     to_add = True
@@ -31,6 +31,10 @@ with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Depe
             if stripped_line[0] != "<" and len(stripped_line.split(" ")) > 1 and not (stripped_line.find("))") >= 0 or stripped_line.find("((") >= 0):
                 temp_line = temp_line.split(" ")
                 temp_line[2] = temp_line[2].upper()
+
+                if temp_line[2].find("NULL") >= 0 or temp_line[2].find("<") >= 0 or temp_line[2].find("\\u") >= 0 or temp_line[2].find("=") >= 0 or temp_line[2].find(".") >= 0 or temp_line[2].isnumeric() or temp_line[2].find(",") >= 0 or temp_line[2].find("'") >= 0:
+                    to_add = False
+
                 temp_line = " ".join(temp_line)
 
             cur_sentence.append(temp_line + "\n")
