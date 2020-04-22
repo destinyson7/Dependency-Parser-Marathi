@@ -10,7 +10,6 @@
       "CC__CCS__UT"
     ],
     [
-      "CC__CCS",
       "RD__PUNC"
     ],
     [
@@ -18,11 +17,12 @@
       "RD__PUNC"
     ],
     [
-      "RD__PUNC"
-    ],
-    [
       "RD__PUNC",
       "CC__CCD"
+    ],
+    [
+      "CC__CCS",
+      "RD__PUNC"
     ],
     [
       "CC__CCS",
@@ -34,28 +34,8 @@
       "CC__CCD"
     ],
     [
-      "CC__CCD",
-      "CC__CCD"
-    ],
-    [
-      "N__NST"
-    ],
-    [
-      "DM__DMD"
-    ],
-    [
       "CC__CCS",
       "RD__SYM"
-    ],
-    [
-      "CC__CCD",
-      "RD__SYM"
-    ],
-    [
-      "N__NN"
-    ],
-    [
-      "UT"
     ],
     [
       "CC__CCS",
@@ -68,38 +48,20 @@
       "QT__QTC"
     ],
     [
-      "PR__PRP"
-    ],
-    [
-      "DM__DMR"
-    ],
-    [
       "CC__CCD",
-      "RD__SYM",
-      "RD__PUNC"
+      "RD__SYM"
     ],
     [
       "CC__CCS__UT",
       "N__NN"
     ],
     [
-      "JJ"
-    ],
-    [
       "N__NN",
       "CC__CCS"
     ],
     [
-      "RP__RPD"
-    ],
-    [
-      "PR__PRP",
-      "RP__INTF"
-    ],
-    [
-      "CC__CCS",
-      "RD__PUNC",
-      "RD__PUNC"
+      "CC__CCD",
+      "CC__CCD"
     ],
     [
       "RD__PUNC",
@@ -111,7 +73,9 @@
       "RD__SYM"
     ],
     [
-      "CC"
+      "CC__CCS",
+      "RD__PUNC",
+      "RD__PUNC"
     ],
     [
       "RD__PUNC",
@@ -122,10 +86,6 @@
       "CC__CCD"
     ],
     [
-      "CC__CCD",
-      "N__NST"
-    ],
-    [
       "RD__PUNC",
       "CC__CCS",
       "RD__PUNC"
@@ -134,9 +94,6 @@
       "RD__PUNC",
       "CC__CCD",
       "RD__PUNC"
-    ],
-    [
-      "RB"
     ]
   ],
   "VGNF": [
@@ -164,10 +121,6 @@
       "RD__PUNC"
     ],
     [
-      "V__VM",
-      "V__VM"
-    ],
-    [
       "RD__PUNC",
       "V__VM",
       "RD__PUNC",
@@ -175,20 +128,8 @@
       "RD__PUNC"
     ],
     [
-      "RP__NEG",
-      "V__VM",
-      "CC__CCD",
-      "RD__PUNC"
-    ],
-    [
-      "V__VM",
       "V__VM",
       "V__VM"
-    ],
-    [
-      "V__VM",
-      "V__VAUX",
-      "V__VAUX"
     ],
     [
       "V__VM",
@@ -251,6 +192,11 @@
       "V__VAUX"
     ],
     [
+      "V__VM",
+      "V__VAUX",
+      "V__VAUX"
+    ],
+    [
       "JJ",
       "V__VM"
     ],
@@ -267,12 +213,6 @@
       "V__VM"
     ],
     [
-      "CC__CCD",
-      "CC__CCS",
-      "PR__PRQ",
-      "RD__PUNC"
-    ],
-    [
       "RP__NEG",
       "V__VM",
       "RD__PUNC"
@@ -281,11 +221,6 @@
       "V__VM",
       "V__VM",
       "V__VAUX",
-      "RD__PUNC"
-    ],
-    [
-      "N__NN",
-      "V__VM",
       "RD__PUNC"
     ],
     [
@@ -301,23 +236,6 @@
       "RD__SYM",
       "RD__SYM",
       "V__VM"
-    ],
-    [
-      "V__VM__VNF"
-    ],
-    [
-      "V__VM__VNG"
-    ],
-    [
-      "V__VM__VF",
-      "V__VAUX",
-      "V__VAUX"
-    ],
-    [
-      "V__VM__VINF",
-      "V__VM__VF",
-      "V__VAUX",
-      "RD__PUNC"
     ],
     [
       "V__VAUX"
@@ -355,16 +273,9 @@
       "V__VM"
     ],
     [
-      "JJ",
-      "V__VM__VNF"
-    ],
-    [
       "RD__SYM",
       "V__VM",
       "V__VM"
-    ],
-    [
-      "N__NN"
     ],
     [
       "V__VM",
@@ -375,22 +286,9 @@
       "RP__INTF"
     ],
     [
-      "V__VM__VNG",
-      "V__VM"
-    ],
-    [
-      "V__VM__VF"
-    ],
-    [
       "V__VM",
       "V__VAUX",
       "RD__SYM"
-    ],
-    [
-      "JJ"
-    ],
-    [
-      "INTF"
     ],
     [
       "V__VM",
@@ -406,19 +304,6 @@
       "V__VM"
     ],
     [
-      "V__VM__VNF",
-      "V__VAUX",
-      "V__VAUX"
-    ],
-    [
-      "V__VM__VNF",
-      "V__VAUX"
-    ],
-    [
-      "V__VM__VNF",
-      "RD__PUNC"
-    ],
-    [
       "N__NNP",
       "V__VM"
     ],
@@ -430,19 +315,11 @@
     [
       "RD__PUNC",
       "V__VM"
-    ],
-    [
-      "V__VM",
-      "N__NN",
-      "RD__PUNC"
     ]
   ],
   "NEGP": [
     [
       "RP__NEG"
-    ],
-    [
-      "N__NN"
     ]
   ],
   "BLK": [
@@ -450,49 +327,6 @@
       "RD__PUNC"
     ],
     [
-      "RD__RDF"
-    ],
-    [
-      "RD__RDF",
-      "RD__PUNC"
-    ],
-    [
-      "V__VM"
-    ],
-    [
-      "RD__UNK"
-    ],
-    [
-      "RD__UNK",
-      "RD__UNK",
-      "RD__UNK"
-    ],
-    [
-      "V__VM",
-      "V__VM",
-      "V__VAUX",
-      "V__VAUX"
-    ],
-    [
-      "UT"
-    ],
-    [
-      "RP__RPD"
-    ],
-    [
-      "RP__INJ",
-      "RD__PUNC"
-    ],
-    [
-      "RP__INJ"
-    ],
-    [
-      "RD__PUNC",
-      "RP__INJ",
-      "RD__PUNC"
-    ],
-    [
-      "RD__PUNC",
       "RD__PUNC",
       "RP__INJ",
       "RD__PUNC"
@@ -502,18 +336,12 @@
       "RD__PUNC"
     ],
     [
-      "CC__CCS",
+      "RP__INJ",
       "RD__PUNC"
     ],
     [
-      "CC__CCS"
-    ],
-    [
-      "UT",
+      "CC__CCS__UT",
       "RD__PUNC"
-    ],
-    [
-      "N__NN"
     ],
     [
       "RD__PUNC",
@@ -532,11 +360,6 @@
       "RD__UNK",
       "RD__UNK",
       "RD__UNK",
-      "RD__PUNC"
-    ],
-    [
-      "V__VM",
-      "V__VAUX",
       "RD__PUNC"
     ],
     [
@@ -596,9 +419,6 @@
       "RD__PUNC"
     ],
     [
-      "N__NNP"
-    ],
-    [
       "QT__QTF",
       "N__NN"
     ],
@@ -611,17 +431,6 @@
       "DM__DMD"
     ],
     [
-      "QT__QTO",
-      "N__NN"
-    ],
-    [
-      "DM__DMD"
-    ],
-    [
-      "N__NN",
-      "RD__PUNC"
-    ],
-    [
       "RD__PUNC",
       "N__NNP",
       "RD__PUNC"
@@ -631,14 +440,16 @@
       "QT__QTC"
     ],
     [
-      "QT__QTC",
-      "CC__CCD",
-      "QT__QTC",
+      "QT__QTO",
       "N__NN"
     ],
     [
-      "RP__INTF",
-      "JJ",
+      "DM__DMD"
+    ],
+    [
+      "QT__QTC",
+      "CC__CCD",
+      "QT__QTC",
       "N__NN"
     ],
     [
@@ -646,20 +457,9 @@
       "N__NST"
     ],
     [
-      "RD__PUNC",
-      "N__NN",
-      "N__NN",
-      "RD__PUNC"
-    ],
-    [
-      "N__NST",
+      "RP__INTF",
+      "JJ",
       "N__NN"
-    ],
-    [
-      "RD__PUNC",
-      "CC__CCD",
-      "N__NN",
-      "RD__PUNC"
     ],
     [
       "N__NST"
@@ -683,9 +483,16 @@
       "PR__PRL"
     ],
     [
+      "N__NNP"
+    ],
+    [
       "N__NNP",
       "RD__PUNC",
       "N__NNP",
+      "RD__PUNC"
+    ],
+    [
+      "N__NN",
       "RD__PUNC"
     ],
     [
@@ -713,16 +520,6 @@
       "RD__PUNC"
     ],
     [
-      "CC__CCS"
-    ],
-    [
-      "JJ",
-      "RD__PUNC"
-    ],
-    [
-      "JJ"
-    ],
-    [
       "QT__QTC",
       "JJ",
       "N__NN"
@@ -758,13 +555,6 @@
     [
       "N__NNP",
       "N__NN"
-    ],
-    [
-      "QT__QTO"
-    ],
-    [
-      "N__NNP",
-      "RD__PUNC"
     ],
     [
       "N__NNP",
@@ -785,10 +575,6 @@
       "QT__QTC"
     ],
     [
-      "N__NN",
-      "UNK"
-    ],
-    [
       "QT__QTC"
     ],
     [
@@ -796,8 +582,7 @@
       "N__NN"
     ],
     [
-      "JJP",
-      "N__NN"
+      "JJ"
     ],
     [
       "RP__INTF",
@@ -816,10 +601,6 @@
       "N__NNP"
     ],
     [
-      "CC__CCD",
-      "CC__CCD"
-    ],
-    [
       "DM__DMD",
       "PR__PRF"
     ],
@@ -827,9 +608,6 @@
       "QT__QTF",
       "QT__QTF",
       "N__NN"
-    ],
-    [
-      "V__VM"
     ],
     [
       "N__NN",
@@ -853,18 +631,8 @@
       "N__NN"
     ],
     [
-      "JJ",
-      "N__NN",
+      "N__NST",
       "N__NN"
-    ],
-    [
-      "QT__QTF",
-      "JJ"
-    ],
-    [
-      "V__VM",
-      "V__VAUX",
-      "V__VAUX"
     ],
     [
       "RP__INTF",
@@ -875,30 +643,12 @@
       "RD__PUNC"
     ],
     [
-      "N__NN",
-      "RD__PUNC",
-      "N__NN",
-      "RD__PUNC"
-    ],
-    [
       "QT__QTC",
       "CC__CCD",
       "QT__QTC",
       "N__NN",
       "RD__PUNC",
       "N__NN"
-    ],
-    [
-      "QT__QTF",
-      "QT__QTF"
-    ],
-    [
-      "RD__PUNC",
-      "N__NN",
-      "N__NN"
-    ],
-    [
-      "RP__RPD"
     ],
     [
       "N__NN",
@@ -911,13 +661,6 @@
     ],
     [
       "JJ",
-      "N__NN",
-      "RD__PUNC",
-      "N__NN",
-      "RD__PUNC"
-    ],
-    [
-      "JJ",
       "JJ",
       "JJ",
       "N__NN",
@@ -930,22 +673,11 @@
       "RD__PUNC"
     ],
     [
-      "RD__PUNC",
-      "N__NNP",
-      "RD__PUNC",
-      "JJ",
-      "N__NNP",
-      "RD__PUNC"
-    ],
-    [
       "DM__DMR",
       "RD__PUNC"
     ],
     [
-      "JJ",
-      "RD__PUNC",
-      "QT__QTF",
-      "JJ",
+      "N__NNP",
       "RD__PUNC"
     ],
     [
@@ -953,11 +685,6 @@
       "RD__PUNC",
       "QT__QTF",
       "N__NN",
-      "RD__PUNC"
-    ],
-    [
-      "RP__INTF",
-      "JJ",
       "RD__PUNC"
     ],
     [
@@ -975,20 +702,6 @@
       "N__NN",
       "N__NN",
       "RD__PUNC"
-    ],
-    [
-      "QT__QTC",
-      "N__NN",
-      "RD__PUNC",
-      "QT__QTC",
-      "N__NN",
-      "JJ",
-      "CC__CCD",
-      "QT__QTC",
-      "N__NN",
-      "RD__PUNC",
-      "QT__QTC",
-      "N__NN"
     ],
     [
       "QT__QTC",
@@ -1009,31 +722,14 @@
       "PR__PRI"
     ],
     [
-      "V__VM",
-      "V__VAUX"
-    ],
-    [
       "DM__DMR",
       "RD__PUNC",
       "N__NN",
       "RD__PUNC"
     ],
     [
-      "N__NN",
-      "JJ"
-    ],
-    [
-      "JJ",
-      "V__VM"
-    ],
-    [
       "PR__PRL",
       "N__NN"
-    ],
-    [
-      "N__NNP",
-      "N__NN",
-      "DM__DMR"
     ],
     [
       "JJ",
@@ -1052,25 +748,6 @@
     ],
     [
       "N__NNP",
-      "N__NN",
-      "RD__PUNC"
-    ],
-    [
-      "N__NNP",
-      "DM__DMD",
-      "N__NN"
-    ],
-    [
-      "N__NN",
-      "QT__QTC",
-      "N__NN"
-    ],
-    [
-      "PR__PRP",
-      "N__NST"
-    ],
-    [
-      "N__NNP",
       "DM__DMR"
     ],
     [
@@ -1082,6 +759,11 @@
       "N__NNP",
       "N__NNP",
       "RD__PUNC"
+    ],
+    [
+      "JJ",
+      "N__NN",
+      "N__NN"
     ],
     [
       "N__NN",
@@ -1119,19 +801,6 @@
       "N__NN"
     ],
     [
-      "JJ",
-      "JJ",
-      "N__NN",
-      "N__NN"
-    ],
-    [
-      "JJ",
-      "N__NN",
-      "N__NN",
-      "RD__PUNC",
-      "N__NN"
-    ],
-    [
       "N__NN",
       "N__NN",
       "RD__PUNC",
@@ -1161,32 +830,6 @@
       "RD__PUNC"
     ],
     [
-      "PR__PRP",
-      "N__NN"
-    ],
-    [
-      "N__NNP",
-      "N__NN",
-      "N__NN"
-    ],
-    [
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NN"
-    ],
-    [
-      "RD__PUNC",
-      "JJ",
-      "N__NN"
-    ],
-    [
-      "V__VM",
-      "V__VM",
-      "V__VAUX"
-    ],
-    [
       "QT__QTF",
       "N__NN",
       "RD__PUNC",
@@ -1196,16 +839,6 @@
     [
       "N__NN",
       "RD__PUNC",
-      "N__NN",
-      "N__NN"
-    ],
-    [
-      "RP__INTF",
-      "QT__QTF"
-    ],
-    [
-      "N__NN",
-      "N__NN",
       "N__NN",
       "N__NN"
     ],
@@ -1223,38 +856,6 @@
       "N__NN",
       "RD__PUNC",
       "N__NN"
-    ],
-    [
-      "RD__PUNC",
-      "JJ",
-      "N__NN",
-      "RD__PUNC"
-    ],
-    [
-      "N__NN",
-      "N__NNP"
-    ],
-    [
-      "N__NNP",
-      "N__NNP",
-      "RD__SYM"
-    ],
-    [
-      "N__NNP",
-      "N__NN",
-      "N__NN",
-      "RD__PUNC"
-    ],
-    [
-      "PD__PUNC",
-      "N__NN",
-      "PD__PUNC"
-    ],
-    [
-      "QT__QTC",
-      "CC__CCD",
-      "QT__QTC",
-      "N__NST"
     ],
     [
       "QT__QTF",
@@ -1273,17 +874,9 @@
       "JJ"
     ],
     [
-      "DM__DMD",
-      "RD__UNK",
-      "RD__UNK",
-      "RD__UNK"
-    ],
-    [
-      "RP__INTF",
-      "N__NNP"
-    ],
-    [
-      "RB"
+      "N__NNP",
+      "N__NN",
+      "N__NN"
     ],
     [
       "RD__UNK",
@@ -1311,16 +904,11 @@
       "PR__PRP"
     ],
     [
-      "V__VAUX",
-      "V__VAUX"
-    ],
-    [
-      "RD__UNK",
-      "RD__PUNC"
-    ],
-    [
       "RB",
       "N__NN"
+    ],
+    [
+      "QT__QTO"
     ],
     [
       "RD__UNK",
@@ -1333,34 +921,6 @@
       "N__NNP"
     ],
     [
-      "RD__PUNC",
-      "RD__UNK"
-    ],
-    [
-      "N__NN",
-      "N__NN",
-      "RD__PUNC"
-    ],
-    [
-      "N__NN",
-      "QT__QTC"
-    ],
-    [
-      "N__NN",
-      "N__NN",
-      "N__NN",
-      "JJ",
-      "N__NNP"
-    ],
-    [
-      "QT__QTF",
-      "QT__QTC",
-      "N__NN"
-    ],
-    [
-      "QT__QTQ"
-    ],
-    [
       "QT__QTC",
       "CC__CCD",
       "QT__QTC",
@@ -1397,10 +957,28 @@
       "RD__PUNC"
     ],
     [
+      "N__NNP",
+      "N__NN",
+      "RD__PUNC"
+    ],
+    [
+      "QT__QTF",
+      "JJ"
+    ],
+    [
+      "N__NN",
+      "N__NN",
+      "RD__PUNC"
+    ],
+    [
       "JJ",
       "N__NN",
       "N__NN",
       "N__NN"
+    ],
+    [
+      "N__NN",
+      "JJ"
     ],
     [
       "RB",
@@ -1432,6 +1010,9 @@
       "RD__PUNC"
     ],
     [
+      "RB"
+    ],
+    [
       "JJ",
       "N__NNP",
       "JJ",
@@ -1440,10 +1021,26 @@
     ],
     [
       "N__NN",
+      "RD__PUNC",
+      "N__NN",
+      "RD__PUNC"
+    ],
+    [
+      "PR__PRP",
+      "N__NN"
+    ],
+    [
+      "N__NN",
       "N__NN",
       "N__NN",
       "N__NN",
       "RD__PUNC",
+      "N__NN"
+    ],
+    [
+      "N__NN",
+      "N__NN",
+      "N__NN",
       "N__NN"
     ],
     [
@@ -1454,22 +1051,6 @@
     [
       "RD__PUNC",
       "RB"
-    ],
-    [
-      "QT__QTF",
-      "JJ",
-      "N__NNP"
-    ],
-    [
-      "N__NN",
-      "RD__PUNC",
-      "RB",
-      "N__NN",
-      "RD__PUNC"
-    ],
-    [
-      "V__VM",
-      "V__VM"
     ],
     [
       "JJ",
@@ -1518,10 +1099,6 @@
       "RD__PUNC"
     ],
     [
-      "N__NNP",
-      "JJ"
-    ],
-    [
       "QT__QTF",
       "JJ",
       "RD__PUNC"
@@ -1534,11 +1111,6 @@
     [
       "JJ",
       "N__NN",
-      "DM__DMD"
-    ],
-    [
-      "JJ",
-      "N__NN",
       "N__NN",
       "DM__DMR"
     ],
@@ -1546,7 +1118,9 @@
       "PR__PRF"
     ],
     [
-      "PR__PRQ"
+      "N__NNP",
+      "N__NNP",
+      "RD__SYM"
     ],
     [
       "N__NNP",
@@ -1566,37 +1140,18 @@
       "N__NN"
     ],
     [
-      "JJ",
-      "QT__QTC",
-      "N__NN",
-      "RD__PUNC",
-      "N__NN"
-    ],
-    [
-      "QT__QTQ",
-      "N__NN"
-    ],
-    [
       "QT__QTF",
       "JJ",
       "JJ",
       "N__NN"
     ],
     [
-      "N__NST",
-      "QT__QTC",
-      "N__NNP",
-      "N__NST"
-    ],
-    [
-      "N__NN",
-      "RD__PUNC",
-      "V__VM",
-      "N__NN",
-      "RD__PUNC"
-    ],
-    [
       "RP__RPD",
+      "N__NN"
+    ],
+    [
+      "QT__QTF",
+      "QT__QTC",
       "N__NN"
     ],
     [
@@ -1691,16 +1246,6 @@
       "N__NN"
     ],
     [
-      "JJ",
-      "N__NN",
-      "RB"
-    ],
-    [
-      "QT__QTF",
-      "N__NNP",
-      "N__NN"
-    ],
-    [
       "DM__DMR",
       "N__NN"
     ],
@@ -1712,9 +1257,10 @@
       "RD__PUNC"
     ],
     [
-      "QT__QTC",
-      "QT__QTC",
-      "N__NN"
+      "RD__PUNC",
+      "N__NN",
+      "N__NN",
+      "RD__PUNC"
     ],
     [
       "RD__PUNC",
@@ -1754,32 +1300,9 @@
       "RD__PUNC"
     ],
     [
-      "N__NN",
-      "N__NN",
-      "N__NN",
-      "RD__PUNC"
-    ],
-    [
       "DM__DMD",
       "N__NN",
       "RD__PUNC"
-    ],
-    [
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "RD__PUNC",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "RD__PUNC"
-    ],
-    [
-      "N__NN",
-      "N__NNP",
-      "N__NNP"
     ],
     [
       "N__NNP",
@@ -1794,6 +1317,11 @@
       "N__NN",
       "N__NN",
       "RD__PUNC"
+    ],
+    [
+      "QT__QTC",
+      "QT__QTC",
+      "N__NN"
     ],
     [
       "RD__PUNC",
@@ -1801,17 +1329,16 @@
       "RD__PUNC"
     ],
     [
-      "RD__PUNC",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "RD__PUNC"
+      "QT__QTF",
+      "QT__QTF"
     ],
     [
       "RD__PUNC",
       "DM__DMD",
       "N__NN"
+    ],
+    [
+      "PR__PRQ"
     ],
     [
       "QT__QTC",
@@ -1836,6 +1363,12 @@
       "JJ",
       "QT__QTF",
       "N__NN"
+    ],
+    [
+      "N__NN",
+      "N__NN",
+      "N__NN",
+      "RD__PUNC"
     ],
     [
       "RD__PUNC",
@@ -1850,14 +1383,16 @@
       "N__NN"
     ],
     [
+      "RD__PUNC",
+      "JJ",
+      "N__NN",
+      "RD__PUNC"
+    ],
+    [
       "DM__DMR",
       "QT__QTC",
       "N__NN",
       "N__NN"
-    ],
-    [
-      "RD__PUNC",
-      "JJ"
     ],
     [
       "RD__PUNC",
@@ -1872,16 +1407,15 @@
       "RD__PUNC"
     ],
     [
-      "QT__QTF",
-      "QT__QTC",
       "N__NN",
+      "N__NNP",
+      "N__NNP",
       "RD__PUNC"
     ],
     [
       "N__NN",
       "N__NNP",
-      "N__NNP",
-      "RD__PUNC"
+      "N__NNP"
     ],
     [
       "DM__DMR",
@@ -1928,6 +1462,18 @@
       "JJ",
       "V__VM",
       "RD__PUNC"
+    ],
+    [
+      "JJ",
+      "QT__QTC",
+      "N__NN",
+      "RD__PUNC",
+      "N__NN"
+    ],
+    [
+      "QT__QTF",
+      "N__NNP",
+      "N__NN"
     ],
     [
       "N__NNP",
@@ -2039,21 +1585,6 @@
       "N__NN"
     ],
     [
-      "N__NN",
-      "RD__PUNC",
-      "N__NNP",
-      "RD__PUNC"
-    ],
-    [
-      "N__NN",
-      "RD__PUNC",
-      "N__NNP",
-      "RD__PUNC",
-      "N__NNP",
-      "N__NNP",
-      "RD__PUNC"
-    ],
-    [
       "QT__QTF",
       "QT__QTF",
       "QT__QTF",
@@ -2064,12 +1595,6 @@
       "N__NN",
       "N__NN",
       "DM__DMR"
-    ],
-    [
-      "QT__QTC",
-      "QT__QTF",
-      "JJ",
-      "N__NN"
     ],
     [
       "QT__QTC",
@@ -2101,20 +1626,6 @@
       "RD__PUNC",
       "JJ",
       "RD__PUNC"
-    ],
-    [
-      "JJ",
-      "N__NN",
-      "JJ",
-      "N__NN"
-    ],
-    [
-      "N__NNP",
-      "RD__PUNC",
-      "JJ",
-      "N__NN",
-      "RD__PUNC",
-      "DM__DMR"
     ],
     [
       "PR__PRL",
@@ -2127,10 +1638,6 @@
       "RD__PUNC"
     ],
     [
-      "DM__DMD",
-      "RB"
-    ],
-    [
       "QT__QTF",
       "QT__QTF",
       "QT__QTC",
@@ -2141,12 +1648,6 @@
       "N__NNP",
       "N__NNP",
       "N__NN"
-    ],
-    [
-      "RP__INTF",
-      "QT__QTC",
-      "N__NN",
-      "RD__PUNC"
     ],
     [
       "QT__QTC",
@@ -2166,12 +1667,6 @@
       "RD__PUNC"
     ],
     [
-      "QT__QTO",
-      "RP__INTF",
-      "JJ",
-      "N__NN"
-    ],
-    [
       "N__NNP",
       "RD__UNK",
       "RD__UNK"
@@ -2181,10 +1676,8 @@
       "RD__UNK"
     ],
     [
-      "RD__PUNC",
-      "QT__QTC",
-      "N__NN",
-      "RD__PUNC"
+      "PR__PRP",
+      "N__NST"
     ],
     [
       "N__NNP",
@@ -2234,11 +1727,6 @@
       "QT__QTC"
     ],
     [
-      "N__NN",
-      "N__NNP",
-      "RD__RDF"
-    ],
-    [
       "CC__CCD",
       "JJ"
     ],
@@ -2247,12 +1735,6 @@
       "RD__PUNC",
       "N__NN",
       "RD__PUNC",
-      "N__NN"
-    ],
-    [
-      "QT__QTC",
-      "QT__QTC",
-      "JJ",
       "N__NN"
     ],
     [
@@ -2275,18 +1757,6 @@
       "QT__QTO",
       "JJ",
       "N__NN"
-    ],
-    [
-      "RP__INTF",
-      "JJ",
-      "JJ",
-      "N__NN"
-    ],
-    [
-      "V__VM",
-      "RD__PUNC",
-      "V__VM",
-      "RD__PUNC"
     ],
     [
       "QT__QTC",
@@ -2303,20 +1773,9 @@
     ],
     [
       "QT__QTC",
-      "QT__QTF",
-      "JJ",
-      "N__NN",
-      "N__NN"
-    ],
-    [
-      "QT__QTC",
       "N__NN",
       "N__NN",
       "QT__QTC"
-    ],
-    [
-      "RP__INTF",
-      "RB"
     ],
     [
       "RD__PUNC",
@@ -2342,10 +1801,6 @@
       "RD__PUNC"
     ],
     [
-      "DM__DMR",
-      "JJ"
-    ],
-    [
       "RD__PUNC",
       "N__NN",
       "JJ",
@@ -2366,15 +1821,6 @@
       "JJ",
       "DM__DMD",
       "N__NN"
-    ],
-    [
-      "N__NN",
-      "V__VM",
-      "V__VAUX",
-      "RD__PUNC"
-    ],
-    [
-      "CC__CCD"
     ],
     [
       "N__NN",
@@ -2497,6 +1943,12 @@
       "QT__QTC"
     ],
     [
+      "QT__QTF",
+      "QT__QTC",
+      "N__NN",
+      "RD__PUNC"
+    ],
+    [
       "QT__QTC",
       "QT__QTC",
       "RD__PUNC",
@@ -2551,13 +2003,6 @@
       "N__NNP",
       "RD__PUNC",
       "N__NN",
-      "RD__PUNC"
-    ],
-    [
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
       "RD__PUNC"
     ],
     [
@@ -2606,6 +2051,13 @@
       "N__NNP",
       "N__NNP",
       "N__NNP",
+      "N__NNP",
+      "RD__PUNC"
+    ],
+    [
+      "N__NNP",
+      "N__NNP",
+      "N__NNP",
       "RD__PUNC",
       "RD__PUNC"
     ],
@@ -2637,10 +2089,6 @@
       "RD__PUNC"
     ],
     [
-      "DM__DMD",
-      "JJ"
-    ],
-    [
       "QT__QTF",
       "QT__QTO",
       "N__NN"
@@ -2658,20 +2106,6 @@
       "N__NST",
       "QT__QTC",
       "N__NN"
-    ],
-    [
-      "RP__INTF",
-      "N__NST",
-      "RD__PUNC"
-    ],
-    [
-      "RD__PUNC",
-      "JJ",
-      "RD__PUNC"
-    ],
-    [
-      "DM__DMR",
-      "QT__QTF"
     ],
     [
       "RP__INTF"
@@ -2700,12 +2134,6 @@
       "N__NST"
     ],
     [
-      "JJ",
-      "N__NNP",
-      "N__NN",
-      "N__NST"
-    ],
-    [
       "DM__DMD",
       "RP__INTF",
       "JJ",
@@ -2721,6 +2149,10 @@
       "RD__PUNC",
       "QT__QTC",
       "RD__PUNC"
+    ],
+    [
+      "N__NN",
+      "N__NNP"
     ],
     [
       "JJ",
@@ -2764,6 +2196,12 @@
       "JJ",
       "N__NN",
       "RD__PUNC"
+    ],
+    [
+      "JJ",
+      "JJ",
+      "N__NN",
+      "N__NN"
     ],
     [
       "N__NST",
@@ -2788,13 +2226,6 @@
       "N__NN"
     ],
     [
-      "N__NST",
-      "QT__QTC",
-      "CC__CCD",
-      "QT__QTC",
-      "N__NN"
-    ],
-    [
       "QT__QTC",
       "CC__CCD",
       "QT__QTC",
@@ -2802,18 +2233,12 @@
       "JJ"
     ],
     [
-      "QT__QTC",
-      "CC__CCD",
-      "JJ"
-    ],
-    [
       "N__NST",
       "N__NNP"
     ],
     [
-      "DM__DMD",
-      "QT__QTF",
-      "N__NN"
+      "DM__DMR",
+      "QT__QTF"
     ],
     [
       "QT__QTF",
@@ -2829,11 +2254,6 @@
     [
       "RD__PUNC",
       "RD__RDF",
-      "RD__PUNC"
-    ],
-    [
-      "RD__PUNC",
-      "QT__QTF",
       "RD__PUNC"
     ],
     [
@@ -2873,6 +2293,11 @@
     ],
     [
       "RD__PUNC",
+      "JJ",
+      "N__NN"
+    ],
+    [
+      "RD__PUNC",
       "QT__QTF"
     ],
     [
@@ -2888,6 +2313,10 @@
     [
       "JJ",
       "V__VAUX"
+    ],
+    [
+      "RD__PUNC",
+      "JJ"
     ],
     [
       "RD__PUNC",
@@ -2956,11 +2385,6 @@
       "RD__PUNC"
     ],
     [
-      "JJ",
-      "RD__PUNC",
-      "N__NN"
-    ],
-    [
       "N__NN",
       "RD__PUNC",
       "N__NNP"
@@ -2987,9 +2411,7 @@
     ],
     [
       "DM__DMD",
-      "N__NN",
-      "N__NN",
-      "RD__PUNC"
+      "JJ"
     ],
     [
       "N__NN",
@@ -3006,10 +2428,6 @@
       "CC__CCD",
       "QT__QTC",
       "QT__QTF"
-    ],
-    [
-      "J",
-      "N__NN"
     ],
     [
       "N__NST",
@@ -3017,29 +2435,6 @@
       "CC__CCD",
       "N__NN",
       "N__NNP"
-    ],
-    [
-      "QT__QTC",
-      "N__NN",
-      "RD__PUNC",
-      "DM__DMR"
-    ],
-    [
-      "RD__PUNC",
-      "N__NST",
-      "JJ",
-      "N__NN",
-      "V__VM",
-      "N__NN",
-      "V__VM",
-      "V__VAUX",
-      "RD__PUNC"
-    ],
-    [
-      "RD__PUNC",
-      "N__NNP",
-      "N__NNP",
-      "RD__PUNC"
     ],
     [
       "RD__PUNC",
@@ -3339,9 +2734,6 @@
       "N__NN"
     ],
     [
-      "V__VAUX"
-    ],
-    [
       "RD__SYM",
       "RD__SYM",
       "V__VM",
@@ -3351,15 +2743,6 @@
     [
       "N__NNP",
       "PR__PRP"
-    ],
-    [
-      "RD__SYM",
-      "N__NNP",
-      "RD__PUNC",
-      "N__NNP",
-      "RD__PUNC",
-      "N__NNP",
-      "RD__SYM"
     ],
     [
       "RD__SYM",
@@ -3376,6 +2759,12 @@
       "JJ",
       "RD__PUNC",
       "N__NNP"
+    ],
+    [
+      "RD__PUNC",
+      "N__NNP",
+      "N__NNP",
+      "RD__PUNC"
     ],
     [
       "RD__SYM",
@@ -3427,6 +2816,10 @@
       "N__NN"
     ],
     [
+      "JJ",
+      "V__VM"
+    ],
+    [
       "N__NNP",
       "N__NNP",
       "N__NN",
@@ -3441,22 +2834,6 @@
       "DM__DMQ",
       "N__NN",
       "N__NN"
-    ],
-    [
-      "N__NN",
-      "N__NN",
-      "N__NN",
-      "RD__SYM",
-      "N__NNP",
-      "RD__SYM"
-    ],
-    [
-      "JJ",
-      "QT__QTF"
-    ],
-    [
-      "N__NNP",
-      "PSP"
     ],
     [
       "RD__SYM",
@@ -3545,12 +2922,6 @@
     ],
     [
       "RD__PUNC",
-      "N__NNP",
-      "RD__PUNC",
-      "RD__UNK"
-    ],
-    [
-      "RD__PUNC",
       "RD__PUNC",
       "N__NN"
     ],
@@ -3593,14 +2964,6 @@
     ],
     [
       "N__NNP",
-      "RD__SYM",
-      "N__NN",
-      "RD__PUNC",
-      "N__NNP",
-      "RD__SYM"
-    ],
-    [
-      "N__NNP",
       "RD__PUNC",
       "N__NNP",
       "N__NN"
@@ -3672,6 +3035,10 @@
       "RD__SYM",
       "JJ",
       "N__NN"
+    ],
+    [
+      "N__NN",
+      "QT__QTC"
     ],
     [
       "PR__PRP",
@@ -3729,9 +3096,6 @@
       "N__NN"
     ],
     [
-      "CC__CCS__UT"
-    ],
-    [
       "DM__DMD",
       "QT__QTC",
       "JJ",
@@ -3766,11 +3130,16 @@
     ],
     [
       "N__NN",
-      "UT"
+      "CC__CCS__UT"
     ],
     [
       "N__NNP",
       "RP__RPD"
+    ],
+    [
+      "DM__DMD",
+      "QT__QTF",
+      "N__NN"
     ],
     [
       "PR__PRP",
@@ -3804,10 +3173,6 @@
       "RD__SYM"
     ],
     [
-      "DM__DMQ",
-      "RD__PUNC"
-    ],
-    [
       "N__NNP",
       "N__NNP",
       "RP__RPD"
@@ -3834,6 +3199,10 @@
       "N__NST",
       "N__NN",
       "RP__INTF"
+    ],
+    [
+      "RP__INTF",
+      "QT__QTF"
     ],
     [
       "PR__PRQ",
@@ -3913,17 +3282,6 @@
     ],
     [
       "N__NNP",
-      "N__NNP",
-      "PR__PRP"
-    ],
-    [
-      "N__NNP",
-      "N__NNP",
-      "DM__DMR",
-      "RD__PUNC"
-    ],
-    [
-      "N__NNP",
       "DM__DMR",
       "RD__PUNC"
     ],
@@ -3943,6 +3301,17 @@
     [
       "N__NNP",
       "CC__CCS__UT"
+    ],
+    [
+      "N__NNP",
+      "N__NNP",
+      "PR__PRP"
+    ],
+    [
+      "N__NNP",
+      "N__NNP",
+      "DM__DMR",
+      "RD__PUNC"
     ],
     [
       "N__NNP",
@@ -3975,30 +3344,16 @@
       "RD__SYM"
     ],
     [
+      "DM__DMQ",
+      "RD__PUNC"
+    ],
+    [
       "N__NN",
       "N__NNP",
       "N__NNP",
       "RD__SYM",
       "N__NNP",
       "RD__SYM"
-    ],
-    [
-      "N__NNP",
-      "N__NN",
-      "QT__QTC",
-      "N__NST"
-    ],
-    [
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "RD__UNK"
-    ],
-    [
-      "RD__PUNC",
-      "RD__PUNC",
-      "N__NNP",
-      "RD__PUNC"
     ],
     [
       "RD__PUNC",
@@ -4065,20 +3420,6 @@
       "RD__PUNC"
     ],
     [
-      "RD__SYM",
-      "N__NNP",
-      "N__NNP",
-      "RD__PUNC",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "RD__SYM"
-    ],
-    [
       "QT__QTC",
       "N__NNP",
       "N__NNP",
@@ -4097,16 +3438,6 @@
       "RD__PUNC",
       "N__NN",
       "RD__SYM"
-    ],
-    [
-      "RD__SYM",
-      "RD__RDF",
-      "RD__RDF",
-      "RD__SYM"
-    ],
-    [
-      "PR__PRP",
-      "UT"
     ],
     [
       "QT__QTC",
@@ -4141,9 +3472,10 @@
       "RD__SYM"
     ],
     [
-      "PR__PRQ",
-      "RP__NEG",
-      "PR__PRQ"
+      "RD__PUNC",
+      "N__NNP",
+      "RD__PUNC",
+      "RD__UNK"
     ],
     [
       "RD__PUNC",
@@ -4409,23 +3741,6 @@
       "RD__PUNC"
     ],
     [
-      "V__VM",
-      "V__VAUX",
-      "RD__PUNC",
-      "RD__PUNC"
-    ],
-    [
-      "N__NN",
-      "N__NNP",
-      "N__NNP",
-      "DM__DMR"
-    ],
-    [
-      "CC__CCS__UT",
-      "QT__QTF",
-      "N__NN"
-    ],
-    [
       "N__NN",
       "RD__SYM",
       "N__NN",
@@ -4445,12 +3760,6 @@
       "N__NN"
     ],
     [
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "DM__DMR"
-    ],
-    [
       "QT__QTF",
       "QT__QTC",
       "QT__QTC"
@@ -4482,6 +3791,12 @@
       "N__NN",
       "QT__QTC",
       "N__NN"
+    ],
+    [
+      "N__NN",
+      "N__NNP",
+      "N__NNP",
+      "DM__DMR"
     ],
     [
       "PR__PRP",
@@ -4509,7 +3824,7 @@
     [
       "N__NN",
       "RP__NEG",
-      "V__VM__VNF"
+      "V__VM"
     ],
     [
       "DM__DMR",
@@ -4560,10 +3875,6 @@
       "N__NN",
       "N__NNP",
       "N__NNP"
-    ],
-    [
-      "V__VM__VNF",
-      "N__NN"
     ],
     [
       "N__NN",
@@ -4857,22 +4168,15 @@
       "RP__INTF"
     ],
     [
-      "JJ",
-      "N__NN",
-      "N__NNP",
-      "N__NNP",
-      "DM__DMR"
+      "QT__QTC",
+      "CC__CCD",
+      "QT__QTC",
+      "N__NST"
     ],
     [
       "N__NN",
       "CC__CCD",
       "RD__PUNC"
-    ],
-    [
-      "RD__SYM",
-      "N__NNP",
-      "RD__SYM",
-      "N__NST"
     ],
     [
       "RD__SYM",
@@ -4917,6 +4221,10 @@
       "DM__DMD",
       "QT__QTC",
       "N__NNP"
+    ],
+    [
+      "N__NNP",
+      "JJ"
     ],
     [
       "QT__QTC",
@@ -5027,6 +4335,13 @@
       "N__NNP",
       "N__NNP",
       "N__NNP",
+      "N__NN"
+    ],
+    [
+      "N__NNP",
+      "N__NNP",
+      "N__NNP",
+      "N__NNP",
       "N__NST"
     ],
     [
@@ -5071,17 +4386,6 @@
       "QT__QTC",
       "N__NN",
       "N__NN"
-    ],
-    [
-      "QT__QTC",
-      "QT__QTC",
-      "N__NN",
-      "RD__PUNC"
-    ],
-    [
-      "QT__QTC",
-      "QT__QTC",
-      "RD__PUNC"
     ],
     [
       "RD__PUNC",
@@ -5254,21 +4558,6 @@
       "RD__SYM"
     ],
     [
-      "RD__SYM",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "QT__QTC",
-      "N__NN",
-      "RD__PUNC",
-      "N__NNP",
-      "N__NNP",
-      "RD__PUNC",
-      "N__NNP",
-      "N__NNP",
-      "RD__SYM"
-    ],
-    [
       "QT__QTC",
       "JJ",
       "N__NNP",
@@ -5364,10 +4653,6 @@
       "RD__SYM"
     ],
     [
-      "RP__NEG",
-      "V__VM"
-    ],
-    [
       "N__NN",
       "N__NN",
       "QT__QTC",
@@ -5386,20 +4671,6 @@
       "N__NNP",
       "JJ",
       "N__NN"
-    ],
-    [
-      "DM__DMD",
-      "N__NN",
-      "RP__RPD"
-    ],
-    [
-      "PR__PRQ",
-      "RD__PUNC",
-      "RD__PUNC"
-    ],
-    [
-      "RD__PUNC",
-      "PR__PRP"
     ],
     [
       "PR__PRQ",
@@ -5432,18 +4703,6 @@
       "RD__SYM"
     ],
     [
-      "RD__SYM",
-      "RD__PUNC",
-      "N__NNP",
-      "RD__PUNC",
-      "CC__CCD",
-      "RD__PUNC",
-      "N__NNP",
-      "RD__PUNC",
-      "N__NN",
-      "RD__SYM"
-    ],
-    [
       "JJ",
       "RD__PUNC",
       "N__NNP",
@@ -5455,20 +4714,6 @@
       "N__NN",
       "RD__PUNC",
       "QT__QTC",
-      "RD__SYM"
-    ],
-    [
-      "N__NNP",
-      "N__NNP",
-      "RD__SYM",
-      "N__NNP",
-      "RD__SYM"
-    ],
-    [
-      "RD__SYM",
-      "N__NN",
-      "RD__PUNC",
-      "N__NNP",
       "RD__SYM"
     ],
     [
@@ -5534,12 +4779,6 @@
       "RP__RPD"
     ],
     [
-      "RD__SYM",
-      "N__NNP",
-      "RD__SYM",
-      "DM__DMD"
-    ],
-    [
       "QT__QTC",
       "N__NNP",
       "QT__QTC",
@@ -5556,11 +4795,6 @@
       "N__NN",
       "QT__QTF",
       "N__NN"
-    ],
-    [
-      "QT__QTC",
-      "QT__QTC",
-      "V__VM"
     ],
     [
       "PR__PRP",
@@ -5644,9 +4878,6 @@
       "PR__PRP"
     ],
     [
-      "PSP"
-    ],
-    [
       "QT__QTF",
       "QT__QTF",
       "RP__RPD"
@@ -5655,10 +4886,6 @@
       "CC__CCD",
       "DM__DMD",
       "N__NN"
-    ],
-    [
-      "RB",
-      "JJ"
     ],
     [
       "N__NST",
@@ -5713,19 +4940,19 @@
       "N__NN"
     ],
     [
-      "JJ",
-      "RD__PUNC",
-      "N__NNP",
-      "RD__PUNC",
-      "N__NNP"
-    ],
-    [
       "N__NNP",
       "RD__SYM",
       "N__NN",
       "RD__PUNC",
       "QT__QTC",
       "RD__SYM"
+    ],
+    [
+      "JJ",
+      "RD__PUNC",
+      "N__NNP",
+      "RD__PUNC",
+      "N__NNP"
     ],
     [
       "RD__PUNC",
@@ -5804,17 +5031,10 @@
       "RD__SYM"
     ],
     [
-      "V__VM__VNG"
-    ],
-    [
       "N__NNP",
       "N__NNP",
       "N__NN",
       "RD__PUNC"
-    ],
-    [
-      "RP__NEG",
-      "RP__RPD"
     ],
     [
       "QT__QTO",
@@ -5863,12 +5083,6 @@
       "N__NN"
     ],
     [
-      "QT__QTF",
-      "JJ",
-      "N__NNP",
-      "N__NNP"
-    ],
-    [
       "DM__DMD",
       "RD__SYM",
       "N__NNP",
@@ -5900,8 +5114,11 @@
       "N__NN"
     ],
     [
-      "QT__QTF",
-      "N__NST"
+      "JJ",
+      "N__NN",
+      "N__NNP",
+      "N__NNP",
+      "DM__DMR"
     ],
     [
       "V__VM",
@@ -5974,6 +5191,11 @@
       "RD__PUNC",
       "N__NNP",
       "RD__SYM"
+    ],
+    [
+      "N__NN",
+      "QT__QTC",
+      "N__NN"
     ],
     [
       "N__NNP",
@@ -6236,10 +5458,9 @@
       "PR__PRQ"
     ],
     [
-      "RP__NEG",
-      "V__VM",
-      "RP__NEG",
-      "V__VM"
+      "DM__DMD",
+      "N__NN",
+      "RP__RPD"
     ],
     [
       "JJ",
@@ -6303,12 +5524,6 @@
       "N__NN",
       "V__VM",
       "RD__PUNC"
-    ],
-    [
-      "QT__QTC",
-      "N__NNP",
-      "QT__QTO",
-      "RB"
     ],
     [
       "RB",
@@ -6479,38 +5694,12 @@
       "QT__QTC"
     ],
     [
-      "N__NNP",
-      "RD__PUNC",
-      "XC",
-      "XC",
-      "XC",
-      "N__NNP"
-    ],
-    [
       "PR__PRF",
       "PR__PRP"
     ],
     [
-      "RD__PUNC",
       "N__NNP",
-      "RD__PUNC",
-      "RD__SYM",
-      "JJ",
-      "N__NN",
-      "N__NN",
-      "RD__SYM"
-    ],
-    [
-      "RD__PUNC",
       "N__NNP",
-      "RD__PUNC",
-      "RD__SYM",
-      "N__NNP",
-      "RD__SYM"
-    ],
-    [
-      "N__NNP",
-      "RD__PUNC",
       "N__NNP",
       "DM__DMR"
     ],
@@ -6521,6 +5710,10 @@
       "PR__PRP"
     ],
     [
+      "DM__DMR",
+      "JJ"
+    ],
+    [
       "QT__QTC",
       "N__NN",
       "V__VM"
@@ -6528,6 +5721,10 @@
     [
       "N__NN",
       "PSP"
+    ],
+    [
+      "QT__QTF",
+      "N__NST"
     ],
     [
       "V__VM",
@@ -6558,6 +5755,10 @@
       "N__NNP",
       "RD__PUNC",
       "RD__PUNC"
+    ],
+    [
+      "RD__PUNC",
+      "PR__PRP"
     ],
     [
       "RD__PUNC",
@@ -6647,12 +5848,6 @@
     ],
     [
       "RD__SYM",
-      "RP__INJ",
-      "N__NN",
-      "RD__PUNC"
-    ],
-    [
-      "RD__SYM",
       "N__NNP",
       "RD__SYM",
       "N__NNP",
@@ -6666,10 +5861,6 @@
       "N__NNP",
       "N__NN",
       "RB"
-    ],
-    [
-      "QT__QTC",
-      "RD__SYM"
     ],
     [
       "PR__PRP",
@@ -6712,18 +5903,10 @@
       "RD__SYM"
     ],
     [
-      "RD__PUNC",
-      "N__NNP",
-      "RD__PUNC",
-      "PSP"
-    ],
-    [
-      "N__NN",
       "N__NNP",
       "RD__PUNC",
       "N__NNP",
-      "RD__PUNC",
-      "N__NNP"
+      "DM__DMR"
     ],
     [
       "RD__PUNC",
@@ -6813,21 +5996,17 @@
       "RD__PUNC"
     ],
     [
-      "QT__QTF",
-      "QT__QTC",
-      "N__NN",
-      "QT__QTC",
-      "N__NN",
+      "N__NNP",
+      "N__NNP",
+      "N__NNP",
+      "N__NNP",
+      "N__NNP",
+      "N__NNP",
       "N__NN"
     ],
     [
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NN"
+      "DM__DMD",
+      "RB"
     ],
     [
       "JJ",
@@ -6842,12 +6021,6 @@
       "RD__PUNC",
       "N__NNP",
       "N__NN"
-    ],
-    [
-      "PR__PRP",
-      "RD__SYM",
-      "N__NN",
-      "RD__SYM"
     ],
     [
       "DM__DMD",
@@ -6887,41 +6060,9 @@
       "QT__QTF"
     ],
     [
-      "QT__QTC",
-      "RD__PUNC",
-      "QT__QTC",
-      "RD__PUNC",
-      "QT__QTC",
-      "N__NN",
-      "N__NN"
-    ],
-    [
       "RD__PUNC",
       "N__NNP",
       "N__NNP",
-      "RD__PUNC",
-      "RD__UNK"
-    ],
-    [
-      "RD__PUNC",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "RD__PUNC",
-      "RD__PUNC"
-    ],
-    [
-      "RD__PUNC",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "RD__PUNC",
-      "RD__UNK",
-      "RD__PUNC"
-    ],
-    [
-      "RD__PUNC",
-      "N__NN",
       "RD__PUNC",
       "RD__UNK"
     ],
@@ -6936,20 +6077,6 @@
       "QT__QTC",
       "QT__QTC",
       "N__NN"
-    ],
-    [
-      "RD__PUNC",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "RD__PUNC",
-      "RD__UNK"
-    ],
-    [
-      "QT__QTF",
-      "QT__QTC",
-      "N__NN",
-      "RD__SYM"
     ],
     [
       "N__NNP",
@@ -6958,11 +6085,6 @@
       "N__NNP",
       "N__NNP",
       "RD__PUNC"
-    ],
-    [
-      "PR__PRF",
-      "JJ",
-      "N__NN"
     ],
     [
       "RD__SYM",
@@ -7027,11 +6149,6 @@
       "QT__QTC",
       "QT__QTC",
       "QT__QTC"
-    ],
-    [
-      "RP__RPD",
-      "RP__RPD",
-      "RP__RPD"
     ],
     [
       "QT__QTC",
@@ -7105,6 +6222,12 @@
       "RD__SYM"
     ],
     [
+      "RP__INTF",
+      "JJ",
+      "JJ",
+      "N__NN"
+    ],
+    [
       "QT__QTC",
       "QT__QTC",
       "QT__QTF",
@@ -7122,45 +6245,9 @@
       "N__NNP"
     ],
     [
-      "RD__SYM",
-      "N__NN",
-      "N__NN",
-      "RD__SYM",
-      "RD__PUNC"
-    ],
-    [
-      "RD__SYM",
-      "N__NN",
-      "N__NN",
-      "V__VM",
-      "RD__SYM"
-    ],
-    [
-      "RD__SYM",
-      "N__NN",
-      "RD__PUNC",
-      "N__NN",
-      "CC__CCD",
-      "N__NN",
-      "RD__SYM"
-    ],
-    [
       "RD__PUNC",
       "RD__PUNC",
       "N__NNP",
-      "N__NNP"
-    ],
-    [
-      "JJ",
-      "N__NNP",
-      "N__NN",
-      "N__NN",
-      "RD__PUNC"
-    ],
-    [
-      "QT__QTC",
-      "CC__CCD",
-      "QT__QTC",
       "N__NNP"
     ],
     [
@@ -7168,6 +6255,12 @@
       "QT__QTC",
       "CC__CCD",
       "QT__QTC"
+    ],
+    [
+      "RD__PUNC",
+      "RD__PUNC",
+      "N__NNP",
+      "RD__PUNC"
     ],
     [
       "QT__QTC",
@@ -7177,32 +6270,7 @@
     [
       "N__NN",
       "QT__QTC",
-      "RB"
-    ],
-    [
-      "N__NN",
-      "QT__QTC",
       "PSP"
-    ],
-    [
-      "RD__PUNC",
-      "JJ",
-      "RD__PUNC",
-      "N__NN"
-    ],
-    [
-      "N__NNP",
-      "RD__PUNC",
-      "RD__UNK"
-    ],
-    [
-      "N__NNP",
-      "RD__PUNC",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP"
     ],
     [
       "RD__PUNC",
@@ -7231,16 +6299,6 @@
       "N__NNP",
       "RD__SYM",
       "N__NNP",
-      "N__NNP",
-      "RD__SYM"
-    ],
-    [
-      "N__NNP",
-      "N__NNP",
-      "RD__SYM",
-      "N__NN",
-      "RD__SYM",
-      "N__NN",
       "N__NNP",
       "RD__SYM"
     ],
@@ -7285,11 +6343,6 @@
       "N__NN"
     ],
     [
-      "QT__QTC",
-      "N__NN",
-      "QT__QTF"
-    ],
-    [
       "RD__SYM",
       "N__NN",
       "RD__SYM",
@@ -7303,9 +6356,6 @@
       "QT__QTC",
       "QT__QTC",
       "N__NN"
-    ],
-    [
-      "UT"
     ],
     [
       "RD__PUNC",
@@ -7348,12 +6398,6 @@
     ],
     [
       "RD__SYM",
-      "N__NNP",
-      "RD__SYM",
-      "RD__SYM"
-    ],
-    [
-      "RD__SYM",
       "DM__DMD",
       "N__NN",
       "N__NNP",
@@ -7380,6 +6424,11 @@
       "PSP"
     ],
     [
+      "N__NN",
+      "QT__QTC",
+      "RB"
+    ],
+    [
       "V__VM",
       "QT__QTC",
       "RD__PUNC",
@@ -7401,6 +6450,11 @@
       "N__NNP",
       "RD__SYM",
       "DM__DMD"
+    ],
+    [
+      "N__NNP",
+      "DM__DMD",
+      "N__NN"
     ],
     [
       "N__NN",
@@ -7445,11 +6499,7 @@
       "RP__INTF"
     ],
     [
-      "N__NN",
-      "N__NN",
-      "RD__SYM",
-      "N__NN",
-      "N__NN",
+      "QT__QTC",
       "RD__SYM"
     ],
     [
@@ -7531,6 +6581,14 @@
       "N__NNP",
       "DM__DMR",
       "RD__PUNC"
+    ],
+    [
+      "N__NNP",
+      "RD__SYM",
+      "N__NN",
+      "RD__PUNC",
+      "N__NNP",
+      "RD__SYM"
     ],
     [
       "QT__QTC",
@@ -7696,14 +6754,6 @@
     ],
     [
       "RD__SYM",
-      "N__NNP",
-      "N__NNP",
-      "N__NN",
-      "JJ",
-      "RD__SYM"
-    ],
-    [
-      "RD__SYM",
       "JJ",
       "N__NN",
       "RD__SYM",
@@ -7845,14 +6895,16 @@
       "N__NN"
     ],
     [
-      "N__NN",
-      "RD__PUNC",
-      "PR__PRP"
-    ],
-    [
       "PR__PRP",
       "N__NN",
       "JJ"
+    ],
+    [
+      "N__NNP",
+      "N__NNP",
+      "RD__SYM",
+      "N__NNP",
+      "RD__SYM"
     ],
     [
       "RD__SYM",
@@ -7886,33 +6938,11 @@
       "RD__PUNC"
     ],
     [
-      "N__NN",
-      "CC__CCD",
-      "N__NN",
-      "DM__DMD"
-    ],
-    [
       "N__NNP",
       "N__NNP",
       "CC__CCD",
       "N__NNP",
       "N__NNP",
-      "DM__DMD"
-    ],
-    [
-      "DM__DMR",
-      "QT__QTF",
-      "PR__PRQ"
-    ],
-    [
-      "JJ",
-      "N__NNP",
-      "DM__DMD"
-    ],
-    [
-      "N__NST",
-      "N__NN",
-      "N__NN",
       "DM__DMD"
     ],
     [
@@ -7940,13 +6970,6 @@
       "N__NNP",
       "N__NNP",
       "N__NNP"
-    ],
-    [
-      "RD__PUNC",
-      "N__NNP",
-      "RD__PUNC",
-      "N__NNP",
-      "RD__PUNC"
     ],
     [
       "RD__PUNC",
@@ -7970,13 +6993,11 @@
       "PSP"
     ],
     [
-      "RD__RDF",
       "RD__PUNC",
-      "RD__RDF",
+      "N__NNP",
       "RD__PUNC",
-      "RD__RDF",
-      "RD__PUNC",
-      "RD__RDF"
+      "N__NNP",
+      "RD__PUNC"
     ],
     [
       "RD__PUNC",
@@ -8032,29 +7053,13 @@
       "RD__PUNC"
     ],
     [
-      "RD__PUNC",
-      "RD__PUNC",
-      "N__NN",
-      "N__NN"
-    ],
-    [
-      "QT__QTC",
-      "CC__CCD",
       "QT__QTC",
       "QT__QTC",
-      "N__NN",
       "RD__PUNC"
     ],
     [
       "QT__QTC",
       "CC__CCD",
-      "QT__QTC",
-      "QT__QTC",
-      "N__NN",
-      "N__NN"
-    ],
-    [
-      "QT__QTC",
       "QT__QTC",
       "QT__QTC",
       "N__NN",
@@ -8075,12 +7080,6 @@
     ],
     [
       "PR__PRQ",
-      "RP__RPD"
-    ],
-    [
-      "V__VM",
-      "RP__RPD",
-      "RP__NEG",
       "RP__RPD"
     ],
     [
@@ -8172,6 +7171,10 @@
       "N__NNP",
       "PR__PRP",
       "N__NNP"
+    ],
+    [
+      "JJ",
+      "RD__PUNC"
     ],
     [
       "N__NN",
@@ -8272,15 +7275,15 @@
       "N__NNP"
     ],
     [
-      "CC__CCD",
-      "RD__PUNC",
-      "CC__CCS"
-    ],
-    [
       "N__NNP",
       "CC__CCD",
       "N__NNP",
       "N__NNP"
+    ],
+    [
+      "RD__PUNC",
+      "N__NN",
+      "N__NN"
     ],
     [
       "PR__PRF",
@@ -8354,6 +7357,11 @@
       "RD__PUNC",
       "RD__PUNC",
       "PR__PRP",
+      "RD__PUNC"
+    ],
+    [
+      "RP__INTF",
+      "JJ",
       "RD__PUNC"
     ],
     [
@@ -8493,20 +7501,18 @@
       "N__NN"
     ],
     [
+      "N__NN",
+      "N__NN",
+      "N__NN",
+      "RD__SYM",
+      "N__NNP",
+      "RD__SYM"
+    ],
+    [
       "DM__DMD",
       "JJ",
       "N__NN",
       "N__NN"
-    ],
-    [
-      "PR__PRF",
-      "RD__PUNC",
-      "N__NST"
-    ],
-    [
-      "RP__INJ",
-      "RP__INTF",
-      "RD__PUNC"
     ],
     [
       "V__VM",
@@ -8581,28 +7587,8 @@
       "RD__PUNC"
     ],
     [
-      "JJ",
-      "RD__PUNC",
-      "JJ",
-      "RD__PUNC",
-      "JJ",
-      "N__NN"
-    ],
-    [
-      "QT__QTF",
-      "QT__QTF",
-      "RD__PUNC"
-    ],
-    [
       "DM__DMD",
       "QT__QTF",
-      "JJ",
-      "N__NN"
-    ],
-    [
-      "QT__QTC",
-      "JJ",
-      "RD__PUNC",
       "JJ",
       "N__NN"
     ],
@@ -8836,9 +7822,9 @@
       "N__NST"
     ],
     [
-      "V__VM__VNF",
+      "V__VM",
       "RD__PUNC",
-      "V__VM__VNF",
+      "V__VM",
       "N__NN",
       "RP__INTF"
     ],
@@ -8856,15 +7842,6 @@
       "N__NN",
       "RD__PUNC",
       "N__NST"
-    ],
-    [
-      "N__NN",
-      "PR__PRQ"
-    ],
-    [
-      "RD__PUNC",
-      "JJ",
-      "RD__SYM"
     ],
     [
       "RD__PUNC",
@@ -8927,31 +7904,6 @@
       "RD__PUNC"
     ],
     [
-      "JJ",
-      "RD__PUNC",
-      "N__NNP",
-      "RD__PUNC",
-      "JJ"
-    ],
-    [
-      "PR__PRL",
-      "RD__PUNC"
-    ],
-    [
-      "RD__RDF",
-      "RD__RDF",
-      "RD__RDF"
-    ],
-    [
-      "RD__RDF",
-      "RD__PUNC",
-      "RD__RDF",
-      "RD__PUNC"
-    ],
-    [
-      "RD__RDF"
-    ],
-    [
       "QT__QTC",
       "RD__SYM",
       "QT__QTC",
@@ -8978,10 +7930,6 @@
       "QT__QTF",
       "N__NN",
       "RP__INTF"
-    ],
-    [
-      "V__VM",
-      "RP__NEG"
     ],
     [
       "PR__PRQ",
@@ -9050,15 +7998,6 @@
       "PR__PRP"
     ],
     [
-      "N__NNP",
-      "JJ",
-      "N__NNP",
-      "N__NNP",
-      "RD__SYM",
-      "N__NNP",
-      "RD__SYM"
-    ],
-    [
       "RD__SYM",
       "N__NNP",
       "RD__SYM",
@@ -9072,49 +8011,48 @@
       "RD__UNK"
     ],
     [
-      "RD__SYM",
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NN",
-      "RD__SYM"
-    ],
-    [
-      "RD__SYM",
-      "N__NNP",
-      "QT__QTC",
-      "RD__SYM"
-    ],
-    [
-      "RD__SYM",
-      "N__NN",
-      "RD__SYM",
-      "RD__UNK"
-    ],
-    [
-      "N__NN",
-      "N__NN",
-      "RD__SYM",
-      "JJ",
-      "N__NN",
-      "RD__SYM"
-    ],
-    [
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "RD__SYM",
-      "N__NNP",
-      "N__NNP",
-      "RD__SYM"
-    ],
-    [
+      "N__NST",
       "QT__QTC",
       "CC__CCD",
       "QT__QTC",
-      "QT__QTC",
-      "QT__QTC",
       "N__NN"
+    ],
+    [
+      "RD__SYM",
+      "N__NNP",
+      "N__NNP",
+      "N__NNP",
+      "N__NN",
+      "RD__SYM"
+    ],
+    [
+      "RD__SYM",
+      "N__NNP",
+      "QT__QTC",
+      "RD__SYM"
+    ],
+    [
+      "RD__SYM",
+      "N__NN",
+      "RD__SYM",
+      "RD__UNK"
+    ],
+    [
+      "N__NN",
+      "N__NN",
+      "RD__SYM",
+      "JJ",
+      "N__NN",
+      "RD__SYM"
+    ],
+    [
+      "N__NNP",
+      "N__NNP",
+      "N__NNP",
+      "RD__SYM",
+      "N__NNP",
+      "N__NNP",
+      "RD__SYM"
     ],
     [
       "PR__PRQ",
@@ -9159,11 +8097,6 @@
       "QT__QTF",
       "RD__PUNC",
       "QT__QTF",
-      "RD__PUNC"
-    ],
-    [
-      "RD__PUNC",
-      "DM__DMR",
       "RD__PUNC"
     ],
     [
@@ -9268,30 +8201,11 @@
       "N__NN"
     ],
     [
-      "N__NNP",
-      "JJ",
-      "N__NN",
-      "RD__PUNC"
-    ],
-    [
       "RD__PUNC",
       "N__NNP",
       "RD__PUNC",
       "DM__DMD",
       "N__NN"
-    ],
-    [
-      "JJ",
-      "N__NNP",
-      "N__NN",
-      "N__NN"
-    ],
-    [
-      "N__NNP",
-      "JJ",
-      "N__NN",
-      "RD__PUNC",
-      "N__NNP"
     ],
     [
       "JJ",
@@ -9327,6 +8241,12 @@
       "N__NN",
       "RD__PUNC",
       "N__NN",
+      "N__NN"
+    ],
+    [
+      "QT__QTC",
+      "QT__QTF",
+      "JJ",
       "N__NN"
     ],
     [
@@ -9380,10 +8300,6 @@
       "N__NN"
     ],
     [
-      "INTF",
-      "NST"
-    ],
-    [
       "QT__QTC",
       "N__NNP",
       "N__NNP",
@@ -9395,6 +8311,12 @@
       "QT__QTC",
       "N__NN",
       "N__NN"
+    ],
+    [
+      "N__NNP",
+      "N__NN",
+      "N__NN",
+      "RD__PUNC"
     ],
     [
       "RD__PUNC",
@@ -9425,18 +8347,6 @@
     [
       "N__NN",
       "RD__SYM",
-      "N__NN"
-    ],
-    [
-      "RD__PUNC",
-      "DM__DMD",
-      "N__NN",
-      "N__NN"
-    ],
-    [
-      "RD__PUNC",
-      "JJ",
-      "N__NN",
       "N__NN"
     ],
     [
@@ -9455,15 +8365,8 @@
       "RD__PUNC"
     ],
     [
-      "JJ",
-      "RP__INTF",
-      "JJ",
-      "N__NN",
-      "N__NN"
-    ],
-    [
       "N__NNP",
-      "NST"
+      "N_NST"
     ],
     [
       "N__NNP",
@@ -9481,18 +8384,6 @@
       "N__NN"
     ],
     [
-      "DM__DMR",
-      "PR__PRP"
-    ],
-    [
-      "RD__SYM",
-      "DM__DMD",
-      "N__NN",
-      "JJ",
-      "V__VM",
-      "RD__SYM"
-    ],
-    [
       "RD__PUNC",
       "N__NNP",
       "RD__SYM",
@@ -9500,32 +8391,9 @@
       "RD__PUNC"
     ],
     [
-      "JJ",
-      "RD__SYM",
-      "N__NN"
-    ],
-    [
-      "N__NN",
-      "RD__SYM",
-      "JJ",
-      "N__NN"
-    ],
-    [
       "N__NNP",
       "RD__SYM",
       "N__NNP",
-      "N__NN"
-    ],
-    [
-      "RD__PUNC",
-      "JJ",
-      "JJ",
-      "N__NN"
-    ],
-    [
-      "DM__DMD",
-      "JJ",
-      "QT__QTC",
       "N__NN"
     ],
     [
@@ -9540,6 +8408,12 @@
       "N__NN",
       "N__NNP",
       "PR__PRP"
+    ],
+    [
+      "RD__SYM",
+      "RD__RDF",
+      "RD__RDF",
+      "RD__SYM"
     ],
     [
       "QT__QTC",
@@ -9572,13 +8446,15 @@
       "N__NST"
     ],
     [
+      "N__NNP",
+      "JJ",
+      "N__NN",
+      "RD__PUNC"
+    ],
+    [
       "QT__QTC",
       "N__NN",
       "RB"
-    ],
-    [
-      "RD__PUNC",
-      "DM__DMR"
     ],
     [
       "RD__PUNC",
@@ -9601,13 +8477,6 @@
       "RD__PUNC"
     ],
     [
-      "N__NN",
-      "N__NN",
-      "JJ",
-      "V__VM",
-      "N__NN"
-    ],
-    [
       "RD__PUNC",
       "N__NN",
       "N__NNP",
@@ -9624,12 +8493,6 @@
       "N__NNP",
       "N__NN",
       "JJ"
-    ],
-    [
-      "JJ",
-      "QT__QTC",
-      "N__NN",
-      "N__NN"
     ],
     [
       "N__NN",
@@ -9687,12 +8550,6 @@
     [
       "RD__PUNC",
       "RD__PUNC"
-    ],
-    [
-      "N__NN",
-      "CC__CCD",
-      "N__NN",
-      "DM__DMR"
     ],
     [
       "QT__QTF",
@@ -9770,6 +8627,10 @@
       "JJ",
       "QT__QTF",
       "N__NN"
+    ],
+    [
+      "RD__PUNC",
+      "DM__DMR"
     ],
     [
       "JJ",
@@ -9801,13 +8662,17 @@
       "N__NN"
     ],
     [
-      "N__NNP",
+      "JJ",
+      "N__NN",
       "RD__PUNC",
-      "N__NNP",
+      "N__NN",
+      "RD__PUNC"
+    ],
+    [
       "RD__PUNC",
-      "N__NNP",
-      "RD__PUNC",
-      "N__NNP"
+      "QT__QTC",
+      "N__NN",
+      "RD__PUNC"
     ],
     [
       "N__NN",
@@ -9815,28 +8680,6 @@
       "N__NN",
       "N__NN",
       "N__NN"
-    ],
-    [
-      "RD__SYM",
-      "JJ",
-      "N__NN",
-      "PR__PRL",
-      "N__NN",
-      "N__NN",
-      "V__VM",
-      "RD__SYM"
-    ],
-    [
-      "JJ",
-      "N__NN",
-      "JJ"
-    ],
-    [
-      "N__NNP",
-      "N__NNP",
-      "N__NNP",
-      "N__NN",
-      "JJ"
     ],
     [
       "N__NN",
@@ -9997,10 +8840,6 @@
       "RD__SYM"
     ],
     [
-      "N__NN",
-      "\u0935\u093e\u091c\u0924\u093e"
-    ],
-    [
       "RD__SYM",
       "N__NNP",
       "QT__QTC",
@@ -10058,13 +8897,6 @@
       "N__NN"
     ],
     [
-      "N__NNP",
-      "N__NN",
-      "RD__PUNC",
-      "N__NN",
-      "RD__PUNC"
-    ],
-    [
       "JJ",
       "JJ",
       "QT__QTF",
@@ -10074,6 +8906,10 @@
       "RP__INTF",
       "QT__QTC",
       "N__NN"
+    ],
+    [
+      "RP__INTF",
+      "N__NNP"
     ],
     [
       "N__NNP",
@@ -10131,6 +8967,12 @@
       "V__VM"
     ],
     [
+      "RD__PUNC",
+      "JJ",
+      "JJ",
+      "N__NN"
+    ],
+    [
       "JJ",
       "N__NNP",
       "N__NNP",
@@ -10170,6 +9012,11 @@
       "JJ"
     ],
     [
+      "JJ",
+      "N__NN",
+      "JJ"
+    ],
+    [
       "RD__SYM",
       "QT__QTO",
       "RD__PUNC",
@@ -10186,13 +9033,6 @@
     ],
     [
       "RB",
-      "JJ",
-      "N__NN"
-    ],
-    [
-      "QT__QTC",
-      "RD__PUNC",
-      "QT__QTC",
       "JJ",
       "N__NN"
     ],
@@ -10296,12 +9136,13 @@
     [
       "JJ",
       "N__NNP",
-      "N__NST"
+      "PR__PRP"
     ],
     [
       "JJ",
       "N__NNP",
-      "PR__PRP"
+      "N__NN",
+      "N__NN"
     ],
     [
       "JJ",
@@ -10341,13 +9182,6 @@
       "RD__PUNC"
     ],
     [
-      "RP__INTF",
-      "JJ",
-      "JJ",
-      "N__NNP",
-      "N__NN"
-    ],
-    [
       "N__NNP",
       "QT__QTC",
       "N__NN"
@@ -10370,21 +9204,9 @@
       "JJ"
     ],
     [
-      "QT__QTC",
-      "RD__SYM",
-      "QT__QTC"
-    ],
-    [
       "N__NNP",
       "RD__SYM",
       "N__NN",
-      "N__NN"
-    ],
-    [
-      "JJ",
-      "QT__QTC",
-      "JJ",
-      "JJ",
       "N__NN"
     ],
     [
@@ -10408,12 +9230,6 @@
     [
       "N__NN",
       "CC__CCS"
-    ],
-    [
-      "QT__QTC",
-      "N__NNP",
-      "RD__PUNC",
-      "N__NN"
     ],
     [
       "N__NNP",
@@ -10493,11 +9309,6 @@
       "PR__PRP"
     ],
     [
-      "RP__INTF",
-      "N__NN",
-      "N__NNP"
-    ],
-    [
       "N__NNP",
       "JJ",
       "JJ",
@@ -10547,13 +9358,6 @@
       "N__NNP"
     ],
     [
-      "RD__PUNC",
-      "JJ",
-      "JJ",
-      "N__NN",
-      "RD__PUNC"
-    ],
-    [
       "JJ",
       "JJ",
       "N__NN",
@@ -10580,7 +9384,7 @@
       "N__NST"
     ],
     [
-      "INTF",
+      "RP_INTF",
       "JJ",
       "N__NN",
       "RD__PUNC"
@@ -10602,9 +9406,6 @@
       "N__NN"
     ],
     [
-      "DEM"
-    ],
-    [
       "QT__QTC",
       "N__NN",
       "N__NN",
@@ -10616,16 +9417,15 @@
       "RD__SYM"
     ],
     [
-      "RD__SYM",
-      "N__NN",
-      "V__VM",
-      "N__NN",
-      "RD__SYM"
+      "QT__QTC",
+      "QT__QTC",
+      "JJ",
+      "N__NN"
     ],
     [
       "RD__SYM",
-      "JJ",
-      "JJ",
+      "N__NN",
+      "V__VM",
       "N__NN",
       "RD__SYM"
     ],
@@ -10669,10 +9469,6 @@
     ],
     [
       "RD__PUNC",
-      "PR__PRQ"
-    ],
-    [
-      "RD__PUNC",
       "N__NNP",
       "N__NN",
       "N__NN",
@@ -10688,9 +9484,6 @@
       "V__VM"
     ],
     [
-      "V__VM__VF"
-    ],
-    [
       "V__VM",
       "RP__NEG",
       "V__VM"
@@ -10702,9 +9495,6 @@
     [
       "V__VM",
       "RD__PUNC"
-    ],
-    [
-      "V__VAUX"
     ],
     [
       "V__VM",
@@ -10726,15 +9516,14 @@
       "V__VM"
     ],
     [
+      "V__VAUX"
+    ],
+    [
       "V__VM",
       "RD__PUNC",
       "N__NN",
       "V__VM",
       "RD__PUNC"
-    ],
-    [
-      "V__VM__VF",
-      "V__VAUX"
     ],
     [
       "JJ",
@@ -10773,12 +9562,6 @@
       "DM__DMR"
     ],
     [
-      "V__VM__VNF"
-    ],
-    [
-      "V__VM__VINF"
-    ],
-    [
       "V__VM",
       "V__VM",
       "RD__PUNC"
@@ -10794,29 +9577,11 @@
       "RP__INTF"
     ],
     [
-      "V__VM__VNG",
-      "V__VM"
-    ],
-    [
       "JJ"
-    ],
-    [
-      "V__VM",
-      "CC__CCS"
     ],
     [
       "N__NN",
       "V__VM"
-    ],
-    [
-      "V__VM__VNG"
-    ],
-    [
-      "V__VM__VNG",
-      "RD__PUNC"
-    ],
-    [
-      "CC__CCD"
     ],
     [
       "V__VM",
@@ -10842,25 +9607,6 @@
       "RB"
     ],
     [
-      "N__NST"
-    ],
-    [
-      "N__NNP"
-    ],
-    [
-      "RP__INTF"
-    ],
-    [
-      "JJ",
-      "RB"
-    ],
-    [
-      "N__NN"
-    ],
-    [
-      "QT__QTF"
-    ],
-    [
       "RD__PUNC",
       "RB"
     ],
@@ -10870,13 +9616,6 @@
     ],
     [
       "RB",
-      "RD__PUNC"
-    ],
-    [
-      "RP__INTF",
-      "N__NST"
-    ],
-    [
       "RD__PUNC"
     ],
     [
@@ -10888,24 +9627,11 @@
       "RB"
     ],
     [
-      "N__NST",
-      "N__NST"
-    ],
-    [
       "DM__DMR",
       "RB"
     ],
     [
-      "QT__QTF",
-      "RD__PUNC"
-    ],
-    [
-      "N__NST",
-      "RD__PUNC",
-      "N__NST"
-    ],
-    [
-      "RB",
+      "JJ",
       "RB"
     ],
     [
@@ -10922,38 +9648,12 @@
       "RB"
     ],
     [
-      "PR__PRP"
-    ],
-    [
       "RB",
       "V__VM"
     ],
     [
-      "CC__CCS"
-    ],
-    [
-      "PR__PRC"
-    ],
-    [
-      "RP__RPD"
-    ],
-    [
-      "CC__CCS",
-      "RP__INTF"
-    ],
-    [
-      "JJ"
-    ],
-    [
       "RB",
       "RD__SYM"
-    ],
-    [
-      "N__NST",
-      "RD__SYM"
-    ],
-    [
-      "DM__DMD"
     ],
     [
       "PR__PRQ",
@@ -10961,34 +9661,17 @@
       "RD__PUNC"
     ],
     [
-      "RP__CL"
-    ],
-    [
-      "RP__NEG"
+      "RB",
+      "RB"
     ],
     [
       "RB",
       "QT__QTF"
     ],
     [
-      "N__NST",
-      "RD__SYM",
-      "N__NNP",
-      "RD__SYM"
-    ],
-    [
-      "RD__SYM",
-      "RD__SYM",
-      "N__NST"
-    ],
-    [
       "RD__PUNC",
       "RD__PUNC",
       "RD__PUNC",
-      "N__NST"
-    ],
-    [
-      "CC__CCD",
       "N__NST"
     ],
     [
@@ -10996,39 +9679,16 @@
       "QT__QTO"
     ],
     [
-      "DM__DMR"
-    ],
-    [
-      "QT__QTC",
-      "N__NST"
-    ],
-    [
-      "N__NST",
-      "RP__INTF"
-    ],
-    [
       "RB",
       "CC__CCS"
     ],
     [
-      "RD__PUNC",
-      "N__NST"
-    ],
-    [
       "RB",
       "N__NST"
     ],
     [
-      "RD__SYM",
+      "RD__PUNC",
       "N__NST"
-    ],
-    [
-      "JJ",
-      "N__NN"
-    ],
-    [
-      "DM__DMD",
-      "RD__PUNC"
     ],
     [
       "RB",
@@ -11048,45 +9708,19 @@
     ],
     [
       "N__NN",
-      "V__VM"
-    ],
-    [
-      "N__NN",
       "RB"
-    ],
-    [
-      "RB",
-      "RD__PUNC",
-      "RB"
-    ],
-    [
-      "RP"
     ],
     [
       "RB",
       "RP__RPD"
     ],
     [
-      "RD__PUNC",
-      "N__NST",
-      "QT__QTC",
-      "RB"
-    ],
-    [
       "V__VM",
       "RD__PUNC"
     ],
     [
-      "QT__QTF",
-      "QT__QTF"
-    ],
-    [
       "RP__NEG",
       "RB"
-    ],
-    [
-      "QT__QTF",
-      "N__NST"
     ]
   ],
   "JJP": [
@@ -11128,9 +9762,6 @@
       "RD__PUNC"
     ],
     [
-      "QT__QTO"
-    ],
-    [
       "RP__RPD",
       "RB",
       "JJ",
@@ -11138,18 +9769,11 @@
     ],
     [
       "QT__QTF",
-      "QT__QTF"
-    ],
-    [
-      "QT__QTF",
       "QT__QTC"
     ],
     [
-      "JJ",
-      "RD__PUNC",
-      "JJ",
-      "RD__PUNC",
-      "JJ"
+      "QT__QTF",
+      "QT__QTF"
     ],
     [
       "QT__QTC",
@@ -11158,16 +9782,15 @@
     [
       "QT__QTC",
       "RD__PUNC"
+    ],
+    [
+      "QT__QTO"
     ],
     [
       "DM__DMD",
       "JJ"
     ],
     [
-      "QT__QTC",
-      "QT__QTC"
-    ],
-    [
       "QT__QTF",
       "QT__QTO"
     ],
@@ -11186,19 +9809,12 @@
       "JJ"
     ],
     [
-      "QT__QTQ"
-    ],
-    [
       "QT__QTC",
       "QT__QTC",
       "RD__PUNC",
       "N__NN",
       "RD__PUNC",
       "N__NST"
-    ],
-    [
-      "QT__QTF",
-      "RD__PUNC"
     ],
     [
       "JJ",
@@ -11218,8 +9834,8 @@
       "RD__PUNC"
     ],
     [
-      "JJ",
-      "RB"
+      "QT__QTF",
+      "RD__PUNC"
     ],
     [
       "JJ",
@@ -11245,21 +9861,8 @@
       "N__NN"
     ],
     [
-      "CC__CCS__UT"
-    ],
-    [
-      "N__NST"
-    ],
-    [
       "JJ",
       "CC__CCD"
-    ],
-    [
-      "V__VM"
-    ],
-    [
-      "QT__QTC",
-      "RD__SYM"
     ],
     [
       "QT__QTF",
@@ -11267,7 +9870,12 @@
       "JJ"
     ],
     [
-      "CC__CCD"
+      "QT__QTC",
+      "RD__SYM"
+    ],
+    [
+      "QT__QTC",
+      "QT__QTC"
     ],
     [
       "QT__QTC",
@@ -11308,9 +9916,6 @@
       "JJ"
     ],
     [
-      "DM__DMD"
-    ],
-    [
       "QT__QTC",
       "N__NST"
     ],
@@ -11322,27 +9927,6 @@
     [
       "JJ",
       "RD__SYM"
-    ],
-    [
-      "RD__SYM",
-      "QT__QTC",
-      "QT__QTC",
-      "RD__SYM",
-      "RD__PUNC"
-    ],
-    [
-      "RD__SYM",
-      "QT__QTC",
-      "RD__PUNC",
-      "QT__QTC",
-      "QT__QTC",
-      "RD__SYM"
-    ],
-    [
-      "UT"
-    ],
-    [
-      "CC__CCS"
     ],
     [
       "RD__SYM",
@@ -11361,11 +9945,6 @@
     ],
     [
       "RB"
-    ],
-    [
-      "QT__QTC",
-      "RD__PUNC",
-      "QT__QTC"
     ],
     [
       "RD__SYM",
@@ -11427,12 +10006,6 @@
       "JJ",
       "N__NN",
       "RD__PUNC"
-    ],
-    [
-      "QF__QTC"
-    ],
-    [
-      "N__NNP"
     ],
     [
       "RB",
@@ -11443,10 +10016,6 @@
       "UNK"
     ],
     [
-      "JJ",
-      "QT__QTF"
-    ],
-    [
       "DM__DMD",
       "N__NN",
       "JJ"
@@ -11459,10 +10028,6 @@
     [
       "QT__QTF",
       "N__NN"
-    ],
-    [
-      "RD__PUNC",
-      "QT__QTO"
     ],
     [
       "DM__DMD",
@@ -11492,21 +10057,8 @@
       "JJ"
     ],
     [
-      "\u0969QT__QTC"
-    ],
-    [
       "RD__PUNC",
       "JJ"
-    ],
-    [
-      "N__NNP",
-      "JJ"
-    ],
-    [
-      "JJ",
-      "QT__QTF",
-      "JJ",
-      "RD__PUNC"
     ],
     [
       "RB",
@@ -11526,7 +10078,7 @@
     ],
     [
       "N__NNP",
-      "N__NNP"
+      "JJ"
     ]
   ],
   "VGF": [
@@ -11539,11 +10091,6 @@
     ],
     [
       "V__VM",
-      "V__VAUX",
-      "RD__PUNC"
-    ],
-    [
-      "V__VM",
       "RD__PUNC"
     ],
     [
@@ -11554,21 +10101,11 @@
     [
       "V__VM",
       "V__VAUX",
-      "RD__PUNC",
-      "JJ",
-      "N__NN",
-      "N__NST",
       "RD__PUNC"
     ],
     [
       "V__VM",
       "V__VAUX",
-      "V__VAUX",
-      "RD__PUNC"
-    ],
-    [
-      "V__VM",
-      "V__VM",
       "V__VAUX",
       "RD__PUNC"
     ],
@@ -11582,27 +10119,14 @@
     ],
     [
       "V__VM",
-      "V__VAUX",
-      "RD__PUNC",
-      "V__VM",
       "V__VM",
       "V__VAUX",
-      "RD__PUNC",
       "RD__PUNC"
     ],
     [
       "V__VM",
       "RD__PUNC",
       "V__VM",
-      "RD__PUNC",
-      "RD__PUNC"
-    ],
-    [
-      "V__VM",
-      "V__VAUX",
-      "RD__PUNC",
-      "V__VM",
-      "V__VAUX",
       "RD__PUNC",
       "RD__PUNC"
     ],
@@ -11616,17 +10140,6 @@
       "V__VM"
     ],
     [
-      "RD__PUNC",
-      "V__VM",
-      "V__VAUX"
-    ],
-    [
-      "V__VM",
-      "RD__PUNC",
-      "V__VM",
-      "RD__PUNC"
-    ],
-    [
       "V__VM",
       "V__VAUX",
       "RD__PUNC",
@@ -11649,12 +10162,6 @@
       "V__VAUX"
     ],
     [
-      "V__VM__VNF"
-    ],
-    [
-      "V__VM__VF"
-    ],
-    [
       "V__VAUX",
       "RD__PUNC"
     ],
@@ -11663,6 +10170,12 @@
       "V__VM",
       "V__VAUX",
       "V__VAUX",
+      "RD__PUNC"
+    ],
+    [
+      "V__VM",
+      "RD__PUNC",
+      "V__VM",
       "RD__PUNC"
     ],
     [
@@ -11678,35 +10191,9 @@
     [
       "V__VM",
       "V__VAUX",
-      "V__VM",
-      "RD__PUNC"
-    ],
-    [
-      "RD__PUNC"
-    ],
-    [
-      "N__NN"
-    ],
-    [
-      "V__VM",
-      "V__VAUX",
       "RD__PUNC",
       "V__VM",
       "V__VAUX",
-      "V__VAUX",
-      "RD__PUNC"
-    ],
-    [
-      "N__NN",
-      "V__VAUX"
-    ],
-    [
-      "V__VM",
-      "V__VAUX",
-      "V__VAUX",
-      "RD__PUNC",
-      "V__VM",
-      "V__VM",
       "V__VAUX",
       "RD__PUNC"
     ],
@@ -11737,30 +10224,19 @@
       "RD__PUNC"
     ],
     [
-      "V__VM__VNG"
-    ],
-    [
       "N__NN",
       "V__VM",
       "RD__PUNC"
     ],
     [
-      "JJ",
       "N__NN",
-      "RD__PUNC",
-      "N__NN"
+      "V__VAUX"
     ],
     [
       "V__VM",
       "RD__PUNC",
       "JJ",
       "V__VM",
-      "RD__PUNC"
-    ],
-    [
-      "V__VM",
-      "RD__PUNC",
-      "DM__DMR",
       "RD__PUNC"
     ],
     [
@@ -11774,9 +10250,13 @@
       "RD__PUN"
     ],
     [
+      "V__VM",
       "V__VAUX",
       "V__VM",
-      "V__VAUX"
+      "RD__PUNC"
+    ],
+    [
+      "RD__PUNC"
     ],
     [
       "V__VM",
@@ -11890,13 +10370,6 @@
       "RD__PUNC"
     ],
     [
-      "N__NN",
-      "V__VM",
-      "V__VAUX",
-      "RD__PUNC",
-      "RD__SYM"
-    ],
-    [
       "N__NST",
       "V__VM",
       "RD__PUNC"
@@ -11916,11 +10389,6 @@
       "V__VM",
       "V__VAUX",
       "PR__PRQ",
-      "RD__PUNC"
-    ],
-    [
-      "V__VAUX",
-      "V__VM",
       "RD__PUNC"
     ],
     [
@@ -11989,33 +10457,8 @@
     ],
     [
       "V__VM",
-      "RD__PUNC",
-      "V__VAUX"
-    ],
-    [
-      "V__VM",
       "V__VAUX",
       "RD__SYM"
-    ],
-    [
-      "V__VM",
-      "V__VAUX",
-      "V__VAUX",
-      "RD__PUNC",
-      "RD__PUNC",
-      "RD__PUNC"
-    ],
-    [
-      "N__NN",
-      "QT__QTC",
-      "N__NST"
-    ],
-    [
-      "RD__PUNC",
-      "V__VM",
-      "RD__PUNC",
-      "V__VM",
-      "RD__PUNC"
     ],
     [
       "V__VM",
@@ -12033,26 +10476,6 @@
       "V__VM",
       "V__VAUX",
       "V__VM"
-    ],
-    [
-      "V__VM__VF",
-      "RD__PUNC"
-    ],
-    [
-      "V__VM__VF",
-      "V__VAUX",
-      "RD__PUNC"
-    ],
-    [
-      "V__VM__VNF",
-      "V__VAUX",
-      "RD__PUNC"
-    ],
-    [
-      "V__VM__VF",
-      "V__VAUX",
-      "V__VAUX",
-      "RD__PUNC"
     ],
     [
       "JJ",
@@ -12126,11 +10549,6 @@
     ],
     [
       "V__VM",
-      "V__VM",
-      "RP__NEG"
-    ],
-    [
-      "V__VM",
       "RP__RPD",
       "RD__PUNC",
       "RD__SYM"
@@ -12155,14 +10573,6 @@
       "PR__PRQ",
       "V__VM",
       "RD__PUNC"
-    ],
-    [
-      "V__VM",
-      "V__VAUX",
-      "V__VAUX",
-      "RD__PUNC",
-      "RD__SYM",
-      "RD__SYM"
     ],
     [
       "V__VM",
@@ -12208,17 +10618,6 @@
     ],
     [
       "V__VM",
-      "RD__PUNC",
-      "PSP"
-    ],
-    [
-      "V__VM",
-      "V__VAUX",
-      "RP__INJ",
-      "RD__PUNC"
-    ],
-    [
-      "V__VM",
       "RP__INJ",
       "RD__PUNC"
     ],
@@ -12235,9 +10634,12 @@
       "RD__UNK"
     ],
     [
+      "V__VM",
+      "V__VAUX",
       "V__VAUX",
       "RD__PUNC",
-      "RD__SYM"
+      "RD__PUNC",
+      "RD__PUNC"
     ],
     [
       "V__VM",
@@ -12295,11 +10697,6 @@
       "RD__PUNC"
     ],
     [
-      "V__VM__VNG",
-      "V__VAUX",
-      "RD__PUNC"
-    ],
-    [
       "RD__SYM",
       "V__VM",
       "RD__PUNC",
@@ -12316,12 +10713,6 @@
       "RD__PUNC"
     ],
     [
-      "V__VM",
-      "V__VAUX",
-      "V__VM__VNG",
-      "RD__PUNC"
-    ],
-    [
       "RP__INJ",
       "RD__PUNC"
     ],
@@ -12332,6 +10723,11 @@
     [
       "V__VM",
       "RP__RPD",
+      "V__VM",
+      "RD__PUNC"
+    ],
+    [
+      "V__VAUX",
       "V__VM",
       "RD__PUNC"
     ],
@@ -12356,32 +10752,17 @@
       "JJ"
     ],
     [
-      "V__VM",
-      "V__VAUX",
-      "RD__PUNC",
-      "V__VAUX",
-      "RD__PUNC",
-      "RD__PUNC"
-    ],
-    [
       "RB__RBP",
       "V__VM",
       "V__VAUX"
     ],
     [
-      "RB",
-      "V__VM"
-    ],
-    [
       "V__VM",
       "V__VAUX",
       "V__VAUX",
       "V__VAUX"
     ],
     [
-      "N__NNP"
-    ],
-    [
       "V__VAUX",
       "V__VM"
     ],
@@ -12398,16 +10779,6 @@
       "RD__SYM",
       "V__VM",
       "V__VAUX",
-      "RD__PUNC"
-    ],
-    [
-      "N__NN",
-      "RD__SYM",
-      "N__NN"
-    ],
-    [
-      "V__VAUX",
-      "RD__PUNC",
       "RD__PUNC"
     ],
     [
@@ -12428,21 +10799,18 @@
       "QT__QTF"
     ],
     [
-      "JJ",
-      "N__NN"
-    ],
-    [
       "RB",
       "V__VM",
       "V__VAUX"
     ],
     [
-      "V__VM__VGF",
-      "RD__PUNC"
-    ],
-    [
       "V__VM",
       "V__VUAX"
+    ],
+    [
+      "V__VAUX",
+      "V__VM",
+      "V__VAUX"
     ]
   ],
   "VGINF": [
@@ -12452,9 +10820,6 @@
     [
       "V__VM",
       "V__VAUX"
-    ],
-    [
-      "V__VM__VINF"
     ],
     [
       "V__VM",
