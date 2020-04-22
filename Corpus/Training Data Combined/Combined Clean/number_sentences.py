@@ -4,7 +4,7 @@ sentence_number = 0
 
 sentences = []
 
-with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Dependency-Parser-Marathi/Corpus/Training Data Combined/Combined Clean/more_cleaned.txt", "r") as f:
+with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Dependency-Parser-Marathi/Head Preprocessing/Removing Wrongly Chunked Sentences/correct_sentences.txt", "r") as f:
     for line in f:
         stripped_line = re.sub('\s+', ' ', line)
 
