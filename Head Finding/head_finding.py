@@ -24,9 +24,7 @@ def add_sentence_to_list(cur_sentence):
         sentences.append(line + "\n")
 
 
-with open(
-        "/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Dependency-Parser-Marathi/Corpus/Training Data Combined/Combined Clean/numbered.txt",
-        "r") as f:
+with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Dependency-Parser-Marathi/Corpus/Training Data Combined/Combined Clean/numbered.txt", "r") as f:
 
     cur_sentence = []
     full_sentence = []
