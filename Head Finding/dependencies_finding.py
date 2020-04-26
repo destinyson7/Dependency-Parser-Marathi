@@ -1,20 +1,4 @@
-import json
 import re
-
-with open('./head_mapping.json') as fp:
-    head_mapping = json.load(fp)
-
-# print(head_mapping)
-
-
-def find_head_of_chunk(chunk_tag, words):
-    for tag in head_mapping[chunk_tag]:
-        for i in range(len(words) - 1, -1, -1):
-            if words[i][1] == tag:
-                return words[i][0], words[i][1]
-
-    assert (False)
-
 
 sentences = []
 
