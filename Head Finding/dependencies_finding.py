@@ -27,9 +27,9 @@ def find_dependencies(heads):
                 # print(head, "***", h)
                 if h.split(" ")[-3].strip() == parent:
                     # print("OKAYYYY")
-                    add = head.strip() + " * " + h.strip() + " * " + \
-                        ("R" if pos1 < pos2 else "L") + \
-                        " * " + head.split(" ")[-2].strip()
+
+                    add = (head.strip() if pos1 < pos2 else h.strip()) + " * " + (h.strip() if pos1 <
+                                                                                  pos2 else head.strip()) + " * " + ("R" if pos1 < pos2 else "L") + " * " + head.split(" ")[-2].strip()
                     cur_sentence.append(add)
                     break
 
