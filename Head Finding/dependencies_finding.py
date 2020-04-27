@@ -11,10 +11,13 @@ def add_sentence_to_list(cur_sentence):
 def find_dependencies(heads):
 
     cur_sentence = []
+    chunk_tags = "CT "
 
     pos1 = 0
 
     for head in heads:
+        chunk_tags += head.split(" ")[4].strip() + " "
+
         if head.split(" ")[-1].strip() != "ROOT":
 
             parent = head.split(" ")[-1].strip()
@@ -37,7 +40,7 @@ def find_dependencies(heads):
 
         pos1 += 1
 
-    return cur_sentence
+    return cur_sentence, chunk_tags
 
 
 with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Dependency-Parser-Marathi/Head Finding/head_sentences.txt", "r") as f:
@@ -51,7 +54,8 @@ with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Depe
                 heads = []
 
             elif current.strip() == "</Sentence>":
-                cur_sentence = find_dependencies(heads)
+                cur_sentence, chunk_tags = find_dependencies(heads)
+                sentences.append(chunk_tags + "\n")
                 add_sentence_to_list(cur_sentence)
                 sentences.append(current + "\n")
 
