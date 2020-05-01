@@ -1,0 +1,63 @@
+import re
+import sys
+
+sentences = []
+
+incorrect_tags = ["RBPP", "RB", "RP", "UNK",
+                  "CCPP", "VGJJ", "BL", "VNF", "FRAGP"]
+
+
+def add_sentence(cur_sentence):
+    for line in cur_sentence:
+        sentences.append(line)
+
+
+with open(sys.argv[1], "r") as f:
+
+    cur_sentence = []
+    to_add = True
+
+    for line in f:
+        current = line.strip()
+
+        if len(current.split("((")) > 1:
+            tag = current.split("((")[1].split("<")[0].strip()
+            if tag in incorrect_tags or tag[:4] == "NULL":
+                to_add = False
+
+        if current:
+            stripped_line = re.sub('\s+', ' ', line)
+            temp_line = stripped_line
+            temp_line = re.sub("\[\[", '', temp_line)
+            temp_line = re.sub('__', '_', temp_line)
+            temp_line = re.sub('_', '__', temp_line)
+
+            if stripped_line[0] != "<" and len(stripped_line.split(" ")) > 1 and not (stripped_line.find("))") >= 0 or stripped_line.find("((") >= 0):
+                temp_line = temp_line.split(" ")
+                temp_line[2] = temp_line[2].upper()
+
+                if temp_line[2].find("NULL") >= 0 or temp_line[2].find("<") >= 0 or temp_line[2].find("\\u") >= 0 or temp_line[2].find("=") >= 0 or temp_line[2].find(".") >= 0 or temp_line[2].isnumeric() or temp_line[2].find(",") >= 0 or temp_line[2].find("'") >= 0:
+                    to_add = False
+
+                temp_line = " ".join(temp_line)
+
+            cur_sentence.append(temp_line + "\n")
+
+            if stripped_line.strip() == "</Sentence>":
+
+                if to_add:
+                    add_sentence(cur_sentence)
+
+                else:
+                    to_add = True
+
+                cur_sentence = []
+
+        else:
+            sentences.append(line)
+
+# print(*sentences)
+
+new_file = open("more_cleaned.txt", "w")
+new_file.writelines(sentences)
+new_file.close()
