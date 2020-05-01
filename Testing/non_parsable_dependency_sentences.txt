@@ -1,0 +1,564 @@
+<Sentence id='4'>
+स्थानिक अमेरिकन मक्याचा सोयाबीन आणि राजगिरा आणि चिआ अशा , तसेच मांस आणि मासे इतर प्रथिनांद्वारे मक्याच्या सेवनाचा समतोल राखण्यास शिकले होते ज्याद्वारे त्यांना प्रोटीनच्या सामान्य पातळीपर्यंत जाण्यासाठी पूर्ण मात्रेत अॅमिनो अॅसिड मिळाले .
+CT NP NP2 NP3 CCP NP4 CCP2 NP5 JJP CCP3 NP6 CCP4 NP7 NP8 NP9 NP10 NP11 VGNN VGF NP12 NP13 NP14 NP15 VGNN2 NP16 NP17 VGF2
+H अमेरिकन NP JJ NP k1 VGF * H शिकले VGF V__VM VGF NULL ROOT * R * k1
+H मक्याचा NP N__NN NP2 r6 NP3 * H सोयाबीन NP N__NN NP3 ccof CCP * R * r6
+H सोयाबीन NP N__NN NP3 ccof CCP * H आणि CCP CC__CCD CCP ccof CCP2 * R * ccof
+H आणि CCP CC__CCD CCP ccof CCP2 * H आणि CCP CC__CCD CCP2 nmod JJP * R * ccof
+H आणि CCP CC__CCD CCP ccof CCP2 * H राजगिरा NP N__NNP NP4 ccof CCP * L * ccof
+H आणि CCP CC__CCD CCP2 nmod JJP * H अशा JJP JJ JJP ccof CCP3 * R * nmod
+H आणि CCP CC__CCD CCP2 nmod JJP * H चिआ NP N__NN NP5 ccof CCP2 * L * ccof
+H अशा JJP JJ JJP ccof CCP3 * H तसेच CCP CC__CCD CCP3 ccof NP6 * R * ccof
+H तसेच CCP CC__CCD CCP3 ccof NP6 * H मांस NP N__NN NP6 ccof CCP4 * R * ccof
+H मांस NP N__NN NP6 ccof CCP4 * H आणि CCP CC__CCD CCP4 nmod NP8 * R * ccof
+H आणि CCP CC__CCD CCP4 nmod NP8 * H प्रथिनांद्वारे NP N__NN NP8 k5 VGF * R * nmod
+H आणि CCP CC__CCD CCP4 nmod NP8 * H मासे NP N__NN NP7 ccof CCP4 * L * ccof
+H प्रथिनांद्वारे NP N__NN NP8 k5 VGF * H शिकले VGF V__VM VGF NULL ROOT * R * k5
+H मक्याच्या NP N__NN NP9 r6 NP10 * H सेवनाचा NP N__NN NP10 r6 NP11 * R * r6
+H सेवनाचा NP N__NN NP10 r6 NP11 * H समतोल NP N__NN NP11 k2 VGF * R * r6
+H समतोल NP N__NN NP11 k2 VGF * H शिकले VGF V__VM VGF NULL ROOT * R * k2
+H राखण्यास VGNN V__VM VGNN k4 VGF * H शिकले VGF V__VM VGF NULL ROOT * R * k4
+ROOT * H शिकले VGF V__VM VGF NULL ROOT * L * ROOT
+H ज्याद्वारे NP PR__PRL NP12 k5 VGF2 * H मिळाले VGF V__VM VGF2 nmod__relc NP8 * R * k5
+H त्यांना NP PR__PRP NP13 k1 VGF2 * H मिळाले VGF V__VM VGF2 nmod__relc NP8 * R * k1
+H प्रोटीनच्या NP N__NN NP14 r6 NP15 * H पातळीपर्यंत NP N__NN NP15 rsp VGNN2 * R * r6
+H पातळीपर्यंत NP N__NN NP15 rsp VGNN2 * H जाण्यासाठी VGNN V__VM VGNN2 rt VGF2 * R * rsp
+H जाण्यासाठी VGNN V__VM VGNN2 rt VGF2 * H मिळाले VGF V__VM VGF2 nmod__relc NP8 * R * rt
+H मात्रेत NP N__NN NP16 k7 VGF2 * H मिळाले VGF V__VM VGF2 nmod__relc NP8 * R * k7
+H अॅसिड NP N__NN NP17 k2 VGF2 * H मिळाले VGF V__VM VGF2 nmod__relc NP8 * R * k2
+H प्रथिनांद्वारे NP N__NN NP8 k5 VGF * H मिळाले VGF V__VM VGF2 nmod__relc NP8 * L * nmod__relc
+</Sentence>
+<Sentence id='8'>
+चार्ल्स डेव्हनपोर्टने मांडलेल्या तिसर्‍या सिद्धांतानुसार पेल्लाग्रने तेच लोक प्रभावित होतात जे विशिष्ट तसेच पचनशक्ती कमजोर असलेले व आनुवंशिकतेनेही त्याचे ग्राहक होऊ शकतात .
+CT NP VGNF NP2 NP3 NP4 JJP VGF NP5 JJP2 CCP NP6 JJP3 VGF2 CCP2 NP7 NP8 NP9 VGF3
+H डेव्हनपोर्टने NP N__NN NP k1 VGNF * H मांडलेल्या VGNF V__VM VGNF nmod NP2 * R * k1
+H मांडलेल्या VGNF V__VM VGNF nmod NP2 * H सिद्धांतानुसार NP N__NN NP2 k7 VGF * R * nmod
+H सिद्धांतानुसार NP N__NN NP2 k7 VGF * H होतात VGF V__VM VGF NULL ROOT * R * k7
+H पेल्लाग्रने NP N__NN NP3 k3 VGF * H होतात VGF V__VM VGF NULL ROOT * R * k3
+H लोक NP N__NN NP4 k1 VGF * H होतात VGF V__VM VGF NULL ROOT * R * k1
+H प्रभावित JJP JJ JJP pof VGF * H होतात VGF V__VM VGF NULL ROOT * R * pof
+ROOT * H होतात VGF V__VM VGF NULL ROOT * L * ROOT
+H जे NP PR__PRL NP5 k1 VGF2 * H असलेले VGF V__VM VGF2 ccof CCP2 * R * k1
+H विशिष्ट JJP JJ JJP2 ccof CCP * H तसेच CCP CC__CCD CCP k2 VGF2 * R * ccof
+H तसेच CCP CC__CCD CCP k2 VGF2 * H असलेले VGF V__VM VGF2 ccof CCP2 * R * k2
+H तसेच CCP CC__CCD CCP k2 VGF2 * H पचनशक्ती NP N__NN NP6 ccof CCP * L * ccof
+H कमजोर JJP JJ JJP3 pof VGF2 * H असलेले VGF V__VM VGF2 ccof CCP2 * R * pof
+H असलेले VGF V__VM VGF2 ccof CCP2 * H व CCP CC__CCD CCP2 nmod__relc NP4 * R * ccof
+H लोक NP N__NN NP4 k1 VGF * H व CCP CC__CCD CCP2 nmod__relc NP4 * L * nmod__relc
+H आनुवंशिकतेनेही NP N__NN NP7 k3 VGF3 * H होऊ VGF V__VM VGF3 ccof CCP2 * R * k3
+H त्याचे NP PR__PRP NP8 r6-k1 NP9 * H ग्राहक NP N__NN NP9 k1 VGF3 * R * r6-k1
+H ग्राहक NP N__NN NP9 k1 VGF3 * H होऊ VGF V__VM VGF3 ccof CCP2 * R * k1
+H व CCP CC__CCD CCP2 nmod__relc NP4 * H होऊ VGF V__VM VGF3 ccof CCP2 * L * ccof
+</Sentence>
+<Sentence id='9'>
+१९२०च्या मध्यापासून करून , पेल्लाग्रचा कमतरता सिद्धांत हा शास्त्रीय असण्यावर एकमत होत होते , आणि हा सिद्धांत १९३२मध्ये मान्यताप्राप्त झाला जेव्हा निआसिनची कमतरता हे आजाराचे कारण सिद्ध झाले .
+CT NP VGNF NP2 NP3 NP4 JJP VGNN NP5 VGF CCP NP6 NP7 JJP2 VGF2 CCP2 NP8 VGF3 NP9 NP10 NP11 JJP3 VGF4
+H मध्यापासून NP N__NST NP k5 VGNF * H करून VGNF V__VM VGNF vmod VGNN * R * k5
+H करून VGNF V__VM VGNF vmod VGNN * H असण्यावर VGNN V__VM VGNN k7 VGF * R * vmod
+H पेल्लाग्रचा NP N__NNP NP2 r6 NP3 * H सिद्धांत NP N__NN NP3 nmod NP4 * R * r6
+H सिद्धांत NP N__NN NP3 nmod NP4 * H हा NP DM__DMR NP4 k1 VGNN * R * nmod
+H हा NP DM__DMR NP4 k1 VGNN * H असण्यावर VGNN V__VM VGNN k7 VGF * R * k1
+H शास्त्रीय JJP JJ JJP k1s VGNN * H असण्यावर VGNN V__VM VGNN k7 VGF * R * k1s
+H असण्यावर VGNN V__VM VGNN k7 VGF * H होत VGF V__VM VGF ccof CCP * R * k7
+H एकमत NP N__NN NP5 pof VGF * H होत VGF V__VM VGF ccof CCP * R * pof
+H होत VGF V__VM VGF ccof CCP * H आणि CCP CC__CCD CCP NULL ROOT * R * ccof
+ROOT * H आणि CCP CC__CCD CCP NULL ROOT * L * ROOT
+H सिद्धांत NP N__NN NP6 k1 VGF2 * H झाला VGF V__VM VGF2 ccof CCP * R * k1
+H १९३२मध्ये NP QT__QTC NP7 k7t VGF2 * H झाला VGF V__VM VGF2 ccof CCP * R * k7t
+H मान्यताप्राप्त JJP JJ JJP2 k1s VGF2 * H झाला VGF V__VM VGF2 ccof CCP * R * k1s
+H आणि CCP CC__CCD CCP NULL ROOT * H झाला VGF V__VM VGF2 ccof CCP * L * ccof
+H जेव्हा CCP CC__CCS CCP2 adv VGF4 * H झाले VGF V__VM VGF4 nmod NP7 * R * adv
+H निआसिनची NP N__NNP NP8 r6 VGF3 * H कमतरता VGF V__VM VGF3 nmod NP9 * R * r6
+H कमतरता VGF V__VM VGF3 nmod NP9 * H हे NP DM__DMR NP9 k1 VGF4 * R * nmod
+H हे NP DM__DMR NP9 k1 VGF4 * H झाले VGF V__VM VGF4 nmod NP7 * R * k1
+H आजाराचे NP N__NN NP10 r6 NP11 * H कारण NP N__NN NP11 k2 VGF4 * R * r6
+H कारण NP N__NN NP11 k2 VGF4 * H झाले VGF V__VM VGF4 nmod NP7 * R * k2
+H सिद्ध JJP JJ JJP3 pof VGF4 * H झाले VGF V__VM VGF4 nmod NP7 * R * pof
+H १९३२मध्ये NP QT__QTC NP7 k7t VGF2 * H झाले VGF V__VM VGF4 nmod NP7 * L * nmod
+</Sentence>
+<Sentence id='154'>
+" " सर्वाधिक तरुण मनुष्यबळ असणारा देश " असा भारताचा लौकिक असला , तरी खऱ्या अर्थाने जागतिक दर्जाची व्यावसायिक कुशलता तरुणांमध्ये तयार करणे हे यापुढील काळात आपल्यासमोरील खरे आव्हान आहे , " असे प्रतिपादन " विप्रो " चे अध्यक्ष व व्यवस्थापकीय संचालक अझीम प्रेमजी यांनी आज व्यक्त केले .
+CT NP VGNF NP2 NP3 NP4 VGF CCP NP5 NP6 NP7 NP8 JJP VGNN NP9 NP10 NP11 NP12 NP13 VGF2 NP14 NP15 NP16 CCP2 NP17 NP18 NP19 NP20 JJP2 VGF3
+H मनुष्यबळ NP N__NN NP k1 VGNF * H असणारा VGNF V__VM VGNF nmod NP3 * R * k1
+H असणारा VGNF V__VM VGNF nmod NP3 * H भारताचा NP N__NNP NP3 r6 NP4 * R * nmod
+H देश NP N__NN NP2 nmod NP3 * H भारताचा NP N__NNP NP3 r6 NP4 * R * nmod
+H भारताचा NP N__NNP NP3 r6 NP4 * H लौकिक NP N__NN NP4 k2 VGF * R * r6
+H लौकिक NP N__NN NP4 k2 VGF * H असला VGF V__VM VGF vmod CCP * R * k2
+H असला VGF V__VM VGF vmod CCP * H तरी CCP CC__CCS CCP adv NP5 * R * vmod
+H तरी CCP CC__CCS CCP adv NP5 * H अर्थाने NP N__NN NP5 adv JJP * R * adv
+H अर्थाने NP N__NN NP5 adv JJP * H तयार JJP JJ JJP pof VGNN * R * adv
+H दर्जाची NP N__NN NP6 r6 NP7 * H कुशलता NP N__NN NP7 k2 VGNN * R * r6
+H कुशलता NP N__NN NP7 k2 VGNN * H करणे VGNN V__VM VGNN vmod NP9 * R * k2
+H तरुणांमध्ये NP N__NN NP8 k7 VGNN * H करणे VGNN V__VM VGNN vmod NP9 * R * k7
+H तयार JJP JJ JJP pof VGNN * H करणे VGNN V__VM VGNN vmod NP9 * R * pof
+H करणे VGNN V__VM VGNN vmod NP9 * H हे NP PR__PRP NP9 adv VGF2 * R * vmod
+H हे NP PR__PRP NP9 adv VGF2 * H आहे VGF V__VM VGF2 pof NP14 * R * adv
+H यापुढील NP PR__PRP NP10 nmod NP11 * H काळात NP N__NN NP11 k7t VGF2 * R * nmod
+H काळात NP N__NN NP11 k7t VGF2 * H आहे VGF V__VM VGF2 pof NP14 * R * k7t
+H आपल्यासमोरील NP PR__PRP NP12 nmod NP13 * H आव्हान NP N__NN NP13 k2 VGF2 * R * nmod
+H आव्हान NP N__NN NP13 k2 VGF2 * H आहे VGF V__VM VGF2 pof NP14 * R * k2
+H आहे VGF V__VM VGF2 pof NP14 * H प्रतिपादन NP N__NN NP14 k2 VGF3 * R * pof
+H प्रतिपादन NP N__NN NP14 k2 VGF3 * H केले VGF V__VM VGF3 NULL ROOT * R * k2
+H विप्रो NP N__NNP NP15 r6 NP16 * H अध्यक्ष NP N__NN NP16 ccof CCP2 * R * r6
+H अध्यक्ष NP N__NN NP16 ccof CCP2 * H व CCP CC__CCD CCP2 nmod NP18 * R * ccof
+H व CCP CC__CCD CCP2 nmod NP18 * H प्रेमजी NP N__NNP NP18 k1 VGF3 * R * nmod
+H व CCP CC__CCD CCP2 nmod NP18 * H संचालक NP N__NN NP17 ccof CCP2 * L * ccof
+H प्रेमजी NP N__NNP NP18 k1 VGF3 * H केले VGF V__VM VGF3 NULL ROOT * R * k1
+H यांनी NP PR__PRP NP19 k1s VGF3 * H केले VGF V__VM VGF3 NULL ROOT * R * k1s
+H आज NP N__NST NP20 k7t VGF3 * H केले VGF V__VM VGF3 NULL ROOT * R * k7t
+H व्यक्त JJP JJ JJP2 pof VGF3 * H केले VGF V__VM VGF3 NULL ROOT * R * pof
+ROOT * H केले VGF V__VM VGF3 NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='172'>
+एखाद्या रुग्णालयात तपासणीसाठी जायचे आहे ; पण हाताशी कोणतेही वाहन उपलब्ध नाही , उपनगरांतून शहरात काही कामानिमित्त जायचे आहे ; पण रिक्षाचे भाडे परवडत नाही , अपरात्री विमानतळावर पोचायचे आहे ; पण वाहन नाही .
+CT NP NP2 VGF CCP NP3 NP4 NP5 JJP VGF2 NP6 NP7 NP8 VGF3 CCP2 NP9 NP10 VGF4 NP11 NP12 VGF5 CCP3 NP13 VGF6
+H रुग्णालयात NP N__NN NP k2 VGF * H जायचे VGF V__VM VGF adv CCP * R * k2
+H तपासणीसाठी NP N__NN NP2 rt VGF * H जायचे VGF V__VM VGF adv CCP * R * rt
+H जायचे VGF V__VM VGF adv CCP * H पण CCP CC__CCD CCP adv JJP * R * adv
+H पण CCP CC__CCD CCP adv JJP * H उपलब्ध JJP JJ JJP pof VGF2 * R * adv
+H हाताशी NP N__NN NP3 k3 VGF2 * H नाही VGF V__VM VGF2 ccof CCP3 * R * k3
+H कोणतेही NP PR__PRP NP4 nmod JJP * H उपलब्ध JJP JJ JJP pof VGF2 * R * nmod
+H वाहन NP N__NN NP5 k2 VGF2 * H नाही VGF V__VM VGF2 ccof CCP3 * R * k2
+H उपलब्ध JJP JJ JJP pof VGF2 * H नाही VGF V__VM VGF2 ccof CCP3 * R * pof
+H नाही VGF V__VM VGF2 ccof CCP3 * H पण CCP CC__CCD CCP3 adv NP13 * R * ccof
+H उपनगरांतून NP N__NN NP6 k5 VGF3 * H जायचे VGF V__VM VGF3 vmod CCP2 * R * k5
+H शहरात NP N__NN NP7 k7 VGF3 * H जायचे VGF V__VM VGF3 vmod CCP2 * R * k7
+H कामानिमित्त NP N__NN NP8 nmod VGF3 * H जायचे VGF V__VM VGF3 vmod CCP2 * R * nmod
+H जायचे VGF V__VM VGF3 vmod CCP2 * H पण CCP CC__CCD CCP2 adv NP10 * R * vmod
+H पण CCP CC__CCD CCP2 adv NP10 * H भाडे NP N__NN NP10 k2 VGF4 * R * adv
+H रिक्षाचे NP N__NN NP9 r6 NP10 * H भाडे NP N__NN NP10 k2 VGF4 * R * r6
+H भाडे NP N__NN NP10 k2 VGF4 * H परवडत VGF V__VM VGF4 ccof CCP3 * R * k2
+H परवडत VGF V__VM VGF4 ccof CCP3 * H पण CCP CC__CCD CCP3 adv NP13 * R * ccof
+H अपरात्री NP N__NN NP11 k7t VGF5 * H पोचायचे VGF V__VM VGF5 vmod CCP3 * R * k7t
+H विमानतळावर NP N__NN NP12 k7 VGF5 * H पोचायचे VGF V__VM VGF5 vmod CCP3 * R * k7
+H पोचायचे VGF V__VM VGF5 vmod CCP3 * H पण CCP CC__CCD CCP3 adv NP13 * R * vmod
+H पण CCP CC__CCD CCP3 adv NP13 * H वाहन NP N__NN NP13 k2 VGF6 * R * adv
+H वाहन NP N__NN NP13 k2 VGF6 * H नाही VGF V__VM VGF6 NULL ROOT * R * k2
+ROOT * H नाही VGF V__VM VGF6 NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='183'>
+या प्रकारे वाहन सेवा उपलब्ध करून देण्याचा हा पहिलाच प्रयत्न असल्याचा दावा अर्चना पिंगळे यांनी केला आहे .
+CT NP NP2 JJP VGNN NP3 VGNN2 NP4 NP5 NP6 VGF
+H प्रकारे NP N__NN NP nmod JJP * H उपलब्ध JJP JJ JJP pof VGNN * R * nmod
+H सेवा NP N__NN NP2 k2 VGNN * H देण्याचा VGNN V__VM VGNN r6 NP3 * R * k2
+H उपलब्ध JJP JJ JJP pof VGNN * H देण्याचा VGNN V__VM VGNN r6 NP3 * R * pof
+H देण्याचा VGNN V__VM VGNN r6 NP3 * H प्रयत्न NP N__NN NP3 k2 VGNN2 * R * r6
+H प्रयत्न NP N__NN NP3 k2 VGNN2 * H असल्याचा VGNN V__VM VGNN2 vmod NP4 * R * k2
+H असल्याचा VGNN V__VM VGNN2 vmod NP4 * H दावा NP N__NN NP4 k2 VGF * R * vmod
+H दावा NP N__NN NP4 k2 VGF * H केला VGF V__VM VGF NULL ROOT * R * k2
+H पिंगळे NP N__NNP NP5 k1 VGF * H केला VGF V__VM VGF NULL ROOT * R * k1
+H यांनी NP PR__PRP NP6 k1s VGF * H केला VGF V__VM VGF NULL ROOT * R * k1s
+ROOT * H केला VGF V__VM VGF NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='277'>
+लाचलुचपत प्रतिबंधक विभागाने " एसआरए ' विभागाकडे १५ दिवसांपूर्वी या गैरव्यवहारातील कागदपत्रांची मागणी केली होती ; मात्र " एसआरए ' विभागाची चौकशी करण्याचा अधिकार एसीबी'च्या" पदावरील कनिष्ठ अधिकाऱ्यांना नाही , अशी भूमिका घेऊन ही कागदपत्रे पाठविण्यास असमर्थता व्यक्त केली होती .
+CT NP NP2 NP3 NP4 NP5 NP6 NP7 VGF CCP NP8 NP9 NP10 VGNN NP11 NP12 NP13 NP14 VGF2 NP15 VGNF NP16 VGNN2 NP17 JJP VGF3
+H विभागाने NP N__NNP NP k3 VGF * H केली VGF V__VM VGF ccof CCP * R * k3
+H एसआरए NP N__NNP NP2 nmod NP3 * H विभागाकडे NP N__NN NP3 nmod NP7 * R * nmod
+H विभागाकडे NP N__NN NP3 nmod NP7 * H मागणी NP N__NN NP7 k2 VGF * R * nmod
+H दिवसांपूर्वी NP N__NN NP4 k7t VGF * H केली VGF V__VM VGF ccof CCP * R * k7t
+H गैरव्यवहारातील NP N__NN NP5 nmod NP6 * H कागदपत्रांची NP N__NN NP6 r6 NP7 * R * nmod
+H कागदपत्रांची NP N__NN NP6 r6 NP7 * H मागणी NP N__NN NP7 k2 VGF * R * r6
+H मागणी NP N__NN NP7 k2 VGF * H केली VGF V__VM VGF ccof CCP * R * k2
+H केली VGF V__VM VGF ccof CCP * H मात्र CCP CC__CCD CCP NULL ROOT * R * ccof
+ROOT * H मात्र CCP CC__CCD CCP NULL ROOT * L * ROOT
+H एसआरए NP N__NNP NP8 nmod NP9 * H विभागाची NP N__NN NP9 r6 NP10 * R * nmod
+H विभागाची NP N__NN NP9 r6 NP10 * H चौकशी NP N__NN NP10 k2 VGNN * R * r6
+H चौकशी NP N__NN NP10 k2 VGNN * H करण्याचा VGNN V__VM VGNN r6 NP11 * R * k2
+H करण्याचा VGNN V__VM VGNN r6 NP11 * H अधिकार NP N__NN NP11 k2 VGF2 * R * r6
+H अधिकार NP N__NN NP11 k2 VGF2 * H नाही VGF V__VM VGF2 rs NP15 * R * k2
+H एसीबी'च्या" NP N__NNP NP12 r6 NP13 * H पदावरील NP N__NN NP13 k7 VGF2 * R * r6
+H पदावरील NP N__NN NP13 k7 VGF2 * H नाही VGF V__VM VGF2 rs NP15 * R * k7
+H अधिकाऱ्यांना NP N__NN NP14 k4 VGF2 * H नाही VGF V__VM VGF2 rs NP15 * R * k4
+H नाही VGF V__VM VGF2 rs NP15 * H भूमिका NP N__NN NP15 k2 VGNF * R * rs
+H भूमिका NP N__NN NP15 k2 VGNF * H घेऊन VGNF V__VM VGNF vmod VGNN2 * R * k2
+H घेऊन VGNF V__VM VGNF vmod VGNN2 * H पाठविण्यास VGNN V__VM VGNN2 rt VGF3 * R * vmod
+H कागदपत्रे NP N__NN NP16 k2 VGNN2 * H पाठविण्यास VGNN V__VM VGNN2 rt VGF3 * R * k2
+H पाठविण्यास VGNN V__VM VGNN2 rt VGF3 * H केली VGF V__VM VGF3 ccof CCP * R * rt
+H असमर्थता NP N__NN NP17 k2 VGF3 * H केली VGF V__VM VGF3 ccof CCP * R * k2
+H व्यक्त JJP JJ JJP pof VGF3 * H केली VGF V__VM VGF3 ccof CCP * R * pof
+H मात्र CCP CC__CCD CCP NULL ROOT * H केली VGF V__VM VGF3 ccof CCP * L * ccof
+</Sentence>
+<Sentence id='286'>
+इरावतीबाईंना डॉ. दूर करणार नसले तरी , त्यांना त्यांच्या संसारात आणखी एका स्त्रीचा डॉक्टरांची पत्नी म्हणून होणारा प्रवेश कितपत रुचेल हा प्रश्नच होता .
+CT NP NP2 NP3 VGF CCP NP4 NP5 NP6 NP7 NP8 NP9 NP10 VGNF NP11 NP12 VGF2 NP13 VGF3
+H इरावतीबाईंना NP N__NNP NP k4 VGF * H करणार VGF V__VM VGF rbmod__relc CCP * R * k4
+H डॉ. NP N__NNP NP2 k1 VGF * H करणार VGF V__VM VGF rbmod__relc CCP * R * k1
+H दूर NP N__NST NP3 k7 VGF * H करणार VGF V__VM VGF rbmod__relc CCP * R * k7
+H करणार VGF V__VM VGF rbmod__relc CCP * H तरी CCP CC__CCS CCP adv VGF3 * R * rbmod__relc
+H तरी CCP CC__CCS CCP adv VGF3 * H होता VGF V__VM VGF3 NULL ROOT * R * adv
+H त्यांना NP PR__PRP NP4 k4 VGF2 * H रुचेल VGF V__VM VGF2 rs NP13 * R * k4
+H त्यांच्या NP PR__PRP NP5 r6 NP6 * H संसारात NP N__NN NP6 k7 VGNF * R * r6
+H संसारात NP N__NN NP6 k7 VGNF * H होणारा VGNF V__VM VGNF nmod NP11 * R * k7
+H स्त्रीचा NP N__NN NP7 r6 NP11 * H प्रवेश NP N__NN NP11 k1 VGF2 * R * r6
+H डॉक्टरांची NP N__NNP NP8 r6 NP9 * H पत्नी NP N__NN NP9 rs NP10 * R * r6
+H पत्नी NP N__NN NP9 rs NP10 * H म्हणून NP DM__DMD NP10 k2 VGNF * R * rs
+H म्हणून NP DM__DMD NP10 k2 VGNF * H होणारा VGNF V__VM VGNF nmod NP11 * R * k2
+H होणारा VGNF V__VM VGNF nmod NP11 * H प्रवेश NP N__NN NP11 k1 VGF2 * R * nmod
+H प्रवेश NP N__NN NP11 k1 VGF2 * H रुचेल VGF V__VM VGF2 rs NP13 * R * k1
+H कितपत NP PR__PRQ NP12 interrogative VGF2 * H रुचेल VGF V__VM VGF2 rs NP13 * R * interrogative
+H रुचेल VGF V__VM VGF2 rs NP13 * H प्रश्नच NP N__NN NP13 k1 VGF3 * R * rs
+H प्रश्नच NP N__NN NP13 k1 VGF3 * H होता VGF V__VM VGF3 NULL ROOT * R * k1
+ROOT * H होता VGF V__VM VGF3 NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='291'>
+आत्ती समोर विषय कसा उघड करावा याची मनात व हरप्रकारे जुळणी करत होते .
+CT NP NP2 NP3 JJP VGF NP4 NP5 CCP NP6 NP7 VGF2
+H आत्ती NP N__NN NP k7 VGF * H करावा VGF V__VM VGF rs NP4 * R * k7
+H विषय NP N__NN NP2 k1 VGF * H करावा VGF V__VM VGF rs NP4 * R * k1
+H कसा NP PR__PRQ NP3 adv VGF * H करावा VGF V__VM VGF rs NP4 * R * adv
+H उघड JJP JJ JJP pof VGF * H करावा VGF V__VM VGF rs NP4 * R * pof
+H करावा VGF V__VM VGF rs NP4 * H याची NP PR__PRP NP4 r6 NP7 * R * rs
+H याची NP PR__PRP NP4 r6 NP7 * H जुळणी NP N__NN NP7 k2 VGF2 * R * r6
+H मनात NP N__NN NP5 ccof CCP * H व CCP CC__CCD CCP k7 VGF2 * R * ccof
+H व CCP CC__CCD CCP k7 VGF2 * H करत VGF V__VM VGF2 NULL ROOT * R * k7
+H व CCP CC__CCD CCP k7 VGF2 * H हरप्रकारे NP N__NN NP6 ccof CCP * L * ccof
+H जुळणी NP N__NN NP7 k2 VGF2 * H करत VGF V__VM VGF2 NULL ROOT * R * k2
+ROOT * H करत VGF V__VM VGF2 NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='306'>
+डॉक्टरांनाही ती अंगठी प्रकृतीसाठी ज्योतिष्यांनी घालायला सांगितली होती .
+CT NP NP2 NP3 NP4 VGINF VGF
+H डॉक्टरांनाही NP N__NNP NP k4 VGF * H सांगितली VGF V__VM VGF NULL ROOT * R * k4
+H अंगठी NP N__NN NP2 k2 VGINF * H घालायला VGINF V__VM VGINF vmod VGF * R * k2
+H प्रकृतीसाठी NP N__NN NP3 rt VGF * H सांगितली VGF V__VM VGF NULL ROOT * R * rt
+H ज्योतिष्यांनी NP N__NN NP4 k1 VGF * H सांगितली VGF V__VM VGF NULL ROOT * R * k1
+H घालायला VGINF V__VM VGINF vmod VGF * H सांगितली VGF V__VM VGF NULL ROOT * R * vmod
+ROOT * H सांगितली VGF V__VM VGF NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='320'>
+म्हणतात ना बाजारात तुरी आणि भट भटणीला मारी .
+CT VGF NP NP2 CCP NP3 NP4 VGF2
+H म्हणतात VGF V__VM VGF nmod NP2 * H तुरी NP N__NN NP2 ccof CCP * R * nmod
+ROOT * H बाजारात NP N__NN NP NULL ROOT * L * ROOT
+H तुरी NP N__NN NP2 ccof CCP * H आणि CCP CC__CCD CCP k2 VGF2 * R * ccof
+H आणि CCP CC__CCD CCP k2 VGF2 * H मारी VGF V__VM VGF2 ccof CCP * R * k2
+H भट NP N__NN NP3 k1 VGF2 * H मारी VGF V__VM VGF2 ccof CCP * R * k1
+H भटणीला NP N__NN NP4 k4 VGF2 * H मारी VGF V__VM VGF2 ccof CCP * R * k4
+H आणि CCP CC__CCD CCP k2 VGF2 * H मारी VGF V__VM VGF2 ccof CCP * L * ccof
+</Sentence>
+<Sentence id='351'>
+ती यजमानीणबाईंना विनंती करायची की , ह्या पुरूषांचं कधी आटपेल सांगता येणार नाही .
+CT NP NP2 NP3 VGF CCP NP4 NP5 VGF2 VGF3
+H ती NP PR__PRP NP k1 VGF * H करायची VGF V__VM VGF NULL ROOT * R * k1
+H यजमानीणबाईंना NP N__NN NP2 k4 VGF * H करायची VGF V__VM VGF NULL ROOT * R * k4
+H विनंती NP N__NN NP3 k2 VGF * H करायची VGF V__VM VGF NULL ROOT * R * k2
+ROOT * H करायची VGF V__VM VGF NULL ROOT * L * ROOT
+H विनंती NP N__NN NP3 k2 VGF * H की CCP CC__CCS CCP nmod NP3 * L * nmod
+H पुरूषांचं NP N__NN NP4 r6 VGF2 * H आटपेल VGF V__VM VGF2 k2 VGF3 * R * r6
+H कधी NP PR__PRQ NP5 k7t VGF2 * H आटपेल VGF V__VM VGF2 k2 VGF3 * R * k7t
+H आटपेल VGF V__VM VGF2 k2 VGF3 * H सांगता VGF V__VM VGF3 rs CCP * R * k2
+H की CCP CC__CCS CCP nmod NP3 * H सांगता VGF V__VM VGF3 rs CCP * L * rs
+</Sentence>
+<Sentence id='354'>
+आत्तीचे तसे सर्वांनाच दडपण यायचे .
+CT NP NP2 NP3 NP4 VGF
+H आत्तीचे NP N__NN NP r6 NP4 * H दडपण NP N__NN NP4 k2 VGF * R * r6
+H तसे NP PR__PRP NP2 nmod NP4 * H दडपण NP N__NN NP4 k2 VGF * R * nmod
+H सर्वांनाच NP PR__PRP NP3 k1 VGF * H यायचे VGF V__VM VGF NULL ROOT * R * k1
+H दडपण NP N__NN NP4 k2 VGF * H यायचे VGF V__VM VGF NULL ROOT * R * k2
+ROOT * H यायचे VGF V__VM VGF NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='381'>
+या गटाचा " जैश - ए - महंमद ' या अतिरेकी गटाशी संबंध असल्याचा संशय आहे .
+CT NP NP2 NP3 NP4 VGNF NP5 VGF
+H गटाचा NP N__NN NP r6 NP4 * H संबंध NP N__NN NP4 k2 VGNF * R * r6
+H महंमद NP N__NNP NP2 nmod NP3 * H गटाशी NP N__NN NP3 k4 VGNF * R * nmod
+H गटाशी NP N__NN NP3 k4 VGNF * H असल्याचा VGNF V__VM VGNF r6 NP5 * R * k4
+H संबंध NP N__NN NP4 k2 VGNF * H असल्याचा VGNF V__VM VGNF r6 NP5 * R * k2
+H असल्याचा VGNF V__VM VGNF r6 NP5 * H संशय NP N__NN NP5 k1 VGF * R * r6
+H संशय NP N__NN NP5 k1 VGF * H आहे VGF V__VM VGF NULL ROOT * R * k1
+ROOT * H आहे VGF V__VM VGF NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='411'>
+कुलगुरूंच्या निवासस्थानानजीक पाच कोटी रुपये खर्चून उभारण्यात आलेल्या या आकर्षक वास्तूचे या आगीत सुमारे दीड कोटी रुपयांचे नुकसान झाले असावे , असा प्राथमिक अंदाज आहे .
+CT NP NP2 NP3 VGNN VGNF NP4 NP5 NP6 NP7 VGF NP8 VGF2
+H कुलगुरूंच्या NP N__NN NP r6 NP2 * H निवासस्थानानजीक NP N__NN NP2 k7p VGNF * R * r6
+H निवासस्थानानजीक NP N__NN NP2 k7p VGNF * H उभारण्यात VGNF V__VM VGNF nmod NP4 * R * k7p
+H रुपये NP N__NN NP3 k2 VGNN * H खर्चून VGNN V__VM VGNN vmod VGNF * R * k2
+H खर्चून VGNN V__VM VGNN vmod VGNF * H उभारण्यात VGNF V__VM VGNF nmod NP4 * R * vmod
+H उभारण्यात VGNF V__VM VGNF nmod NP4 * H वास्तूचे NP N__NN NP4 r6 NP7 * R * nmod
+H वास्तूचे NP N__NN NP4 r6 NP7 * H नुकसान NP N__NN NP7 k2 VGF * R * r6
+H आगीत NP N__NN NP5 k7 VGF * H झाले VGF V__VM VGF rs NP8 * R * k7
+H रुपयांचे NP N__NN NP6 r6 NP7 * H नुकसान NP N__NN NP7 k2 VGF * R * r6
+H नुकसान NP N__NN NP7 k2 VGF * H झाले VGF V__VM VGF rs NP8 * R * k2
+H झाले VGF V__VM VGF rs NP8 * H अंदाज NP N__NN NP8 k1 VGF2 * R * rs
+H अंदाज NP N__NN NP8 k1 VGF2 * H आहे VGF V__VM VGF2 NULL ROOT * R * k1
+ROOT * H आहे VGF V__VM VGF2 NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='602'>
+अशा वेळी पालकांशी अधिक बोलणे आवश्‍यक वाटते .
+CT NP NP2 NP3 VGNN JJP VGF
+H वेळी NP N__NN NP k7t VGF * H वाटते VGF V__VM VGF NULL ROOT * R * k7t
+H पालकांशी NP N__NN NP2 k3 VGNN * H बोलणे VGNN V__VM VGNN vmod JJP * R * k3
+H अधिक NP QT__QTF NP3 nmod JJP * H आवश्‍यक JJP JJ JJP k2 VGF * R * nmod
+H बोलणे VGNN V__VM VGNN vmod JJP * H आवश्‍यक JJP JJ JJP k2 VGF * R * vmod
+H आवश्‍यक JJP JJ JJP k2 VGF * H वाटते VGF V__VM VGF NULL ROOT * R * k2
+ROOT * H वाटते VGF V__VM VGF NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='646'>
+त्यामुळे आम्ही नियोजन करून विकास करणार आहोत , " असे ते म्हणाले .
+CT CCP NP NP2 VGNN NP3 VGF NP4 NP5 VGF2
+H त्यामुळे CCP CC__CCD CCP sent-adv VGNN * H करून VGNN V__VM VGNN vmod VGF * R * sent-adv
+H आम्ही NP PR__PRP NP k1 VGF * H करणार VGF V__VM VGF rs NP4 * R * k1
+H नियोजन NP N__NN NP2 k2 VGNN * H करून VGNN V__VM VGNN vmod VGF * R * k2
+H करून VGNN V__VM VGNN vmod VGF * H करणार VGF V__VM VGF rs NP4 * R * vmod
+H विकास NP N__NN NP3 k2 VGF * H करणार VGF V__VM VGF rs NP4 * R * k2
+H करणार VGF V__VM VGF rs NP4 * H असे NP DM__DMD NP4 k2 VGF2 * R * rs
+H असे NP DM__DMD NP4 k2 VGF2 * H म्हणाले VGF V__VM VGF2 NULL ROOT * R * k2
+H ते NP PR__PRP NP5 k1 VGF2 * H म्हणाले VGF V__VM VGF2 NULL ROOT * R * k1
+ROOT * H म्हणाले VGF V__VM VGF2 NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='664'>
+देशात माहिती - तंत्रज्ञान , फार्मास्युटीकल , फिल्म इंडस्ट्री , प्रसिद्धिमाध्यमे अशा सर्व क्षेत्रांत प्रचंड प्रगती होत आहे ; परंतु कृषी क्षेत्राची अजूनही बिकट अवस्था आहे .
+CT NP NP2 NP3 NP4 NP5 NP6 NP7 VGF CCP NP8 RBP NP9 VGF2
+H देशात NP N__NN NP k7p VGF * H होत VGF V__VM VGF ccof CCP * R * k7p
+H तंत्रज्ञान NP N__NN NP2 ccof NP6 * H क्षेत्रांत NP N__NN NP6 k7 VGF * R * ccof
+H फार्मास्युटीकल NP N__NN NP3 ccof NP6 * H क्षेत्रांत NP N__NN NP6 k7 VGF * R * ccof
+H इंडस्ट्री NP N__NN NP4 ccof NP6 * H क्षेत्रांत NP N__NN NP6 k7 VGF * R * ccof
+H प्रसिद्धिमाध्यमे NP N__NN NP5 ccof NP6 * H क्षेत्रांत NP N__NN NP6 k7 VGF * R * ccof
+H क्षेत्रांत NP N__NN NP6 k7 VGF * H होत VGF V__VM VGF ccof CCP * R * k7
+H प्रगती NP N__NN NP7 k1 VGF * H होत VGF V__VM VGF ccof CCP * R * k1
+H होत VGF V__VM VGF ccof CCP * H परंतु CCP CC__CCD CCP NULL ROOT * R * ccof
+ROOT * H परंतु CCP CC__CCD CCP NULL ROOT * L * ROOT
+H क्षेत्राची NP N__NN NP8 r6 NP9 * H अवस्था NP N__NN NP9 k1 VGF2 * R * r6
+H अजूनही RBP RB RBP adv VGF2 * H आहे VGF V__VM VGF2 ccof CCP * R * adv
+H अवस्था NP N__NN NP9 k1 VGF2 * H आहे VGF V__VM VGF2 ccof CCP * R * k1
+H परंतु CCP CC__CCD CCP NULL ROOT * H आहे VGF V__VM VGF2 ccof CCP * L * ccof
+</Sentence>
+<Sentence id='668'>
+पुढील पाच वर्षांत ते ९ टक्के , दहा वर्षांत दहा टक्के वाढेल आणि वीस वर्षांत ते दुप्पट होईल .
+CT NP NP2 NP3 NP4 NP5 NP6 VGF CCP NP7 NP8 NP9 VGF2
+H पुढील NP N__NST NP nmod NP2 * H वर्षांत NP N__NN NP2 nmod NP4 * R * nmod
+H वर्षांत NP N__NN NP2 nmod NP4 * H टक्के NP N__NN NP4 k1s VGF * R * nmod
+H ते NP PR__PRP NP3 k1 VGF * H वाढेल VGF V__VM VGF ccof CCP * R * k1
+H टक्के NP N__NN NP4 k1s VGF * H वाढेल VGF V__VM VGF ccof CCP * R * k1s
+H वर्षांत NP N__NN NP5 nmod NP6 * H टक्के NP N__NN NP6 k1s VGF * R * nmod
+H टक्के NP N__NN NP6 k1s VGF * H वाढेल VGF V__VM VGF ccof CCP * R * k1s
+H वाढेल VGF V__VM VGF ccof CCP * H आणि CCP CC__CCD CCP NULL ROOT * R * ccof
+ROOT * H आणि CCP CC__CCD CCP NULL ROOT * L * ROOT
+H वर्षांत NP N__NN NP7 k7t VGF2 * H होईल VGF V__VM VGF2 ccof CCP * R * k7t
+H ते NP PR__PRP NP8 k1 VGF2 * H होईल VGF V__VM VGF2 ccof CCP * R * k1
+H दुप्पट NP QT__QTF NP9 k1s VGF2 * H होईल VGF V__VM VGF2 ccof CCP * R * k1s
+H आणि CCP CC__CCD CCP NULL ROOT * H होईल VGF V__VM VGF2 ccof CCP * L * ccof
+</Sentence>
+<Sentence id='673'>
+प्रचंड कष्ट करणाऱ्यांचीच सध्या गरज असल्याचे अहलुवालिया यांनी निदर्शनास आणले .
+CT NP VGNF NP2 NP3 VGNF2 NP4 NP5 NP6 VGF
+H कष्ट NP N__NN NP k2 VGNF * H करणाऱ्यांचीच VGNF V__VM VGNF r6 NP3 * R * k2
+H करणाऱ्यांचीच VGNF V__VM VGNF r6 NP3 * H गरज NP N__NN NP3 k1 VGNF2 * R * r6
+H सध्या NP N__NST NP2 adv VGNF2 * H असल्याचे VGNF V__VM VGNF2 vmod VGF * R * adv
+H गरज NP N__NN NP3 k1 VGNF2 * H असल्याचे VGNF V__VM VGNF2 vmod VGF * R * k1
+H असल्याचे VGNF V__VM VGNF2 vmod VGF * H आणले VGF V__VM VGF NULL ROOT * R * vmod
+H अहलुवालिया NP N__NNP NP4 rs NP5 * H यांनी NP DM__DMD NP5 k1 VGF * R * rs
+H यांनी NP DM__DMD NP5 k1 VGF * H आणले VGF V__VM VGF NULL ROOT * R * k1
+H निदर्शनास NP N__NN NP6 pof VGF * H आणले VGF V__VM VGF NULL ROOT * R * pof
+ROOT * H आणले VGF V__VM VGF NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='742'>
+त्यापैकी प्रत्यक्षात ५५ एम. एल. डी. वापरले जाते .
+CT NP NP2 NP2 VGF
+H त्यापैकी NP PR__PRP NP k7 VGF * H वापरले VGF V__VM VGF NULL ROOT * R * k7
+H प्रत्यक्षात NP RB NP2 k2 VGF * H वापरले VGF V__VM VGF NULL ROOT * R * k2
+H डी. NP N__NNP NP2 k2 VGF * H वापरले VGF V__VM VGF NULL ROOT * R * k2
+ROOT * H वापरले VGF V__VM VGF NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='765'>
+या घटनेबाबत श्री . शिंदे म्हणाले , " गेल्या पंधरा दिवसांपासून भोसले यांच्याकडून आमच्या कार्यकर्त्यांना धमक्‍या येत आहेत .
+CT NP NP2 VGF VGNF NP3 NP4 NP5 NP6 NP7 VGF2
+H घटनेबाबत NP N__NN NP rs VGF * H म्हणाले VGF V__VM VGF NULL ROOT * R * rs
+H श्री NP N__NN NP2 k1 VGF * H म्हणाले VGF V__VM VGF NULL ROOT * R * k1
+ROOT * H म्हणाले VGF V__VM VGF NULL ROOT * L * ROOT
+H गेल्या VGNF V__VM VGNF adv VGF2 * H येत VGF V__VM VGF2 vmod VGF * R * adv
+H दिवसांपासून NP N__NN NP3 k5 VGF2 * H येत VGF V__VM VGF2 vmod VGF * R * k5
+H भोसले NP N__NNP NP4 k5 VGF2 * H येत VGF V__VM VGF2 vmod VGF * R * k5
+H आमच्या NP PR__PRP NP5 nmod NP6 * H कार्यकर्त्यांना NP N__NN NP6 k4 VGF * R * nmod
+H म्हणाले VGF V__VM VGF NULL ROOT * H कार्यकर्त्यांना NP N__NN NP6 k4 VGF * L * k4
+H धमक्‍या NP N__NN NP7 k2 VGF2 * H येत VGF V__VM VGF2 vmod VGF * R * k2
+H म्हणाले VGF V__VM VGF NULL ROOT * H येत VGF V__VM VGF2 vmod VGF * L * vmod
+</Sentence>
+<Sentence id='768'>
+' ' दगडफेकीचा प्रसाद श्री . शिंदे यांनाही बसल्याचे त्यांनी पत्रकारांना दाखविले .
+CT NP NP2 NP3 NP4 NP5 VGNN NP6 NP7 VGF
+H ' NP RD__SYM NP adv NP3 * H प्रसाद NP N__NN NP3 nmod VGNN * R * adv
+H दगडफेकीचा NP N__NN NP2 r6 NP3 * H प्रसाद NP N__NN NP3 nmod VGNN * R * r6
+H प्रसाद NP N__NN NP3 nmod VGNN * H बसल्याचे VGNN V__VM VGNN vmod VGF * R * nmod
+H शिंदे NP N__NNP NP4 k1 VGF * H दाखविले VGF V__VM VGF NULL ROOT * R * k1
+H यांनाही NP PR__PRP NP5 k1s VGF * H दाखविले VGF V__VM VGF NULL ROOT * R * k1s
+H बसल्याचे VGNN V__VM VGNN vmod VGF * H दाखविले VGF V__VM VGF NULL ROOT * R * vmod
+H त्यांनी NP PR__PRP NP6 k3 VGF * H दाखविले VGF V__VM VGF NULL ROOT * R * k3
+H पत्रकारांना NP N__NN NP7 k4 VGF * H दाखविले VGF V__VM VGF NULL ROOT * R * k4
+ROOT * H दाखविले VGF V__VM VGF NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='798'>
+त्यावेळी बॉडमन यांनी अमेरिका द्विपक्षीय अणू सहकार्य करारास कटिबद्ध असून भारत सरकारही त्यासाठी पूर्ण सहकार्य देत असल्याचे सांगितले .
+CT NP NP2 NP3 NP4 JJP VGNN NP5 NP6 NP7 VGNF VGF
+H त्यावेळी NP PR__PRP NP k7t VGF * H सांगितले VGF V__VM VGF NULL ROOT * R * k7t
+H बॉडमन NP N__NNP NP2 k1 VGF * H सांगितले VGF V__VM VGF NULL ROOT * R * k1
+H यांनी NP PR__PRP NP3 k1s VGF * H सांगितले VGF V__VM VGF NULL ROOT * R * k1s
+H करारास NP N__NNP NP4 nmod VGNN * H असून VGNN V__VM VGNN vmod NP6 * R * nmod
+H कटिबद्ध JJP JJ JJP k2 VGNN * H असून VGNN V__VM VGNN vmod NP6 * R * k2
+H असून VGNN V__VM VGNN vmod NP6 * H त्यासाठी NP PR__PRP NP6 rt VGF * R * vmod
+H भारत NP N__NNP NP5 k1 VGNF * H देत VGNF V__VM VGNF vmod VGF * R * k1
+H त्यासाठी NP PR__PRP NP6 rt VGF * H सांगितले VGF V__VM VGF NULL ROOT * R * rt
+H सहकार्य NP N__NN NP7 k2 VGNF * H देत VGNF V__VM VGNF vmod VGF * R * k2
+H देत VGNF V__VM VGNF vmod VGF * H सांगितले VGF V__VM VGF NULL ROOT * R * vmod
+ROOT * H सांगितले VGF V__VM VGF NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='800'>
+भारताची अर्थव्यवस्था वेगाने वाढत असल्याने ऊर्जेची निकड भागविण्यासाठी अणुऊर्जा हा अत्यंत प्रभावी उपाय आहे .
+CT NP NP2 NP3 VGNF NP4 NP5 NP6 NP6 NP7 VGF2
+H भारताची NP N__NN NP r6 NP2 * H अर्थव्यवस्था NP N__NN NP2 k2 VGNF * R * r6
+H अर्थव्यवस्था NP N__NN NP2 k2 VGNF * H वाढत VGNF V__VM VGNF vmod NP4 * R * k2
+H वेगाने NP N__NN NP3 k3 VGNF * H वाढत VGNF V__VM VGNF vmod NP4 * R * k3
+H वाढत VGNF V__VM VGNF vmod NP4 * H ऊर्जेची NP N__NN NP4 r6 NP5 * R * vmod
+H ऊर्जेची NP N__NN NP4 r6 NP5 * H निकड NP N__NN NP5 k2 VGF * R * r6
+H भागविण्यासाठी NP N__NN NP6 nmod VGF2 * H आहे VGF V__VM VGF2 NULL ROOT * R * nmod
+H अणुऊर्जा NP N__NNP NP6 nmod VGF2 * H आहे VGF V__VM VGF2 NULL ROOT * R * nmod
+H उपाय NP N__NN NP7 k2 VGF2 * H आहे VGF V__VM VGF2 NULL ROOT * R * k2
+ROOT * H आहे VGF V__VM VGF2 NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='805'>
+या दौऱ्यात भारताच्या अणुऊर्जा प्रकल्पांना भेट दिली असता , तंत्रज्ञान आणि डिझायनिंगच्या बाबतीत भारताकडून खूप काही शिकण्यासारखे असल्याचे लक्षात आले , असे गौरवोद्‌गारही बॉडमन यांनी काढले .
+CT NP NP2 NP3 VGNF NP4 CCP NP5 NP6 NP7 NP8 VGNF2 NP8 VGF NP9 NP10 NP11 VGF2
+H दौऱ्यात NP N__NN NP k7 VGNF * H दिली VGNF V__VM VGNF vmod VGF2 * R * k7
+H प्रकल्पांना NP N__NNP NP2 k7 VGNF * H दिली VGNF V__VM VGNF vmod VGF2 * R * k7
+H भेट NP N__NN NP3 k2 VGNF * H दिली VGNF V__VM VGNF vmod VGF2 * R * k2
+H दिली VGNF V__VM VGNF vmod VGF2 * H काढले VGF V__VM VGF2 NULL ROOT * R * vmod
+H तंत्रज्ञान NP N__NN NP4 ccof CCP * H आणि CCP CC__CCD CCP k2 NP6 * R * ccof
+H आणि CCP CC__CCD CCP k2 NP6 * H बाबतीत NP N__NN NP6 adv VGJJ * R * k2
+H आणि CCP CC__CCD CCP k2 NP6 * H डिझायनिंगच्या NP N__NNP NP5 ccof CCP * L * ccof
+H शिकण्यासारखे NP N__NN NP8 k2 VGF * H आले VGF V__VM VGF vmod NP9 * R * k2
+H शिकण्यासारखे NP N__NN NP8 k2 VGF * H असल्याचे VGNF V__VM VGNF2 k1 NP8 * L * k1
+H लक्षात NP N__NN NP8 k2 VGF * H आले VGF V__VM VGF vmod NP9 * R * k2
+H आले VGF V__VM VGF vmod NP9 * H गौरवोद्‌गारही NP N__NN NP9 k2 VGF2 * R * vmod
+H गौरवोद्‌गारही NP N__NN NP9 k2 VGF2 * H काढले VGF V__VM VGF2 NULL ROOT * R * k2
+H बॉडमन NP N__NNP NP10 k1 VGF2 * H काढले VGF V__VM VGF2 NULL ROOT * R * k1
+H यांनी NP PR__PRP NP11 k1s VGF2 * H काढले VGF V__VM VGF2 NULL ROOT * R * k1s
+ROOT * H काढले VGF V__VM VGF2 NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='813'>
+" " रेव्ह पार्टी ' किंवा अमली पदार्थ याबाबतची फारशी माहिती महिलांना नसली , तरीही आपली मुले अशा प्रकारांमध्ये गुंतू नयेत , याबाबतची तीव्रता मातांच्या मनात त्यांच्या पतीपेक्षा जास्त असल्याचे एका सर्वेक्षणात दिसून आले आहे .
+CT NP CCP NP2 NP3 NP4 NP5 VGF CCP2 NP6 NP7 NP8 VGF2 NP9 NP10 NP11 NP12 NP13 NP14 NP15 VGNF NP16 VGF3
+H पार्टी NP N__NNP NP ccof CCP * H किंवा CCP CC__CCD CCP nmod NP3 * R * ccof
+H किंवा CCP CC__CCD CCP nmod NP3 * H याबाबतची NP PR__PRP NP3 nmod NP4 * R * nmod
+H किंवा CCP CC__CCD CCP nmod NP3 * H पदार्थ NP N__NN NP2 ccof CCP * L * ccof
+H याबाबतची NP PR__PRP NP3 nmod NP4 * H माहिती NP N__NN NP4 k2 VGF * R * nmod
+H माहिती NP N__NN NP4 k2 VGF * H नसली VGF V__VM VGF vmod CCP2 * R * k2
+H महिलांना NP N__NN NP5 k4 VGF * H नसली VGF V__VM VGF vmod CCP2 * R * k4
+H नसली VGF V__VM VGF vmod CCP2 * H तरीही CCP CC__CCD CCP2 adv NP6 * R * vmod
+H तरीही CCP CC__CCD CCP2 adv NP6 * H आपली NP PR__PRP NP6 nmod NP7 * R * adv
+H आपली NP PR__PRP NP6 nmod NP7 * H मुले NP N__NN NP7 k2 VGF2 * R * nmod
+H मुले NP N__NN NP7 k2 VGF2 * H गुंतू VGF V__VM VGF2 vmod NP9 * R * k2
+H प्रकारांमध्ये NP N__NN NP8 k7 VGF2 * H गुंतू VGF V__VM VGF2 vmod NP9 * R * k7
+H गुंतू VGF V__VM VGF2 vmod NP9 * H याबाबतची NP PR__PRP NP9 r6 NP10 * R * vmod
+H याबाबतची NP PR__PRP NP9 r6 NP10 * H तीव्रता NP N__NN NP10 nmod NP15 * R * r6
+H तीव्रता NP N__NN NP10 nmod NP15 * H जास्त NP QT__QTF NP15 k2 VGNF * R * nmod
+H मातांच्या NP N__NN NP11 r6 NP12 * H मनात NP N__NN NP12 k7 VGNF * R * r6
+H मनात NP N__NN NP12 k7 VGNF * H असल्याचे VGNF V__VM VGNF vmod VGF3 * R * k7
+H त्यांच्या NP PR__PRP NP13 r6 NP14 * H पतीपेक्षा NP N__NN NP14 nmod NP15 * R * r6
+H पतीपेक्षा NP N__NN NP14 nmod NP15 * H जास्त NP QT__QTF NP15 k2 VGNF * R * nmod
+H जास्त NP QT__QTF NP15 k2 VGNF * H असल्याचे VGNF V__VM VGNF vmod VGF3 * R * k2
+H असल्याचे VGNF V__VM VGNF vmod VGF3 * H दिसून VGF V__VM VGF3 NULL ROOT * R * vmod
+H सर्वेक्षणात NP N__NN NP16 k7 VGF3 * H दिसून VGF V__VM VGF3 NULL ROOT * R * k7
+ROOT * H दिसून VGF V__VM VGF3 NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='958'>
+मलूटीची बहुतांश मंदिरे भगवान शंकराला समर्पित आहेत तर बाकी मंदिरे इतर देवी - देवतांची जसे विष्णु आणि दुर्गेची आहेत .
+CT NP NP2 NP3 NP4 JJP VGF CCP NP5 NP6 RBP NP7 CCP2 NP8 VGF2
+H मलूटीची NP N__NNP NP r6 NP2 * H मंदिरे NP N__NN NP2 k1 VGF * R * r6
+H मंदिरे NP N__NN NP2 k1 VGF * H आहेत VGF V__VM VGF ccof CCP * R * k1
+H भगवान NP N__NN NP3 nmod NP4 * H शंकराला NP N__NN NP4 rt VGF * R * nmod
+H शंकराला NP N__NN NP4 rt VGF * H आहेत VGF V__VM VGF ccof CCP * R * rt
+H समर्पित JJP JJ JJP pof VGF * H आहेत VGF V__VM VGF ccof CCP * R * pof
+H आहेत VGF V__VM VGF ccof CCP * H तर CCP CC__CCS CCP NULL ROOT * R * ccof
+ROOT * H तर CCP CC__CCS CCP NULL ROOT * L * ROOT
+H मंदिरे NP N__NN NP5 k1 VGF2 * H आहेत VGF V__VM VGF2 ccof CCP * R * k1
+H मंदिरे NP N__NN NP5 k1 VGF2 * H देवतांची NP N__NN NP6 r6 NP5 * L * r6
+H जसे RBP RB RBP rbmod__relc VGF2 * H आहेत VGF V__VM VGF2 ccof CCP * R * rbmod__relc
+H विष्णु NP N__NNP NP7 ccof CCP2 * H आणि CCP CC__CCD CCP2 r6 NP5 * R * ccof
+H मंदिरे NP N__NN NP5 k1 VGF2 * H आणि CCP CC__CCD CCP2 r6 NP5 * L * r6
+H आणि CCP CC__CCD CCP2 r6 NP5 * H दुर्गेची NP N__NNP NP8 ccof CCP2 * L * ccof
+H तर CCP CC__CCS CCP NULL ROOT * H आहेत VGF V__VM VGF2 ccof CCP * L * ccof
+</Sentence>
+<Sentence id='965'>
+पुरातत्व - विद्वानांच्यानुसार ह्या मंदिराचे निर्माण कार्य १७२० ईसच्या सुमारास सुरू झाले हे कार्य १८४५पर्यंत सुरू राहिले .
+CT NP NP2 NP3 NP4 NP5 JJP VGF NP6 JJP2 NP7 VGF2
+H विद्वानांच्यानुसार NP N__NN NP k7a VGF * H झाले VGF V__VM VGF NULL ROOT * R * k7a
+H मंदिराचे NP N__NN NP2 r6 NP3 * H कार्य NP N__NN NP3 k1 VGF * R * r6
+H कार्य NP N__NN NP3 k1 VGF * H झाले VGF V__VM VGF NULL ROOT * R * k1
+H ईसच्या NP N__NN NP4 r6 NP5 * H सुमारास NP N__NN NP5 k7t VGF * R * r6
+H सुमारास NP N__NN NP5 k7t VGF * H झाले VGF V__VM VGF NULL ROOT * R * k7t
+H सुरू JJP JJ JJP pof VGF * H झाले VGF V__VM VGF NULL ROOT * R * pof
+ROOT * H झाले VGF V__VM VGF NULL ROOT * L * ROOT
+H कार्य NP N__NN NP6 k1 VGF2 * H राहिले VGF V__VM VGF2 rs NP3 * R * k1
+H १८४५पर्यंत JJP QT__QTC JJP2 k7t VGF2 * H राहिले VGF V__VM VGF2 rs NP3 * R * k7t
+H सुरू NP JJ NP7 pof VGF2 * H राहिले VGF V__VM VGF2 rs NP3 * R * pof
+H कार्य NP N__NN NP3 k1 VGF * H राहिले VGF V__VM VGF2 rs NP3 * L * rs
+</Sentence>
+<Sentence id='968'>
+" देव मंदिरांची पुरातात्विक विशेषता हीसुद्धा आहे की ह्यांच्या स्थापत्य शैलीमध्ये पूर्वोत्तरच्या कित्येक राज्यांच्या स्थापत्य कलेची छाप दिसून येते , मलूटीला गुप्तकाशीसुद्धा म्हणतात . "
+CT NP NP2 NP3 VGF CCP NP4 NP5 NP6 NP7 NP8 NP9 VGF2 BLK NP10 NP11 VGF3
+H मंदिरांची NP N__NN NP r6 NP2 * H विशेषता NP N__NN NP2 k1 VGF * R * r6
+H विशेषता NP N__NN NP2 k1 VGF * H आहे VGF V__VM VGF ccof BLK * R * k1
+H हीसुद्धा NP DM__DMR NP3 k1s VGF * H आहे VGF V__VM VGF ccof BLK * R * k1s
+H आहे VGF V__VM VGF ccof BLK * H , BLK RD__PUNC BLK NULL ROOT * R * ccof
+H हीसुद्धा NP DM__DMR NP3 k1s VGF * H की CCP CC__CCS CCP rs NP3 * L * rs
+H ह्यांच्या NP PR__PRP NP4 r6 NP5 * H शैलीमध्ये NP N__NN NP5 k7 VGF2 * R * r6
+H शैलीमध्ये NP N__NN NP5 k7 VGF2 * H दिसून VGF V__VM VGF2 ccof CCP * R * k7
+H पूर्वोत्तरच्या NP N__NN NP6 r6 NP7 * H राज्यांच्या NP N__NN NP7 r6 NP8 * R * r6
+H राज्यांच्या NP N__NN NP7 r6 NP8 * H कलेची NP N__NN NP8 r6 NP9 * R * r6
+H कलेची NP N__NN NP8 r6 NP9 * H छाप NP N__NN NP9 k2 VGF2 * R * r6
+H छाप NP N__NN NP9 k2 VGF2 * H दिसून VGF V__VM VGF2 ccof CCP * R * k2
+H की CCP CC__CCS CCP rs NP3 * H दिसून VGF V__VM VGF2 ccof CCP * L * ccof
+ROOT * H , BLK RD__PUNC BLK NULL ROOT * L * ROOT
+H मलूटीला NP N__NNP NP10 k2 VGF3 * H म्हणतात VGF V__VM VGF3 ccof BLK * R * k2
+H गुप्तकाशीसुद्धा NP N__NN NP11 k2s VGF3 * H म्हणतात VGF V__VM VGF3 ccof BLK * R * k2s
+H , BLK RD__PUNC BLK NULL ROOT * H म्हणतात VGF V__VM VGF3 ccof BLK * L * ccof
+</Sentence>
+<Sentence id='969'>
+" पुरातत्व विभागाने ह्या गावामध्ये आपल्या कार्याला मुख्यतः चार भागांमध्ये विभागले ( १ ) अध्ययन , ( ) डक्यूमेंटेशन ( ३ ) मंदिरांचे संरक्षण तसेच ( ४ ) गावाच्या विकासाच्या शक्यतांचे आकलन . "
+CT NP NP2 NP3 NP4 RBP NP5 VGF NP6 NP7 NP8 NP9 CCP NP10 NP11 NP12 NP13
+H विभागाने NP N__NN NP k1 VGF * H विभागले VGF V__VM VGF NULL ROOT * R * k1
+H गावामध्ये NP N__NN NP2 k7p VGF * H विभागले VGF V__VM VGF NULL ROOT * R * k7p
+H आपल्या NP PR__PRP NP3 r6 NP4 * H कार्याला NP N__NN NP4 k2 VGF * R * r6
+H कार्याला NP N__NN NP4 k2 VGF * H विभागले VGF V__VM VGF NULL ROOT * R * k2
+H मुख्यतः RBP RB RBP adv VGF * H विभागले VGF V__VM VGF NULL ROOT * R * adv
+H भागांमध्ये NP N__NN NP5 k7 VGF * H विभागले VGF V__VM VGF NULL ROOT * R * k7
+ROOT * H विभागले VGF V__VM VGF NULL ROOT * L * ROOT
+H अध्ययन NP N__NN NP6 ccof CCP * H तसेच CCP CC__CCS CCP rs NP5 * R * ccof
+H डक्यूमेंटेशन NP N__NN NP7 ccof CCP * H तसेच CCP CC__CCS CCP rs NP5 * R * ccof
+H मंदिरांचे NP N__NN NP8 r6 NP9 * H संरक्षण NP N__NN NP9 ccof CCP * R * r6
+H संरक्षण NP N__NN NP9 ccof CCP * H तसेच CCP CC__CCS CCP rs NP5 * R * ccof
+H भागांमध्ये NP N__NN NP5 k7 VGF * H तसेच CCP CC__CCS CCP rs NP5 * L * rs
+H गावाच्या NP N__NN NP10 r6 NP11 * H विकासाच्या NP N__NN NP11 r6 NP12 * R * r6
+H विकासाच्या NP N__NN NP11 r6 NP12 * H शक्यतांचे NP N__NN NP12 r6 NP13 * R * r6
+H शक्यतांचे NP N__NN NP12 r6 NP13 * H आकलन NP N__NN NP13 ccof CCP * R * r6
+H तसेच CCP CC__CCS CCP rs NP5 * H आकलन NP N__NN NP13 ccof CCP * L * ccof
+</Sentence>
+<Sentence id='988'>
+हजारीबाग राष्ट्रीय उद्यानामध्ये एक डाक बंगला आणि पर्यटकांना राहण्यासाठी विश्रमालयसुद्धा आहे .
+CT NP NP2 CCP NP3 VGNN NP4 VGF
+H उद्यानामध्ये NP N__NN NP k7p VGF * H आहे VGF V__VM VGF NULL ROOT * R * k7p
+H बंगला NP N__NN NP2 ccof CCP * H आणि CCP CC__CCD CCP k1 VGF * R * ccof
+H आणि CCP CC__CCD CCP k1 VGF * H आहे VGF V__VM VGF NULL ROOT * R * k1
+H पर्यटकांना NP N__NN NP3 k4a VGNN * H राहण्यासाठी VGNN V__VM VGNN rt VGF * R * k4a
+H राहण्यासाठी VGNN V__VM VGNN rt VGF * H आहे VGF V__VM VGF NULL ROOT * R * rt
+H आणि CCP CC__CCD CCP k1 VGF * H विश्रमालयसुद्धा NP N__NN NP4 ccof CCP * L * ccof
+ROOT * H आहे VGF V__VM VGF NULL ROOT * L * ROOT
+</Sentence>
+<Sentence id='1235'>
+जमीन असो किंवा आकाश पनार बुग्यालापासून नंदा घूंटी पर्वत शॄंखलेचे सौंदर्य अप्रतिम आहे .
+CT NP VGF CCP NP2 NP3 NP4 NP5 NP6 JJP VGF2 BLK
+H जमीन NP N__NN NP ccof CCP * H किंवा CCP CC__CCD CCP k1 VGF * R * ccof
+H असो VGF V__VM VGF vmod VGF2 * H आहे VGF V__VM VGF2 NULL ROOT * R * vmod
+H असो VGF V__VM VGF vmod VGF2 * H किंवा CCP CC__CCD CCP k1 VGF * L * k1
+H किंवा CCP CC__CCD CCP k1 VGF * H आकाश NP N__NN NP2 ccof CCP * L * ccof
+H पनार NP N__NN NP3 nmod NP4 * H बुग्यालापासून NP N__NN NP4 rsp VGF2 * R * nmod
+H बुग्यालापासून NP N__NN NP4 rsp VGF2 * H आहे VGF V__VM VGF2 NULL ROOT * R * rsp
+H शॄंखलेचे NP N__NN NP5 r6 NP6 * H सौंदर्य NP N__NN NP6 k1 VGF2 * R * r6
+H सौंदर्य NP N__NN NP6 k1 VGF2 * H आहे VGF V__VM VGF2 NULL ROOT * R * k1
+H अप्रतिम JJP JJ JJP k1s VGF2 * H आहे VGF V__VM VGF2 NULL ROOT * R * k1s
+ROOT * H आहे VGF V__VM VGF2 NULL ROOT * L * ROOT
+H आहे VGF V__VM VGF2 NULL ROOT * H . BLK RD__PUNC BLK rsym VGF2 * L * rsym
+</Sentence>
