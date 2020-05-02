@@ -66,4 +66,4 @@ with open('chunk_tags', 'wb') as fp:
     pickle.dump(list(chunk_tags), fp)
 
 # with open('chunk_tags', 'rb') as fp:
-#     words = pickle.load(fp)
+#     chunk_tags = pickle.load(fp)

@@ -66,4 +66,4 @@ with open('pos_tags', 'wb') as fp:
     pickle.dump(list(pos_tags), fp)
 
 # with open('pos_tags', 'rb') as fp:
-#     words = pickle.load(fp)
+#     pos_tags = pickle.load(fp)
