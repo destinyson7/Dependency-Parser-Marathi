@@ -67,9 +67,12 @@ with open(sys.argv[1], "r") as f:
                                chunk_index[(current[0].strip().split(" ")[3])])
 
             if current[1].strip().split(" ")[0].strip() == "ROOT":
-                col_ind.append(word_index[("ROOT")])
-                col_ind.append(words_len + pos_tags.index("ROOT"))
-                col_ind.append(words_len + pos_len + chunk_tags.index("ROOT"))
+                col_ind.append(words_len + pos_len +
+                               chunk_len + word_index[("ROOT")])
+                col_ind.append(words_len + pos_len + chunk_len +
+                               words_len + pos_tags.index("ROOT"))
+                col_ind.append(words_len + pos_len + chunk_len +
+                               words_len + pos_len + chunk_tags.index("ROOT"))
 
             else:
                 # print(current[1].strip().split(" ")[1])
@@ -117,10 +120,10 @@ print()
 print()
 
 score_SVM = SVM.score(X, Y)
-print(score_SVM)
+print(score_SVM * 100)
 
 score_LR = logisticRegr.score(X, Y)
-print(score_LR)
+print(score_LR * 100)
 
 # print(Y == Y_svm)
 # print(Y == Y_logisticRegr)

@@ -19,8 +19,8 @@ with open('../../chunk_tags', 'rb') as fp:
 # print(pos_tags)
 # print(chunk_tags)
 
-N = len(words) + len(pos_tags) + len(chunk_tags) + 2 + \
-    len(words) + len(pos_tags) + len(chunk_tags)
+N = len(words) + len(pos_tags) + len(chunk_tags) + \
+    len(words) + len(pos_tags) + len(chunk_tags) + 2
 
 Y = []
 classes = set([])
@@ -73,9 +73,12 @@ with open(sys.argv[1], "r") as f:
                                chunk_index[(current[0].strip().split(" ")[3])])
 
             if current[1].strip().split(" ")[0].strip() == "ROOT":
-                col_ind.append(word_index[("ROOT")])
-                col_ind.append(words_len + pos_tags.index("ROOT"))
-                col_ind.append(words_len + pos_len + chunk_tags.index("ROOT"))
+                col_ind.append(words_len + pos_len +
+                               chunk_len + word_index[("ROOT")])
+                col_ind.append(words_len + pos_len + chunk_len +
+                               words_len + pos_len + chunk_tags.index("ROOT"))
+                col_ind.append(words_len + pos_len + chunk_len +
+                               words_len + pos_tags.index("ROOT"))
 
             else:
                 # print(current[1].strip().split(" ")[1])
@@ -86,7 +89,8 @@ with open(sys.argv[1], "r") as f:
                 col_ind.append(words_len + pos_len + chunk_len + words_len +
                                pos_len + chunk_index[(current[1].strip().split(" ")[3])])
 
-            col_ind.append(lr_index[current[2].strip()])
+            col_ind.append(2 * (words_len + pos_len + chunk_len) +
+                           lr_index[current[2].strip()])
 
             row_ind.extend(repeat(len(Y), 7))
 
