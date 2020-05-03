@@ -68,7 +68,7 @@ with open(sys.argv[1], "r") as f:
                 # print(current[0].strip().split(" ")[1])
                 col_ind.append(word_index[(current[0].strip().split(" ")[1])])
                 col_ind.append(
-                    words_len + chunk_index[(current[0].strip().split(" ")[2])])
+                    words_len + chunk_index[(current[0].strip().split(" ")[3])])
                 # col_ind.append(words_len + pos_len +
                 #                chunk_index[(current[0].strip().split(" ")[3])])
 
@@ -83,7 +83,7 @@ with open(sys.argv[1], "r") as f:
                 col_ind.append(
                     words_len + chunk_len + word_index[(current[1].strip().split(" ")[1])])
                 col_ind.append(words_len + chunk_len + words_len +
-                               chunk_index[(current[1].strip().split(" ")[2])])
+                               chunk_index[(current[1].strip().split(" ")[3])])
                 # col_ind.append(words_len + pos_len + chunk_len + words_len +
                 #                pos_len + chunk_index[(current[1].strip().split(" ")[3])])
 
