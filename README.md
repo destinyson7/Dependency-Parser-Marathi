@@ -73,7 +73,7 @@ For Models 1 to 12
     ```
    3. 
     ```python
-        python3 get_distinct_words_tags.py Training.txt Development.txt Testing.txt
+        python3 get_distinct_words.py Training.txt Development.txt Testing.txt
     ```
    4.  
     ```python
@@ -97,7 +97,7 @@ For Models 13 to 17
     ```
    3. 
     ```python
-        python3 get_distinct_words_tags.py ../../Morphological Features/Training.txt ../../Morphological Features/Development.txt ../../Morphological Features/Testing.txt
+        python3 get_distinct_words.py ../../Morphological Features/Training.txt ../../Morphological Features/Development.txt ../../Morphological Features/Testing.txt
     ```
    4.  
     ```python
