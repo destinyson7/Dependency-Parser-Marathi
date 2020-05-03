@@ -55,6 +55,8 @@ with open(sys.argv[1], "r") as f:
             current = line.strip().split("*")
 
             # print(len(Y))
+            if current[2].strip() == "U":
+                continue
 
             if current[0].strip().split(" ")[0].strip() == "ROOT":
                 col_ind.append(word_index["ROOT"])
