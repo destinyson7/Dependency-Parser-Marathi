@@ -30,3 +30,8 @@ _Reading the output_ -
 5. The values print in the first two arrays are predictions from SVM and Logistic Regression Models respectively. (depending on what is the model's output, it would either be the arc direction or the arc label )
 
 6. The numeric values are accuracies of the SVM and Logistic Regression models respectively.
+
+ToDo
+
+
+which contains the information of where you got your data, how to run your code and the link to your GitHub/GitLab or any other collaborative work environment repository, if any. It will also contain a breakdown of which team member did which part of the project
