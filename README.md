@@ -166,5 +166,7 @@ We both feel that we have contributed equally on this project.
 **Under the Guidance of**
 
 Manish Shrivastava, Assistant Professor, IIIT Hyderabad
+
 Pruthwik Mishra, PhD Student, IIIT Hyderabad
+
 Alok Debnath, Introduction to NLP Course TA, IIIT Hyderabad
