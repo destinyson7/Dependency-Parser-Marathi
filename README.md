@@ -89,19 +89,19 @@ For Models 13 to 17
    
    1.  
     ```python
-        python3 get_distinct_chunk_tags.py ../../Morphological\ Features/Training.txt ../../Morphological\ Features/Development.txt ../../Morphological\ Features/Testing.txt
+        python3 get_distinct_chunk_tags.py ../../Morphological Features/Training.txt ../../Morphological Features/Development.txt ../../Morphological Features/Testing.txt
     ```
    2. 
     ```python
-        python3 get_distinct_pos_tags.py ../../Morphological\ Features/Training.txt ../../Morphological\ Features/Development.txt ../../Morphological\ Features/Testing.txt
+        python3 get_distinct_pos_tags.py ../../Morphological Features/Training.txt ../../Morphological Features/Development.txt ../../Morphological Features/Testing.txt
     ```
    3. 
     ```python
-        python3 get_distinct_words_tags.py ../../Morphological\ Features/Training.txt ../../Morphological\ Features/Development.txt ../../Morphological\ Features/Testing.txt
+        python3 get_distinct_words_tags.py ../../Morphological Features/Training.txt ../../Morphological Features/Development.txt ../../Morphological Features/Testing.txt
     ```
    4.  
     ```python
-        python3 get_distinct_morph_vectors.py ../../Morphological\ Features/Training.txt ../../Morphological\ Features/Development.txt ../../Morphological\ Features/Testing.txt
+        python3 get_distinct_morph_vectors.py ../../Morphological Features/Training.txt ../../Morphological Features/Development.txt ../../Morphological Features/Testing.txt
     ``` 
 
     These four files will extract all the distinct POS Tags, Word Tags, Words and Morphological Features' Vectors and store them into files in the same folder
@@ -129,13 +129,13 @@ For Models 13 to 17
 
 3. Train the Model by running 
     ```python
-        python3 train.py ../../../Morphological\ Features/Training.txt
+        python3 train.py ../../../Morphological Features/Training.txt
     ``` 
 4. Test the Model by running
     ```python
-        python3 predict.py ../../../Morphological\ Features/Testing.txt
+        python3 predict.py ../../../Morphological Features/Testing.txt
     ``` 
-    
+
 _Reading the output_ -
 
 5. The values printed in the first two arrays are predictions from SVM and Logistic Regression Models respectively. (depending on what is the model's output (what we are predicting - the L/R/U relationship or the dependency relation), it would either be the arc direction or the arc label)
