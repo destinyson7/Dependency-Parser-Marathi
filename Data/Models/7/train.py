@@ -68,7 +68,8 @@ with open(sys.argv[1], "r") as f:
 
             if current[1].strip().split(" ")[0].strip() == "ROOT":
                 col_ind.append(words_len + pos_len + word_index[("ROOT")])
-                col_ind.append(words_len + pos_len + pos_tags.index("ROOT"))
+                col_ind.append(words_len + pos_len +
+                               words_len + pos_tags.index("ROOT"))
                 # col_ind.append(words_len + pos_len + chunk_tags.index("ROOT"))
 
             else:
