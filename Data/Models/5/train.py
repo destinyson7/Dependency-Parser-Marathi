@@ -85,8 +85,8 @@ with open(sys.argv[1], "r") as f:
 
             row_ind.extend(repeat(len(Y), 2))
 
-            Y.append(current[2].strip())
-            classes.add(current[2].strip())
+            Y.append(current[3].strip())
+            classes.add(current[3].strip())
 
 M = len(Y)
 data = [1] * len(col_ind)
