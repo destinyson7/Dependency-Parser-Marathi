@@ -120,6 +120,7 @@ with open("/home/laaaad/IIIT-H/Courses/Semester4/Intoduction to NLP/Project/Depe
             else:
                 word = current.split(" ")[1]
                 tag = current.split(" ")[2]
+
                 words.append((word, tag))
                 full_sentence.append(word)
 

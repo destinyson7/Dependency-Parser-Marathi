@@ -1,0 +1,622 @@
+<Sentence id='47'>
+त्रिनिदाद व टोबॅगो आणि ग्रेनडा ह्यांचा पेलाउ नावाचा त्यांचा स्वतःचा प्रकार / पदार्थ आहे , त्यात एकतर बीफचा ( गोमांसाचा ) किंवा चिकनचा समावेश असतो , आणि कधीकधी भोपळा व संसाधित डुकर्‍याच्या शेपटीचे तुकडे त्यात असतात .
+CT NP CCP NP2 CCP2 NP3 NP4 NP5 NP6 NP7 NP8 NP9 VGF NP10 RBP NP11 CCP3 NP12 NP13 NP14 CCP4 NP15 NP16 CCP5 NP17 NP18 NP19 NP20 VGF2 BLK
+H त्रिनिदाद NP N__NNP NP ccof CCP NULL sg d n * H व CCP CC__CCD CCP ccof CCP2 NULL NULL NULL avy * R * ccof
+H व CCP CC__CCD CCP ccof CCP2 NULL NULL NULL avy * H आणि CCP CC__CCD CCP2 rs NP4 NULL NULL NULL avy * R * ccof
+H व CCP CC__CCD CCP ccof CCP2 NULL NULL NULL avy * H टोबॅगो NP N__NNP NP2 ccof CCP NULL sg d n * L * ccof
+H आणि CCP CC__CCD CCP2 rs NP4 NULL NULL NULL avy * H ह्यांचा NP PR__PRP NP4 k1 VGF m pl o pn * R * rs
+H आणि CCP CC__CCD CCP2 rs NP4 NULL NULL NULL avy * H ग्रेनडा NP N__NNP NP3 ccof CCP2 NULL sg d n * L * ccof
+H ह्यांचा NP PR__PRP NP4 k1 VGF m pl o pn * H आहे VGF V__VM VGF nmod NP10 NULL sg NULL v * R * k1
+H पेलाउ NP N__NNP NP5 nmod NP6 NULL sg d n * H नावाचा NP N__NN NP6 r6 NP9 n sg o n * R * nmod
+H नावाचा NP N__NN NP6 r6 NP9 n sg o n * H पदार्थ NP N__NN NP9 k1s VGF m sg d n * R * r6
+H त्यांचा NP PR__PRP NP7 r6 NP9 m pl o pn * H पदार्थ NP N__NN NP9 k1s VGF m sg d n * R * r6
+H स्वतःचा NP PR__PRF NP8 r6 NP9 NULL NULL o pn * H पदार्थ NP N__NN NP9 k1s VGF m sg d n * R * r6
+H पदार्थ NP N__NN NP9 k1s VGF m sg d n * H आहे VGF V__VM VGF nmod NP10 NULL sg NULL v * R * k1s
+H आहे VGF V__VM VGF nmod NP10 NULL sg NULL v * H त्यात NP PR__PRP NP10 k7 NP14 m sg o pn * R * nmod
+H त्यात NP PR__PRP NP10 k7 NP14 m sg o pn * H , NP RD__PUNC NP14 ccof CCP4 NULL NULL NULL punc * R * k7
+H एकतर RBP RB RBP adv NP14 NULL NULL NULL adv * H , NP RD__PUNC NP14 ccof CCP4 NULL NULL NULL punc * R * adv
+H गोमांसाचा NP N__NN NP11 ccof CCP3 n sg o n * H किंवा CCP CC__CCD CCP3 r6 NP13 NULL NULL NULL avy * R * ccof
+H किंवा CCP CC__CCD CCP3 r6 NP13 NULL NULL NULL avy * H समावेश NP N__NN NP13 k1 NP14 m sg d n * R * r6
+H किंवा CCP CC__CCD CCP3 r6 NP13 NULL NULL NULL avy * H चिकनचा NP N__NN NP12 ccof CCP3 NULL sg d n * L * ccof
+H समावेश NP N__NN NP13 k1 NP14 m sg d n * H , NP RD__PUNC NP14 ccof CCP4 NULL NULL NULL punc * R * k1
+H , NP RD__PUNC NP14 ccof CCP4 NULL NULL NULL punc * H आणि CCP CC__CCD CCP4 NULL ROOT NULL NULL NULL avy * R * ccof
+ROOT * H आणि CCP CC__CCD CCP4 NULL ROOT NULL NULL NULL avy * L * ROOT
+H कधीकधी NP N__NST NP15 k7t VGF2 NULL NULL NULL adv * H असतात VGF V__VM VGF2 ccof CCP4 m pl NULL v * R * k7t
+H भोपळा NP N__NN NP16 ccof CCP5 m sg d n * H व CCP CC__CCD CCP5 k1 VGF2 NULL NULL NULL avy * R * ccof
+H व CCP CC__CCD CCP5 k1 VGF2 NULL NULL NULL avy * H असतात VGF V__VM VGF2 ccof CCP4 m pl NULL v * R * k1
+H डुकर्‍याच्या NP N__NN NP17 r6 NP20 NULL sg d n * H त्यात NP PR__PRP NP20 k7 VGF2 m sg o pn * R * r6
+H शेपटीचे NP N__NN NP18 r6 NP20 f sg o n * H त्यात NP PR__PRP NP20 k7 VGF2 m sg o pn * R * r6
+H व CCP CC__CCD CCP5 k1 VGF2 NULL NULL NULL avy * H तुकडे NP N__NN NP19 ccof CCP5 m pl d n * L * ccof
+H त्यात NP PR__PRP NP20 k7 VGF2 m sg o pn * H असतात VGF V__VM VGF2 ccof CCP4 m pl NULL v * R * k7
+H आणि CCP CC__CCD CCP4 NULL ROOT NULL NULL NULL avy * H असतात VGF V__VM VGF2 ccof CCP4 m pl NULL v * L * ccof
+H असतात VGF V__VM VGF2 ccof CCP4 m pl NULL v * H . BLK RD__PUNC BLK RSYM VGF2 NULL NULL NULL punc * L * RSYM
+</Sentence>
+<Sentence id='63'>
+काळ्या चण्याचा उगम भारतात झाला , जेथे प्राचीन काळापासून ह्याची लागवड केली जात आहे आणि तो भारतातील व पाकिस्तानातील सर्वात जास्त किंमत असलेल्या डाळींपैक एक आहे .
+CT NP NP2 NP3 VGF NP4 NP5 NP6 NP7 VGF2 CCP NP8 NP9 CCP2 NP10 NP11 VGNF NP12 NP13 VGF3 BLK
+H चण्याचा NP N__NN NP r6 NP2 m sg o n * H उगम NP N__NN NP2 k1 VGF m sg d n * R * r6
+H उगम NP N__NN NP2 k1 VGF m sg d n * H झाला VGF V__VM VGF nmod NP4 m sg NULL v * R * k1
+H भारतात NP N__NNP NP3 k7p VGF m sg o n * H झाला VGF V__VM VGF nmod NP4 m sg NULL v * R * k7p
+H झाला VGF V__VM VGF nmod NP4 m sg NULL v * H जेथे NP N__NST NP4 k7p VGF2 NULL NULL NULL nst * R * nmod
+H जेथे NP N__NST NP4 k7p VGF2 NULL NULL NULL nst * H केली VGF V__VM VGF2 ccof CCP f sg d v * R * k7p
+H काळापासून NP N__NN NP5 k7t VGF2 m sg o n * H केली VGF V__VM VGF2 ccof CCP f sg d v * R * k7t
+H ह्याची NP PR__PRP NP6 r6 NP13 m sg o pn * H एक NP QT__QTC NP13 k1s VGF3 NULL NULL NULL num * R * r6
+H लागवड NP N__NN NP7 k2 VGF2 f sg d n * H केली VGF V__VM VGF2 ccof CCP f sg d v * R * k2
+H केली VGF V__VM VGF2 ccof CCP f sg d v * H आणि CCP CC__CCD CCP NULL ROOT NULL NULL NULL avy * R * ccof
+ROOT * H आणि CCP CC__CCD CCP NULL ROOT NULL NULL NULL avy * L * ROOT
+H तो NP DM__DMR NP8 k1 VGF3 m sg d pn * H आहे VGF V__VM VGF3 ccof CCP NULL sg NULL v * R * k1
+H भारतातील NP N__NNP NP9 ccof CCP2 m sg o n * H व CCP CC__CCD CCP2 nmod NP13 NULL NULL NULL avy * R * ccof
+H व CCP CC__CCD CCP2 nmod NP13 NULL NULL NULL avy * H एक NP QT__QTC NP13 k1s VGF3 NULL NULL NULL num * R * nmod
+H व CCP CC__CCD CCP2 nmod NP13 NULL NULL NULL avy * H पाकिस्तानातील NP N__NNP NP10 ccof CCP2 NULL sg o n * L * ccof
+H किंमत NP N__NN NP11 k1 VGNF f sg d n * H असलेल्या VGNF V__VM VGNF nmod NP13 NULL NULL o v * R * k1
+H असलेल्या VGNF V__VM VGNF nmod NP13 NULL NULL o v * H एक NP QT__QTC NP13 k1s VGF3 NULL NULL NULL num * R * nmod
+H डाळींपैक NP N__NN NP12 k5 VGF3 NULL sg d n * H आहे VGF V__VM VGF3 ccof CCP NULL sg NULL v * R * k5
+H एक NP QT__QTC NP13 k1s VGF3 NULL NULL NULL num * H आहे VGF V__VM VGF3 ccof CCP NULL sg NULL v * R * k1s
+H आणि CCP CC__CCD CCP NULL ROOT NULL NULL NULL avy * H आहे VGF V__VM VGF3 ccof CCP NULL sg NULL v * L * ccof
+H आहे VGF V__VM VGF3 ccof CCP NULL sg NULL v * H . BLK RD__PUNC BLK rsym VGF3 NULL NULL NULL punc * L * rsym
+</Sentence>
+<Sentence id='82'>
+आयन देवाणघेवाण ही मृदेमध्ये घडून येणाऱ्या सर्व प्रक्रियांमधील सर्वात महत्वाची प्रक्रिया आहे .
+CT NP NP2 NP3 NP4 VGNF NP5 JJP NP6 VGF BLK
+H आयन NP N__NN NP nmod NP2 n sg d n * H देवाणघेवाण NP N__NN NP2 nmod NP3 f sg d n * R * nmod
+H देवाणघेवाण NP N__NN NP2 nmod NP3 f sg d n * H ही NP DM__DMR NP3 k1 VGF f sg d pn * R * nmod
+H ही NP DM__DMR NP3 k1 VGF f sg d pn * H आहे VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * R * k1
+H मृदेमध्ये NP N__NN NP4 k7p VGF f sg o n * H आहे VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * R * k7p
+H घडून VGNF V__VM VGNF nmod NP6 NULL NULL NULL v * H प्रक्रिया NP N__NN NP6 k1s VGF f sg d n * R * nmod
+H प्रक्रियांमधील NP N__NN NP5 k7p VGF f pl o n * H आहे VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * R * k7p
+H महत्वाची JJP JJ JJP r6 NP6 f sg o n * H प्रक्रिया NP N__NN NP6 k1s VGF f sg d n * R * r6
+H प्रक्रिया NP N__NN NP6 k1s VGF f sg d n * H आहे VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * R * k1s
+ROOT * H आहे VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * L * ROOT
+H आहे VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * H . BLK RD__PUNC BLK rsym VGF NULL NULL NULL punc * L * rsym
+</Sentence>
+<Sentence id='97'>
+मृदा संरचना म्हणजे मृदेतील प्राथमिक व दुय्यम या दोन्ही कणांची NULL मांडणी .
+CT NP NP2 CCP NP3 JJP CCP2 JJP2 NP4 NP5 VGF NP6 BLK
+H मृदा NP N__NN NP nmod NP2 f sg d n * H संरचना NP N__NN NP2 ccof CCP f sg d n * R * nmod
+H संरचना NP N__NN NP2 ccof CCP f sg d n * H म्हणजे CCP CC__CCD CCP rs NP6 NULL NULL NULL avy * R * ccof
+H म्हणजे CCP CC__CCD CCP rs NP6 NULL NULL NULL avy * H मांडणी NP N__NN NP6 k1 VGF f sg d n * R * rs
+H मृदेतील NP N__NN NP3 nmod CCP2 f sg o n * H व CCP CC__CCD CCP2 nmod NP4 NULL NULL NULL avy * R * nmod
+H प्राथमिक JJP JJ JJP ccof CCP2 NULL NULL NULL adj * H व CCP CC__CCD CCP2 nmod NP4 NULL NULL NULL avy * R * ccof
+H व CCP CC__CCD CCP2 nmod NP4 NULL NULL NULL avy * H या NP DM__DMR NP4 nmod NP5 m pl o pn * R * nmod
+H व CCP CC__CCD CCP2 nmod NP4 NULL NULL NULL avy * H दुय्यम JJP JJ JJP2 ccof CCP2 NULL NULL NULL adj * L * ccof
+H या NP DM__DMR NP4 nmod NP5 m pl o pn * H कणांची NP N__NN NP5 r6 NP6 m pl o n * R * nmod
+H कणांची NP N__NN NP5 r6 NP6 m pl o n * H मांडणी NP N__NN NP6 k1 VGF f sg d n * R * r6
+ROOT * H NULL VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * L * ROOT
+H NULL VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * H मांडणी NP N__NN NP6 k1 VGF f sg d n * L * k1
+H NULL VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * H . BLK RD__PUNC BLK rsym VGF NULL NULL NULL punc * L * rsym
+</Sentence>
+<Sentence id='100'>
+चिकणमातीच्या कणांचे स्वरूप स्फटिकसमान असते आणि ते प्राणवायूच्या अणूंनी जोडलेल्या आर्द्र अल्युमिना व सिलिकाच्या पत्र्यांनी बनलेले असते .
+CT NP NP2 NP3 JJP VGF CCP NP4 NP5 NP6 VGNF NP7 CCP2 NP8 NP9 VGF2 BLK
+H चिकणमातीच्या NP N__NN NP r6 NP2 f sg NULL n * H कणांचे NP N__NN NP2 r6 NP3 m pl o n * R * r6
+H कणांचे NP N__NN NP2 r6 NP3 m pl o n * H स्वरूप NP N__NN NP3 k1 VGF n sg d n * R * r6
+H स्वरूप NP N__NN NP3 k1 VGF n sg d n * H असते VGF V__VM VGF ccof CCP NULL NULL NULL NULL * R * k1
+H स्फटिकसमान JJP JJ JJP ras-k1 VGF NULL NULL NULL adj * H असते VGF V__VM VGF ccof CCP NULL NULL NULL NULL * R * ras-k1
+H असते VGF V__VM VGF ccof CCP NULL NULL NULL NULL * H आणि CCP CC__CCD CCP NULL ROOT NULL NULL NULL avy * R * ccof
+ROOT * H आणि CCP CC__CCD CCP NULL ROOT NULL NULL NULL avy * L * ROOT
+H ते NP DM__DMR NP4 k1 VGF2 m pl d pn * H बनलेले VGF V__VM VGF2 ccof CCP n sg d v * R * k1
+H प्राणवायूच्या NP N__NN NP5 r6 NP6 m sg o n * H अणूंनी NP N__NN NP6 k3 VGNF m pl o n * R * r6
+H अणूंनी NP N__NN NP6 k3 VGNF m pl o n * H जोडलेल्या VGNF V__VM VGNF nmod NP8 NULL NULL o v * R * k3
+H जोडलेल्या VGNF V__VM VGNF nmod NP8 NULL NULL o v * H सिलिकाच्या NP N__NN NP8 ccof CCP2 f sg o n * R * nmod
+H अल्युमिना NP N__NN NP7 ccof CCP2 NULL sg d n * H व CCP CC__CCD CCP2 UNDEF NP9 NULL NULL NULL avy * R * ccof
+H व CCP CC__CCD CCP2 UNDEF NP9 NULL NULL NULL avy * H पत्र्यांनी NP N__NN NP9 k3 VGF2 m pl o n * R * UNDEF
+H व CCP CC__CCD CCP2 UNDEF NP9 NULL NULL NULL avy * H सिलिकाच्या NP N__NN NP8 ccof CCP2 f sg o n * L * ccof
+H पत्र्यांनी NP N__NN NP9 k3 VGF2 m pl o n * H बनलेले VGF V__VM VGF2 ccof CCP n sg d v * R * k3
+H आणि CCP CC__CCD CCP NULL ROOT NULL NULL NULL avy * H बनलेले VGF V__VM VGF2 ccof CCP n sg d v * L * ccof
+H बनलेले VGF V__VM VGF2 ccof CCP n sg d v * H . BLK RD__PUNC BLK rsym VGF2 NULL NULL NULL punc * L * rsym
+</Sentence>
+<Sentence id='106'>
+अल्युमिना पत्र्यामध्ये लोह किंवा माग्नेशियमची आयसोमोर्फिक अदलाबदल NULL होते ; मोन्टमोरीलोनाईट स्फटिक प्रसरण पावू शकतात , म्हणून कॅटआयन आणि पाण्याचे रेणू स्फटिकांच्या एककांमध्ये सरकू शकतात .
+CT NP NP2 NP3 CCP NP4 NP5 CCP2 VGF NP6 NP7 VGF2 CCP3 NP8 CCP4 NP9 NP10 NP11 NP12 VGF3 BLK
+H अल्युमिना NP N__NN NP nmod NP2 NULL sg d n * H पत्र्यामध्ये NP N__NN NP2 k7 VGF m sg o n * R * nmod
+H पत्र्यामध्ये NP N__NN NP2 k7 VGF m sg o n * H होते VGF V__VM VGF ccof CCP2 NULL NULL NULL NULL * R * k7
+H लोह NP N__NN NP3 ccof CCP n sg d n * H किंवा CCP CC__CCD CCP r6 NP5 NULL NULL NULL avy * R * ccof
+H किंवा CCP CC__CCD CCP r6 NP5 NULL NULL NULL avy * H अदलाबदल NP N__NN NP5 k1 VGF f sg d n * R * r6
+H किंवा CCP CC__CCD CCP r6 NP5 NULL NULL NULL avy * H माग्नेशियमची NP N__NN NP4 ccof CCP NULL sg d n * L * ccof
+H अदलाबदल NP N__NN NP5 k1 VGF f sg d n * H होते VGF V__VM VGF ccof CCP2 NULL NULL NULL NULL * R * k1
+H NULL CCP CC__CCD CCP2 ccof VGF2 NULL NULL NULL NULL * H पावू VGF V__VM VGF2 rs CCP3 NULL NULL NULL v * R * ccof
+H NULL CCP CC__CCD CCP2 ccof VGF2 NULL NULL NULL NULL * H होते VGF V__VM VGF ccof CCP2 NULL NULL NULL NULL * L * ccof
+H मोन्टमोरीलोनाईट NP N__NN NP6 nmod NP7 NULL sg d n * H प्रसरण NP N__NN NP7 k1 VGF2 n sg d n * R * nmod
+H प्रसरण NP N__NN NP7 k1 VGF2 n sg d n * H पावू VGF V__VM VGF2 rs CCP3 NULL NULL NULL v * R * k1
+H पावू VGF V__VM VGF2 rs CCP3 NULL NULL NULL v * H म्हणून CCP CC__CCD CCP3 rh VGF3 NULL NULL NULL avy * R * rs
+H म्हणून CCP CC__CCD CCP3 rh VGF3 NULL NULL NULL avy * H सरकू VGF V__VM VGF3 NULL ROOT NULL NULL NULL v * R * rh
+H कॅटआयन NP N__NNP NP8 ccof CCP4 NULL sg d n * H आणि CCP CC__CCD CCP4 k1 VGF3 NULL NULL NULL avy * R * ccof
+H आणि CCP CC__CCD CCP4 k1 VGF3 NULL NULL NULL avy * H सरकू VGF V__VM VGF3 NULL ROOT NULL NULL NULL v * R * k1
+H पाण्याचे NP N__NN NP9 r6 NP10 n sg o n * H रेणू NP N__NN NP10 ccof CCP4 m pl d n * R * r6
+H आणि CCP CC__CCD CCP4 k1 VGF3 NULL NULL NULL avy * H रेणू NP N__NN NP10 ccof CCP4 m pl d n * L * ccof
+H स्फटिकांच्या NP N__NN NP11 r6 NP12 m pl o n * H एककांमध्ये NP N__NN NP12 k7 VGF3 n pl o n * R * r6
+H एककांमध्ये NP N__NN NP12 k7 VGF3 n pl o n * H सरकू VGF V__VM VGF3 NULL ROOT NULL NULL NULL v * R * k7
+ROOT * H सरकू VGF V__VM VGF3 NULL ROOT NULL NULL NULL v * L * ROOT
+H सरकू VGF V__VM VGF3 NULL ROOT NULL NULL NULL v * H . BLK RD__PUNC BLK rsym VGF3 NULL NULL NULL punc * L * rsym
+</Sentence>
+<Sentence id='116'>
+1980 दरम्यान , शेंगदाणा उत्पादनात वाढ सुरु झाली त्याचा परिणाम म्हणजे 2006मध्ये चीन जगातील सर्वात मोठा शेंगदाणा उत्पादक देश होता
+CT RBP NP NP2 JJP VGF NP3 NP4 CCP JJP2 NP5 NP6 JJP3 NP7 VGF2
+H , RBP RD__PUNC RBP k7t VGF NULL NULL NULL punc * H झाली VGF V__VM VGF nmod NP3 f sg NULL v * R * k7t
+H उत्पादनात NP N__NN NP k7 VGF n sg o n * H झाली VGF V__VM VGF nmod NP3 f sg NULL v * R * k7
+H वाढ NP N__NN NP2 k1 VGF f sg d n * H झाली VGF V__VM VGF nmod NP3 f sg NULL v * R * k1
+H सुरु JJP JJ JJP pof VGF NULL NULL NULL adj * H झाली VGF V__VM VGF nmod NP3 f sg NULL v * R * pof
+H झाली VGF V__VM VGF nmod NP3 f sg NULL v * H त्याचा NP PR__PRP NP3 r6 NP4 n sg o pn * R * nmod
+H त्याचा NP PR__PRP NP3 r6 NP4 n sg o pn * H परिणाम NP N__NN NP4 rs CCP m sg d n * R * r6
+H परिणाम NP N__NN NP4 rs CCP m sg d n * H म्हणजे CCP CC__CCD CCP rs NP5 NULL NULL NULL NULL * R * rs
+H म्हणजे CCP CC__CCD CCP rs NP5 NULL NULL NULL NULL * H चीन NP N__NNP NP5 k1 VGF2 NULL NULL NULL NULL * R * rs
+H 2006मध्ये JJP QT__QTC JJP2 k7t VGF2 NULL NULL NULL NULL * H होता VGF V__VM VGF2 NULL ROOT NULL NULL NULL NULL * R * k7t
+H चीन NP N__NNP NP5 k1 VGF2 NULL NULL NULL NULL * H होता VGF V__VM VGF2 NULL ROOT NULL NULL NULL NULL * R * k1
+H जगातील NP N__NN NP6 k7 VGF2 n sg o n * H होता VGF V__VM VGF2 NULL ROOT NULL NULL NULL NULL * R * k7
+H मोठा JJP JJ JJP3 nmod NP7 NULL NULL NULL avy * H देश NP N__NN NP7 k1s VGF2 m sg d n * R * nmod
+H देश NP N__NN NP7 k1s VGF2 m sg d n * H होता VGF V__VM VGF2 NULL ROOT NULL NULL NULL NULL * R * k1s
+ROOT * H होता VGF V__VM VGF2 NULL ROOT NULL NULL NULL NULL * L * ROOT
+</Sentence>
+<Sentence id='252'>
+मी अनेक वेळा माझ्या मनाला दरडवायची , NULL तुझ्यामध्ये असे काय आहे म्हणून डॉक्टरांनी तुझ्याकडे आकर्षित व्हावे ? अशी माझी मीच निर्भर्त्सना करू घ्यायची .
+CT NP NP2 NP3 NP4 VGF CCP NP5 NP6 NP7 VGF2 CCP2 NP8 NP9 JJP VGF3 NP10 NP11 NP12 VGF4
+H मी NP PR__PRP NP k1 VGF NULL sg d pn * H दरडवायची VGF V__VM VGF ccof CCP NULL NULL NULL v * R * k1
+H वेळा NP N__NN NP2 adv VGF f pl d n * H दरडवायची VGF V__VM VGF ccof CCP NULL NULL NULL v * R * adv
+H माझ्या NP PR__PRP NP3 r6 NP4 NULL NULL NULL pn * H मनाला NP N__NN NP4 k2 VGF n sg o n * R * r6
+H मनाला NP N__NN NP4 k2 VGF n sg o n * H दरडवायची VGF V__VM VGF ccof CCP NULL NULL NULL v * R * k2
+H दरडवायची VGF V__VM VGF ccof CCP NULL NULL NULL v * H NULL CCP CC__CCD CCP NULL ROOT NULL NULL NULL NULL * R * ccof
+ROOT * H NULL CCP CC__CCD CCP NULL ROOT NULL NULL NULL NULL * L * ROOT
+H तुझ्यामध्ये NP PR__PRP NP5 k7 VGF2 f sg o pn * H आहे VGF V__VM VGF2 rs CCP2 NULL sg NULL v * R * k7
+H असे NP PR__PRP NP6 nmod NP7 n sg d pn * H काय NP PR__PRQ NP7 interrogative VGF2 NULL NULL NULL pn * R * nmod
+H काय NP PR__PRQ NP7 interrogative VGF2 NULL NULL NULL pn * H आहे VGF V__VM VGF2 rs CCP2 NULL sg NULL v * R * interrogative
+H आहे VGF V__VM VGF2 rs CCP2 NULL sg NULL v * H म्हणून CCP CC__CCD CCP2 adv VGF3 NULL NULL NULL avy * R * rs
+H म्हणून CCP CC__CCD CCP2 adv VGF3 NULL NULL NULL avy * H व्हावे VGF V__VM VGF3 rs NP10 NULL sg NULL v * R * adv
+H डॉक्टरांनी NP N__NNP NP8 k1 VGF3 NULL sg o n * H व्हावे VGF V__VM VGF3 rs NP10 NULL sg NULL v * R * k1
+H तुझ्याकडे NP PR__PRP NP9 k4 VGF3 f sg d pn * H व्हावे VGF V__VM VGF3 rs NP10 NULL sg NULL v * R * k4
+H आकर्षित JJP JJ JJP pof VGF3 NULL NULL NULL v * H व्हावे VGF V__VM VGF3 rs NP10 NULL sg NULL v * R * pof
+H व्हावे VGF V__VM VGF3 rs NP10 NULL sg NULL v * H अशी NP DM__DMD NP10 nmod NP12 f sg d pn * R * rs
+H अशी NP DM__DMD NP10 nmod NP12 f sg d pn * H निर्भर्त्सना NP N__NN NP12 k2 VGF4 f sg NULL n * R * nmod
+H मीच NP PR__PRP NP11 k1 VGF4 NULL NULL NULL pn * H करू VGF V__VM VGF4 ccof CCP NULL NULL NULL v * R * k1
+H निर्भर्त्सना NP N__NN NP12 k2 VGF4 f sg NULL n * H करू VGF V__VM VGF4 ccof CCP NULL NULL NULL v * R * k2
+H NULL CCP CC__CCD CCP NULL ROOT NULL NULL NULL NULL * H करू VGF V__VM VGF4 ccof CCP NULL NULL NULL v * L * ccof
+</Sentence>
+<Sentence id='253'>
+डॉक्टर आपले कधीही होऊ शकणार नाहीत , याची मला पूर्ण खात्री होती .
+CT NP NP2 NP3 VGF NP4 NP5 NP6 VGF2
+H डॉक्टर NP N__NNP NP k2 VGF NULL NULL NULL n * H नाहीत VGF V__VM VGF rs NP4 NULL pl NULL v * R * k2
+H आपले NP PR__PRP NP2 k4a VGF m pl d adj * H नाहीत VGF V__VM VGF rs NP4 NULL pl NULL v * R * k4a
+H कधीही NP N__NST NP3 k7t VGF NULL NULL NULL pn * H नाहीत VGF V__VM VGF rs NP4 NULL pl NULL v * R * k7t
+H नाहीत VGF V__VM VGF rs NP4 NULL pl NULL v * H याची NP DM__DMD NP4 r6 NP6 m sg o pn * R * rs
+H याची NP DM__DMD NP4 r6 NP6 m sg o pn * H खात्री NP N__NN NP6 k2 VGF2 f sg d n * R * r6
+H मला NP PR__PRP NP5 k1 VGF2 NULL sg o pn * H होती VGF V__VM VGF2 NULL ROOT f sg NULL v * R * k1
+H खात्री NP N__NN NP6 k2 VGF2 f sg d n * H होती VGF V__VM VGF2 NULL ROOT f sg NULL v * R * k2
+ROOT * H होती VGF V__VM VGF2 NULL ROOT f sg NULL v * L * ROOT
+</Sentence>
+<Sentence id='313'>
+हेन्‍री मूर यांची जगात सहा शिल्प आहेत .
+CT NP NP2 NP3 VGF
+H मूर NP N__NNP NP r6 NP3 NULL NULL NULL n * H शिल्प NP N__NN NP3 k1 VGF n sg d n * R * r6
+H जगात NP N__NN NP2 k7 VGF n sg o n * H आहेत VGF V__VM VGF NULL ROOT n pl NULL v * R * k7
+H शिल्प NP N__NN NP3 k1 VGF n sg d n * H आहेत VGF V__VM VGF NULL ROOT n pl NULL v * R * k1
+ROOT * H आहेत VGF V__VM VGF NULL ROOT n pl NULL v * L * ROOT
+</Sentence>
+<Sentence id='403'>
+अर्थात सगळ्यांनाच ही जबाबदारी क्‍लेशकारक किंवा नकोशी वाटते असे नाही ; पण तरीही त्या बाईंचा एक थोडासा हटके पण स्पष्ट आणि तर्कशुद्ध विचार आपल्या सगळ्यांच्याच डोक्‍यात काही प्रकाश पाडेल , असे वाटते ना ?
+CT RBP NP NP2 JJP CCP VGNN VGF NP3 VGF2 CCP2 CCP3 NP4 NP5 CCP4 JJP2 CCP5 NP6 NP7 NP8 NP9 NP10 VGF3 NP11 VGF4 BLK
+H अर्थात RBP RB RBP adv NP NULL NULL NULL adv * H सगळ्यांनाच NP QT__QTF NP r6 NP2 m sg o adj * R * adv
+H सगळ्यांनाच NP QT__QTF NP r6 NP2 m sg o adj * H जबाबदारी NP N__NN NP2 k2 VGF f sg d n * R * r6
+H जबाबदारी NP N__NN NP2 k2 VGF f sg d n * H वाटते VGF V__VM VGF vmod CCP f sg NULL v * R * k2
+H क्‍लेशकारक JJP JJ JJP nmod CCP NULL sg d n * H किंवा CCP CC__CCD CCP adv NP3 NULL NULL NULL avy * R * nmod
+H किंवा CCP CC__CCD CCP adv NP3 NULL NULL NULL avy * H असे NP DM__DMD NP3 k2 VGF2 n sg d pn * R * adv
+H नकोशी VGNN V__VM VGNN nmod VGF NULL NULL NULL v * H वाटते VGF V__VM VGF vmod CCP f sg NULL v * R * nmod
+H किंवा CCP CC__CCD CCP adv NP3 NULL NULL NULL avy * H वाटते VGF V__VM VGF vmod CCP f sg NULL v * L * vmod
+H असे NP DM__DMD NP3 k2 VGF2 n sg d pn * H नाही VGF V__VM VGF2 vmod CCP2 NULL sg NULL v * R * k2
+H नाही VGF V__VM VGF2 vmod CCP2 NULL sg NULL v * H पण CCP CC__CCD CCP2 adv CCP3 NULL NULL NULL avy * R * vmod
+H पण CCP CC__CCD CCP2 adv CCP3 NULL NULL NULL avy * H तरीही CCP CC__CCD CCP3 adv NP5 NULL NULL NULL avy * R * adv
+H तरीही CCP CC__CCD CCP3 adv NP5 NULL NULL NULL avy * H हटके NP N__NN NP5 k2 CCP4 NULL sg d n * R * adv
+H बाईंचा NP N__NN NP4 r6 NP5 f pl o n * H हटके NP N__NN NP5 k2 CCP4 NULL sg d n * R * r6
+H हटके NP N__NN NP5 k2 CCP4 NULL sg d n * H पण CCP CC__CCD CCP4 adv CCP5 NULL NULL NULL avy * R * k2
+H पण CCP CC__CCD CCP4 adv CCP5 NULL NULL NULL avy * H आणि CCP CC__CCD CCP5 adv NP7 NULL NULL NULL avy * R * adv
+H स्पष्ट JJP JJ JJP2 ccof CCP5 NULL NULL NULL n * H आणि CCP CC__CCD CCP5 adv NP7 NULL NULL NULL avy * R * ccof
+H आणि CCP CC__CCD CCP5 adv NP7 NULL NULL NULL avy * H आपल्या NP PR__PRP NP7 nmod NP9 m sg o pn * R * adv
+H आणि CCP CC__CCD CCP5 adv NP7 NULL NULL NULL avy * H विचार NP N__NN NP6 ccof CCP5 m sg d n * L * ccof
+H आपल्या NP PR__PRP NP7 nmod NP9 m sg o pn * H डोक्‍यात NP N__NN NP9 k7 VGF3 NULL sg d n * R * nmod
+H सगळ्यांच्याच NP PR__PRP NP8 r6 NP9 m sg o adj * H डोक्‍यात NP N__NN NP9 k7 VGF3 NULL sg d n * R * r6
+H डोक्‍यात NP N__NN NP9 k7 VGF3 NULL sg d n * H पाडेल VGF V__VM VGF3 vmod NP11 m pl d n * R * k7
+H प्रकाश NP N__NN NP10 k2 VGF3 m sg d n * H पाडेल VGF V__VM VGF3 vmod NP11 m pl d n * R * k2
+H पाडेल VGF V__VM VGF3 vmod NP11 m pl d n * H असे NP DM__DMD NP11 k2 VGF4 n sg d pn * R * vmod
+H असे NP DM__DMD NP11 k2 VGF4 n sg d pn * H वाटते VGF V__VM VGF4 vmod BLK n sg NULL v * R * k2
+H वाटते VGF V__VM VGF4 vmod BLK n sg NULL v * H ? BLK RD__PUNC BLK NULL ROOT NULL NULL NULL punc * R * vmod
+ROOT * H ? BLK RD__PUNC BLK NULL ROOT NULL NULL NULL punc * L * ROOT
+</Sentence>
+<Sentence id='408'>
+तसा मीही होतो ; पण माझ्यातल्या कलागुणांना वाव मिळू न शकल्यामुळे असेल कदाचित , माझी शाळेत घुसमट होऊ लागली .
+CT NP NP2 VGF CCP NP3 NP4 NP5 VGNF NEGP VGNN VGF2 RBP NP6 NP7 JJP VGF3
+H तसा NP PR__PRP NP adv NP2 m sg d pn * H मीही NP PR__PRP NP2 k1 VGF NULL NULL NULL pn * R * adv
+H मीही NP PR__PRP NP2 k1 VGF NULL NULL NULL pn * H होतो VGF V__VM VGF vmod CCP m sg NULL v * R * k1
+H होतो VGF V__VM VGF vmod CCP m sg NULL v * H पण CCP CC__CCD CCP adv NP5 NULL NULL NULL avy * R * vmod
+H पण CCP CC__CCD CCP adv NP5 NULL NULL NULL avy * H वाव NP N__NN NP5 k2 VGNF m sg d n * R * adv
+H माझ्यातल्या NP N__NN NP3 nmod NP4 NULL NULL NULL pn * H कलागुणांना NP N__NN NP4 k4 VGNF NULL sg d n * R * nmod
+H कलागुणांना NP N__NN NP4 k4 VGNF NULL sg d n * H मिळू VGNF V__VM VGNF vmod VGNN NULL NULL NULL v * R * k4
+H वाव NP N__NN NP5 k2 VGNF m sg d n * H मिळू VGNF V__VM VGNF vmod VGNN NULL NULL NULL v * R * k2
+H मिळू VGNF V__VM VGNF vmod VGNN NULL NULL NULL v * H शकल्यामुळे VGNN V__VM VGNN rh RBP NULL NULL o v * R * vmod
+H न NEGP RP__NEG NEGP adv VGNN NULL NULL NULL avy * H शकल्यामुळे VGNN V__VM VGNN rh RBP NULL NULL o v * R * adv
+H शकल्यामुळे VGNN V__VM VGNN rh RBP NULL NULL o v * H कदाचित RBP RB RBP adv VGF3 NULL NULL NULL adv * R * rh
+H असेल VGF V__VM VGF2 vmod RBP NULL sg NULL v * H कदाचित RBP RB RBP adv VGF3 NULL NULL NULL adv * R * vmod
+H कदाचित RBP RB RBP adv VGF3 NULL NULL NULL adv * H होऊ VGF V__VM VGF3 NULL ROOT NULL NULL NULL v * R * adv
+H माझी NP PR__PRP NP6 k1 VGF3 NULL NULL NULL pn * H होऊ VGF V__VM VGF3 NULL ROOT NULL NULL NULL v * R * k1
+H शाळेत NP N__NN NP7 k7p VGF3 f sg o n * H होऊ VGF V__VM VGF3 NULL ROOT NULL NULL NULL v * R * k7p
+H घुसमट JJP JJ JJP k2 VGF3 f sg d n * H होऊ VGF V__VM VGF3 NULL ROOT NULL NULL NULL v * R * k2
+ROOT * H होऊ VGF V__VM VGF3 NULL ROOT NULL NULL NULL v * L * ROOT
+</Sentence>
+<Sentence id='416'>
+परिस्थितीला , लोकांच्या प्रश्‍नांना सामोरं जावं लागलं ; पण आमच्या दृष्टीनं महत्त्वाचा होता सोहम्‌ .
+CT NP NP2 NP3 NP4 VGF CCP NP5 NP6 NP7 VGF2 NP8
+H परिस्थितीला NP N__NN NP k7 VGF NULL sg o n * H जावं VGF V__VM VGF NULL ROOT n sg NULL v * R * k7
+H लोकांच्या NP N__NN NP2 r6 NP3 m pl o n * H प्रश्‍नांना NP N__NN NP3 k4 VGF NULL sg o n * R * r6
+H प्रश्‍नांना NP N__NN NP3 k4 VGF NULL sg o n * H जावं VGF V__VM VGF NULL ROOT n sg NULL v * R * k4
+H सामोरं NP N__NN NP4 k2 VGF NULL sg d n * H जावं VGF V__VM VGF NULL ROOT n sg NULL v * R * k2
+ROOT * H जावं VGF V__VM VGF NULL ROOT n sg NULL v * L * ROOT
+H जावं VGF V__VM VGF NULL ROOT n sg NULL v * H पण CCP CC__CCD CCP adv VGF NULL NULL NULL avy * L * adv
+H पण CCP CC__CCD CCP adv VGF NULL NULL NULL avy * H आमच्या NP PR__PRP NP5 r6 CCP m sg o pn * L * r6
+H दृष्टीनं NP N__NN NP6 k3 VGF2 NULL NULL NULL n * H होता VGF V__VM VGF2 vmod NP7 m sg NULL v * R * k3
+H आमच्या NP PR__PRP NP5 r6 CCP m sg o pn * H महत्त्वाचा NP JJ NP7 nmod NP5 n sg o n * L * nmod
+H महत्त्वाचा NP JJ NP7 nmod NP5 n sg o n * H होता VGF V__VM VGF2 vmod NP7 m sg NULL v * L * vmod
+H होता VGF V__VM VGF2 vmod NP7 m sg NULL v * H सोहम्‌ NP N__NNP NP8 nmod VGF2 NULL sg d n * L * nmod
+</Sentence>
+<Sentence id='459'>
+मी ती ' सॉरी ' म्हणून नाकारणार एवढ्यात समोर जरा अंतरावर बसणाऱ्या डॉक्टरांचे फर्मान सुटले , " परत करायचे नाही .
+CT NP NP2 NP3 VGNN VGNF JJP NP4 NP5 VGNF2 NP6 NP7 VGF RBP VGF2
+H मी NP PR__PRP NP k1 VGNF NULL sg d pn * H नाकारणार VGNF V__VM VGNF jjmod JJP NULL NULL NULL v * R * k1
+H ती NP PR__PRP NP2 k2 VGNF f sg d pn * H नाकारणार VGNF V__VM VGNF jjmod JJP NULL NULL NULL v * R * k2
+H ' NP RD__SYM NP3 k2 VGNN NULL NULL NULL punc * H म्हणून VGNN V__VM VGNN vmod VGNF NULL NULL NULL v * R * k2
+H म्हणून VGNN V__VM VGNN vmod VGNF NULL NULL NULL v * H नाकारणार VGNF V__VM VGNF jjmod JJP NULL NULL NULL v * R * vmod
+H नाकारणार VGNF V__VM VGNF jjmod JJP NULL NULL NULL v * H एवढ्यात JJP QT__QTF JJP k7 VGF n sg o avy * R * jjmod
+H एवढ्यात JJP QT__QTF JJP k7 VGF n sg o avy * H सुटले VGF V__VM VGF NULL ROOT n sg NULL v * R * k7
+H समोर NP N__NST NP4 k7 VGNF2 NULL NULL NULL nst * H बसणाऱ्या VGNF V__VM VGNF2 nmod NP6 NULL NULL NULL v * R * k7
+H अंतरावर NP N__NN NP5 k7 VGNF2 n sg o n * H बसणाऱ्या VGNF V__VM VGNF2 nmod NP6 NULL NULL NULL v * R * k7
+H बसणाऱ्या VGNF V__VM VGNF2 nmod NP6 NULL NULL NULL v * H डॉक्टरांचे NP N__NNP NP6 r6 NP7 m pl o n * R * nmod
+H डॉक्टरांचे NP N__NNP NP6 r6 NP7 m pl o n * H फर्मान NP N__NN NP7 k2 VGF n sg d n * R * r6
+H फर्मान NP N__NN NP7 k2 VGF n sg d n * H सुटले VGF V__VM VGF NULL ROOT n sg NULL v * R * k2
+ROOT * H सुटले VGF V__VM VGF NULL ROOT n sg NULL v * L * ROOT
+H परत RBP RB RBP adv VGF2 NULL NULL NULL adv * H करायचे VGF V__VM VGF2 rs NP7 n sg NULL v * R * adv
+H फर्मान NP N__NN NP7 k2 VGF n sg d n * H करायचे VGF V__VM VGF2 rs NP7 n sg NULL v * L * rs
+</Sentence>
+<Sentence id='481'>
+उत्तरप्रदेश आणि लगतच्या बिहार , दिल्ली , मध्यप्रदेशबरोबरच महाराष्ट्र , गुजरात , राजस्थान , पश्‍चिम बंगाल आदी राज्यांतूनही लाखो भाविक येथे आले आहेत .
+CT NP CCP NP2 NP3 NP4 NP5 NP6 NP7 NP8 NP9 NP10 NP11 NP12 VGF
+H उत्तरप्रदेश NP N__NNP NP UNDEF CCP m sg d n * H आणि CCP CC__CCD CCP rs NP10 NULL NULL NULL avy * R * UNDEF
+H आणि CCP CC__CCD CCP rs NP10 NULL NULL NULL avy * H राज्यांतूनही NP N__NN NP10 k5 VGF n pl o n * R * rs
+H लगतच्या NP N__NST NP2 r6 NP10 NULL NULL NULL nst * H राज्यांतूनही NP N__NN NP10 k5 VGF n pl o n * R * r6
+H आणि CCP CC__CCD CCP rs NP10 NULL NULL NULL avy * H बिहार NP N__NNP NP3 ccof CCP m sg d n * L * ccof
+H आणि CCP CC__CCD CCP rs NP10 NULL NULL NULL avy * H दिल्ली NP N__NNP NP4 ccof CCP NULL NULL NULL n * L * ccof
+H आणि CCP CC__CCD CCP rs NP10 NULL NULL NULL avy * H मध्यप्रदेशबरोबरच NP N__NNP NP5 ccof CCP NULL NULL NULL n * L * ccof
+H आणि CCP CC__CCD CCP rs NP10 NULL NULL NULL avy * H महाराष्ट्र NP N__NNP NP6 ccof CCP m sg d n * L * ccof
+H आणि CCP CC__CCD CCP rs NP10 NULL NULL NULL avy * H गुजरात NP N__NNP NP7 ccof CCP NULL NULL NULL n * L * ccof
+H आणि CCP CC__CCD CCP rs NP10 NULL NULL NULL avy * H राजस्थान NP N__NNP NP8 ccof CCP NULL NULL NULL n * L * ccof
+H आणि CCP CC__CCD CCP rs NP10 NULL NULL NULL avy * H बंगाल NP N__NNP NP9 ccof CCP m sg d n * L * ccof
+H राज्यांतूनही NP N__NN NP10 k5 VGF n pl o n * H आले VGF V__VM VGF NULL ROOT m pl NULL v * R * k5
+H भाविक NP N__NN NP11 k1 VGF m pl d n * H आले VGF V__VM VGF NULL ROOT m pl NULL v * R * k1
+H येथे NP PR__PRP NP12 k7 VGF NULL NULL NULL pn * H आले VGF V__VM VGF NULL ROOT m pl NULL v * R * k7
+ROOT * H आले VGF V__VM VGF NULL ROOT m pl NULL v * L * ROOT
+</Sentence>
+<Sentence id='513'>
+बाकीचे कार्यकर्ते आहेत , ही भूमिका ठेवून कॉंग्रेसची या पुढे वाटचाल सुरू राहील .
+CT NP NP2 VGF NP3 VGNN NP4 NP5 NP6 NP7 JJP VGF2
+H बाकीचे NP N__NN NP r6 NP2 NULL NULL NULL n * H कार्यकर्ते NP N__NN NP2 k1 VGF m pl d n * R * r6
+H कार्यकर्ते NP N__NN NP2 k1 VGF m pl d n * H आहेत VGF V__VM VGF rs NP3 NULL pl NULL v * R * k1
+H आहेत VGF V__VM VGF rs NP3 NULL pl NULL v * H भूमिका NP N__NN NP3 k2 VGNN f sg d n * R * rs
+H भूमिका NP N__NN NP3 k2 VGNN f sg d n * H ठेवून VGNN V__VM VGNN vmod VGF2 NULL NULL NULL v * R * k2
+H ठेवून VGNN V__VM VGNN vmod VGF2 NULL NULL NULL v * H राहील VGF V__VM VGF2 NULL ROOT NULL sg NULL v * R * vmod
+H कॉंग्रेसची NP N__NNP NP4 r6 NP7 NULL NULL NULL n * H वाटचाल NP N__NN NP7 k1 VGF2 f sg NULL n * R * r6
+H या NP PR__PRP NP5 nmod NP6 m sg d pn * H पुढे NP N__NST NP6 k7 VGF2 NULL NULL NULL nst * R * nmod
+H पुढे NP N__NST NP6 k7 VGF2 NULL NULL NULL nst * H राहील VGF V__VM VGF2 NULL ROOT NULL sg NULL v * R * k7
+H वाटचाल NP N__NN NP7 k1 VGF2 f sg NULL n * H राहील VGF V__VM VGF2 NULL ROOT NULL sg NULL v * R * k1
+H सुरू JJP JJ JJP pof VGF2 NULL NULL NULL adj * H राहील VGF V__VM VGF2 NULL ROOT NULL sg NULL v * R * pof
+ROOT * H राहील VGF V__VM VGF2 NULL ROOT NULL sg NULL v * L * ROOT
+</Sentence>
+<Sentence id='547'>
+अल्पसंख्याक संस्थांशिवाय न्यायालयीन प्रक्रियेत अडकलेल्या काही अध्यापक विद्यालयातील विद्यार्थ्यांचाही यात समावेश आहे .
+CT NP NP2 VGNF NP3 NP4 NP5 NP6 NP7 VGF
+H संस्थांशिवाय NP N__NN NP ras-NEG VGF f pl o n * H आहे VGF V__VM VGF NULL ROOT NULL sg NULL v * R * ras-NEG
+H प्रक्रियेत NP N__NN NP2 k7 VGNF f sg o n * H अडकलेल्या VGNF V__VM VGNF nmod NP5 f pl d v * R * k7
+H अडकलेल्या VGNF V__VM VGNF nmod NP5 f pl d v * H विद्यार्थ्यांचाही NP N__NN NP5 r6 NP7 m pl o n * R * nmod
+H काही NP QT__QTF NP3 nmod NP4 NULL NULL NULL avy * H विद्यालयातील NP N__NN NP4 nmod NP5 n sg o n * R * nmod
+H विद्यालयातील NP N__NN NP4 nmod NP5 n sg o n * H विद्यार्थ्यांचाही NP N__NN NP5 r6 NP7 m pl o n * R * nmod
+H विद्यार्थ्यांचाही NP N__NN NP5 r6 NP7 m pl o n * H समावेश NP N__NN NP7 k1 VGF m sg d n * R * r6
+H यात NP PR__PRP NP6 k7 VGF m sg o pn * H आहे VGF V__VM VGF NULL ROOT NULL sg NULL v * R * k7
+H समावेश NP N__NN NP7 k1 VGF m sg d n * H आहे VGF V__VM VGF NULL ROOT NULL sg NULL v * R * k1
+ROOT * H आहे VGF V__VM VGF NULL ROOT NULL sg NULL v * L * ROOT
+</Sentence>
+<Sentence id='574'>
+मुंबईसह अन्य शहरांतून काठमांडूपर्यंत थेट विमानसेवा सुरू करण्यासंबंधी विमान कंपन्यांशी बोलणी सुरू आहेत .
+CT NP NP2 NP3 RBP NP4 JJP VGNN NP5 NP6 JJP2 VGF
+H मुंबईसह NP N__NNP NP ras-k1 VGNN f sg o n * H करण्यासंबंधी VGNN V__VM VGNN nmod NP6 n sg o v * R * ras-k1
+H शहरांतून NP N__NN NP2 k5 VGNN n pl o n * H करण्यासंबंधी VGNN V__VM VGNN nmod NP6 n sg o v * R * k5
+H काठमांडूपर्यंत NP N__NNP NP3 rsp VGNN m sg d n * H करण्यासंबंधी VGNN V__VM VGNN nmod NP6 n sg o v * R * rsp
+H थेट RBP RB RBP adv VGNN NULL NULL NULL adv * H करण्यासंबंधी VGNN V__VM VGNN nmod NP6 n sg o v * R * adv
+H विमानसेवा NP N__NN NP4 k2 VGNN f sg d n * H करण्यासंबंधी VGNN V__VM VGNN nmod NP6 n sg o v * R * k2
+H सुरू JJP JJ JJP pof VGNN NULL NULL NULL adj * H करण्यासंबंधी VGNN V__VM VGNN nmod NP6 n sg o v * R * pof
+H करण्यासंबंधी VGNN V__VM VGNN nmod NP6 n sg o v * H बोलणी NP N__NN NP6 k1 VGF f pl d n * R * nmod
+H कंपन्यांशी NP N__NN NP5 k7 VGF f pl o n * H आहेत VGF V__VM VGF NULL ROOT f pl NULL v * R * k7
+H बोलणी NP N__NN NP6 k1 VGF f pl d n * H आहेत VGF V__VM VGF NULL ROOT f pl NULL v * R * k1
+H सुरू JJP JJ JJP2 pof VGF NULL NULL NULL adj * H आहेत VGF V__VM VGF NULL ROOT f pl NULL v * R * pof
+ROOT * H आहेत VGF V__VM VGF NULL ROOT f pl NULL v * L * ROOT
+</Sentence>
+<Sentence id='586'>
+हापूस आंब्याच्या किमती अजूनही गगनाला भिडलेल्या असल्यामुळे सर्वसामान्य ग्राहकांची गुलटेकडी मार्केटयार्डात आंबा खरेदीसाठी वर्दळ सुरू झाली आहे .
+CT NP NP2 RBP NP3 VGNN NP4 NP5 NP6 NP7 NP8 JJP VGF
+H आंब्याच्या NP N__NNP NP r6 NP2 m sg o n * H किमती NP N__NN NP2 k1 VGNN f sg o n * R * r6
+H किमती NP N__NN NP2 k1 VGNN f sg o n * H भिडलेल्या VGNN V__VM VGNN rh VGF f pl d v * R * k1
+H अजूनही RBP RB RBP adv VGNN NULL NULL NULL adv * H भिडलेल्या VGNN V__VM VGNN rh VGF f pl d v * R * adv
+H गगनाला NP N__NN NP3 k4 VGNN n sg o n * H भिडलेल्या VGNN V__VM VGNN rh VGF f pl d v * R * k4
+H भिडलेल्या VGNN V__VM VGNN rh VGF f pl d v * H झाली VGF V__VM VGF NULL ROOT f sg d v * R * rh
+H ग्राहकांची NP N__NN NP4 r6 NP8 m pl o n * H वर्दळ NP N__NN NP8 k1 VGF f sg d n * R * r6
+H मार्केटयार्डात NP N__NNP NP5 k7p VGF n sg o n * H झाली VGF V__VM VGF NULL ROOT f sg d v * R * k7p
+H आंबा NP N__NN NP6 nmod NP7 m sg d n * H खरेदीसाठी NP N__NN NP7 rt VGF f sg o n * R * nmod
+H खरेदीसाठी NP N__NN NP7 rt VGF f sg o n * H झाली VGF V__VM VGF NULL ROOT f sg d v * R * rt
+H वर्दळ NP N__NN NP8 k1 VGF f sg d n * H झाली VGF V__VM VGF NULL ROOT f sg d v * R * k1
+H सुरू JJP JJ JJP pof VGF NULL NULL NULL adj * H झाली VGF V__VM VGF NULL ROOT f sg d v * R * pof
+ROOT * H झाली VGF V__VM VGF NULL ROOT f sg d v * L * ROOT
+</Sentence>
+<Sentence id='603'>
+डॉ. गावडे यांनी १९७२ - ७३ पासून इंग्रजी माध्यमाच्या वाढत चाललेल्या शाळांची संख्या स्पष्ट केली .
+CT NP NP2 JJP RBP NP3 VGNF VGNF2 NP4 NP5 JJP2 VGF
+H गावडे NP N__NNP NP rs NP2 m sg d n * H यांनी NP PR__PRP NP2 k1 VGF m pl o pn * R * rs
+H यांनी NP PR__PRP NP2 k1 VGF m pl o pn * H केली VGF V__VM VGF NULL ROOT f sg NULL v * R * k1
+H ७३ JJP QT__QTC JJP nmod RBP NULL NULL NULL num * H पासून RBP RB RBP k5 VGNF2 NULL NULL NULL pp * R * nmod
+H पासून RBP RB RBP k5 VGNF2 NULL NULL NULL pp * H चाललेल्या VGNF V__VM VGNF2 nmod NP4 f pl d v * R * k5
+H माध्यमाच्या NP N__NN NP3 r6 NP4 n sg o n * H शाळांची NP N__NN NP4 r6 NP5 f pl o n * R * r6
+H वाढत VGNF V__VM VGNF pof VGNF2 NULL NULL NULL v * H चाललेल्या VGNF V__VM VGNF2 nmod NP4 f pl d v * R * pof
+H चाललेल्या VGNF V__VM VGNF2 nmod NP4 f pl d v * H शाळांची NP N__NN NP4 r6 NP5 f pl o n * R * nmod
+H शाळांची NP N__NN NP4 r6 NP5 f pl o n * H संख्या NP N__NN NP5 k2 VGF f pl d n * R * r6
+H संख्या NP N__NN NP5 k2 VGF f pl d n * H केली VGF V__VM VGF NULL ROOT f sg NULL v * R * k2
+H स्पष्ट JJP JJ JJP2 pof VGF NULL NULL NULL adj * H केली VGF V__VM VGF NULL ROOT f sg NULL v * R * pof
+ROOT * H केली VGF V__VM VGF NULL ROOT f sg NULL v * L * ROOT
+</Sentence>
+<Sentence id='611'>
+सुधाकर तांबे , श्री . वा . कुलकर्णी , पु. ग . वैद्य , न . म . जोशी यांचीही विविध विषयांवर व्याख्याने झाली .
+CT NP NP2 NP3 NP4 NP5 NP6 NP7 NP8
+H तांबे NP N__NNP NP rs NP5 NULL sg d n * H यांचीही NP PR__PRP NP5 r6 NP7 m pl o pn * R * rs
+H कुलकर्णी NP N__NNP NP2 rs NP5 NULL sg d n * H यांचीही NP PR__PRP NP5 r6 NP7 m pl o pn * R * rs
+H वैद्य NP N__NNP NP3 rs NP5 m sg d n * H यांचीही NP PR__PRP NP5 r6 NP7 m pl o pn * R * rs
+H जोशी NP N__NNP NP4 rs NP5 NULL sg d n * H यांचीही NP PR__PRP NP5 r6 NP7 m pl o pn * R * rs
+H यांचीही NP PR__PRP NP5 r6 NP7 m pl o pn * H व्याख्याने NP N__NN NP7 k1 NP8 n pl d n * R * r6
+H विषयांवर NP N__NN NP6 k7 NP8 m pl o n * H . NP RD__PUNC NP8 NULL ROOT NULL NULL NULL punc * R * k7
+H व्याख्याने NP N__NN NP7 k1 NP8 n pl d n * H . NP RD__PUNC NP8 NULL ROOT NULL NULL NULL punc * R * k1
+ROOT * H . NP RD__PUNC NP8 NULL ROOT NULL NULL NULL punc * L * ROOT
+</Sentence>
+<Sentence id='696'>
+ग्राहकांची पिळवणूक करणाऱ्या या व्यापाऱ्यांचा आम्ही निषेध करतो .
+CT NP NP2 VGNF NP3 NP4 NP5 VGF
+H ग्राहकांची NP N__NN NP r6 NP2 m pl o n * H पिळवणूक NP N__NN NP2 k2 VGNF f sg d n * R * r6
+H पिळवणूक NP N__NN NP2 k2 VGNF f sg d n * H करणाऱ्या VGNF V__VM VGNF nmod NP3 NULL NULL NULL v * R * k2
+H करणाऱ्या VGNF V__VM VGNF nmod NP3 NULL NULL NULL v * H व्यापाऱ्यांचा NP N__NN NP3 r6 NP5 m pl o n * R * nmod
+H व्यापाऱ्यांचा NP N__NN NP3 r6 NP5 m pl o n * H निषेध NP N__NN NP5 k2 VGF m sg d n * R * r6
+H आम्ही NP PR__PRP NP4 k1 VGF m pl o pn * H करतो VGF V__VM VGF NULL ROOT m pl NULL v * R * k1
+H निषेध NP N__NN NP5 k2 VGF m sg d n * H करतो VGF V__VM VGF NULL ROOT m pl NULL v * R * k2
+ROOT * H करतो VGF V__VM VGF NULL ROOT m pl NULL v * L * ROOT
+</Sentence>
+<Sentence id='717'>
+अध्यक्ष भेटत नाहीत , अशी पदाधिकाऱ्यांसह कार्यकर्त्यांची तक्रार असली , तरी १३ मार्चला सरचिटणीस व उपाध्यक्षांच्या झालेल्या बैठकीत राज ठाकरे यांनी स्थानिक भागात जाऊन कार्यकर्त्यांच्या बैठका घेणार असल्याचे सांगितले होते .
+CT NP VGF NP2 NP3 NP4 VGNF CCP NP5 NP6 CCP2 NP7 VGNF2 NP8 NP9 NP10 NP11 VGNN NP12 NP13 VGNF3 VGF2
+H अध्यक्ष NP N__NN NP k1 VGF m sg d n * H भेटत VGF V__VM VGF vmod NP2 m pl NULL v * R * k1
+H भेटत VGF V__VM VGF vmod NP2 m pl NULL v * H पदाधिकाऱ्यांसह NP N__NN NP2 nmod VGNF NULL sg d n * R * vmod
+H पदाधिकाऱ्यांसह NP N__NN NP2 nmod VGNF NULL sg d n * H असली VGNF V__VM VGNF vmod CCP f sg NULL v * R * nmod
+H कार्यकर्त्यांची NP N__NN NP3 r6 NP4 m pl o n * H तक्रार NP N__NN NP4 k2 VGNF f sg d n * R * r6
+H तक्रार NP N__NN NP4 k2 VGNF f sg d n * H असली VGNF V__VM VGNF vmod CCP f sg NULL v * R * k2
+H असली VGNF V__VM VGNF vmod CCP f sg NULL v * H तरी CCP CC__CCS CCP adv NP8 NULL NULL NULL avy * R * vmod
+H तरी CCP CC__CCS CCP adv NP8 NULL NULL NULL avy * H बैठकीत NP N__NN NP8 k7 VGNN f sg o n * R * adv
+H मार्चला NP N__NN NP5 k7t VGNN NULL sg d n * H जाऊन VGNN V__VM VGNN k5 VGF2 NULL NULL NULL v * R * k7t
+H सरचिटणीस NP N__NN NP6 ccof CCP2 m sg d n * H व CCP CC__CCD CCP2 r6 NP8 NULL NULL NULL avy * R * ccof
+H व CCP CC__CCD CCP2 r6 NP8 NULL NULL NULL avy * H बैठकीत NP N__NN NP8 k7 VGNN f sg o n * R * r6
+H व CCP CC__CCD CCP2 r6 NP8 NULL NULL NULL avy * H उपाध्यक्षांच्या NP N__NN NP7 ccof CCP2 NULL sg o n * L * ccof
+H झालेल्या VGNF V__VM VGNF2 vmod NP8 NULL NULL o v * H बैठकीत NP N__NN NP8 k7 VGNN f sg o n * R * vmod
+H बैठकीत NP N__NN NP8 k7 VGNN f sg o n * H जाऊन VGNN V__VM VGNN k5 VGF2 NULL NULL NULL v * R * k7
+H ठाकरे NP N__NNP NP9 k1 VGNN NULL sg d n * H जाऊन VGNN V__VM VGNN k5 VGF2 NULL NULL NULL v * R * k1
+H यांनी NP DM__DMD NP10 k1s VGNN NULL NULL NULL pn * H जाऊन VGNN V__VM VGNN k5 VGF2 NULL NULL NULL v * R * k1s
+H भागात NP N__NN NP11 k7 VGNN m sg o n * H जाऊन VGNN V__VM VGNN k5 VGF2 NULL NULL NULL v * R * k7
+H जाऊन VGNN V__VM VGNN k5 VGF2 NULL NULL NULL v * H सांगितले VGF V__VM VGF2 NULL ROOT n sg NULL v * R * k5
+H कार्यकर्त्यांच्या NP N__NN NP12 r6 NP13 m pl o n * H बैठका NP N__NN NP13 k2 VGNF3 f pl d n * R * r6
+H बैठका NP N__NN NP13 k2 VGNF3 f pl d n * H घेणार VGNF V__VM VGNF3 vmod VGF2 NULL NULL NULL v * R * k2
+H घेणार VGNF V__VM VGNF3 vmod VGF2 NULL NULL NULL v * H सांगितले VGF V__VM VGF2 NULL ROOT n sg NULL v * R * vmod
+ROOT * H सांगितले VGF V__VM VGF2 NULL ROOT n sg NULL v * L * ROOT
+</Sentence>
+<Sentence id='729'>
+पतीच्या व्यसनावर तर तिच्या कृतीचा परिणाम होणार नाही याची तिलाही जाणीव आहेच .
+CT NP NP2 NP3 NP4 NP5 VGF NP6 NP7 NP8 VGF2
+H पतीच्या NP N__NN NP r6 NP2 m sg o n * H व्यसनावर NP N__NN NP2 k7 VGF n sg o n * R * r6
+H व्यसनावर NP N__NN NP2 k7 VGF n sg o n * H होणार VGF V__VM VGF vmod NP6 NULL NULL NULL v * R * k7
+H तिच्या NP PR__PRP NP3 nmod NP4 f sg o pn * H कृतीचा NP N__NN NP4 r6 NP5 f sg o n * R * nmod
+H कृतीचा NP N__NN NP4 r6 NP5 f sg o n * H परिणाम NP N__NN NP5 k2 VGF m sg d n * R * r6
+H परिणाम NP N__NN NP5 k2 VGF m sg d n * H होणार VGF V__VM VGF vmod NP6 NULL NULL NULL v * R * k2
+H होणार VGF V__VM VGF vmod NP6 NULL NULL NULL v * H याची NP PR__PRP NP6 r6 NP8 n sg o pn * R * vmod
+H याची NP PR__PRP NP6 r6 NP8 n sg o pn * H जाणीव NP N__NN NP8 k2 VGF2 f sg d n * R * r6
+H तिलाही NP PR__PRP NP7 k1 VGF2 f sg o pn * H आहेच VGF V__VM VGF2 NULL ROOT NULL sg NULL v * R * k1
+H जाणीव NP N__NN NP8 k2 VGF2 f sg d n * H आहेच VGF V__VM VGF2 NULL ROOT NULL sg NULL v * R * k2
+ROOT * H आहेच VGF V__VM VGF2 NULL ROOT NULL sg NULL v * L * ROOT
+</Sentence>
+<Sentence id='735'>
+" हा प्रश्‍न माझ्याच नशिबात का ? माझ्यासारखे दुःख इतर कोणालाही नसेल ' , अशा प्रकारच्या नकारात्मक विचारांमुळे नैराश्‍य वाढत जाते .
+CT NP NP2 NP3 NP4 NP5 NP6 NP7 VGF NP8 NP9 RBP VGF2
+H प्रश्‍न NP N__NN NP k1s VGF NULL NULL NULL n * H नसेल VGF V__VM VGF vmod NP8 NULL sg NULL v * R * k1s
+H माझ्याच NP PR__PRP NP2 nmod NP3 NULL NULL NULL pn * H नशिबात NP N__NN NP3 k7 VGF NULL sg d n * R * nmod
+H नशिबात NP N__NN NP3 k7 VGF NULL sg d n * H नसेल VGF V__VM VGF vmod NP8 NULL sg NULL v * R * k7
+H का NP PR__PRQ NP4 interrogative NP8 NULL NULL NULL pn * H प्रकारच्या NP N__NN NP8 rs NP9 NULL sg o n * R * interrogative
+H माझ्यासारखे NP PR__PRP NP5 nmod NP6 NULL NULL NULL pn * H दुःख NP N__NN NP6 k1 VGF n sg d n * R * nmod
+H दुःख NP N__NN NP6 k1 VGF n sg d n * H नसेल VGF V__VM VGF vmod NP8 NULL sg NULL v * R * k1
+H कोणालाही NP N__NN NP7 k4 VGF NULL sg o pn * H नसेल VGF V__VM VGF vmod NP8 NULL sg NULL v * R * k4
+H नसेल VGF V__VM VGF vmod NP8 NULL sg NULL v * H प्रकारच्या NP N__NN NP8 rs NP9 NULL sg o n * R * vmod
+H प्रकारच्या NP N__NN NP8 rs NP9 NULL sg o n * H विचारांमुळे NP N__NN NP9 rh VGF2 m pl o n * R * rs
+H विचारांमुळे NP N__NN NP9 rh VGF2 m pl o n * H वाढत VGF V__VM VGF2 NULL ROOT NULL NULL NULL v * R * rh
+H नैराश्‍य RBP RB RBP k2 VGF2 NULL sg d n * H वाढत VGF V__VM VGF2 NULL ROOT NULL NULL NULL v * R * k2
+ROOT * H वाढत VGF V__VM VGF2 NULL ROOT NULL NULL NULL v * L * ROOT
+</Sentence>
+<Sentence id='902'>
+`` श्री माता वैष्णों देवी स्थापन बोर्डाची स्थापना १९८६मध्ये जम्मू आणि काश्मीरच्या राज्यपालाद्वारे एक वटहुकूम काढून केली गेली , ज्याची १९८८मध्ये राज्याच्या विधानसभेद्वारे पुष्टी केली गेली . ``
+CT NP NP2 NP3 NP4 CCP NP5 NP6 NP7 VGF NP8 NP9 NP10 NP11 NP12 VGF2 BLK
+H बोर्डाची NP N__NN NP r6 NP2 m sg o n * H स्थापना NP N__NN NP2 k2 VGF f sg d n * R * r6
+H स्थापना NP N__NN NP2 k2 VGF f sg d n * H काढून VGF V__VM VGF nmod NP8 NULL NULL NULL v * R * k2
+H १९८६मध्ये NP N__NN NP3 k7t VGF NULL NULL NULL num * H काढून VGF V__VM VGF nmod NP8 NULL NULL NULL v * R * k7t
+H जम्मू NP N__NNP NP4 ccof CCP m sg d n * H आणि CCP CC__CCD CCP r6 NP6 NULL NULL NULL avy * R * ccof
+H आणि CCP CC__CCD CCP r6 NP6 NULL NULL NULL avy * H राज्यपालाद्वारे NP N__NN NP6 pk1 VGF m sg o n * R * r6
+H आणि CCP CC__CCD CCP r6 NP6 NULL NULL NULL avy * H काश्मीरच्या NP N__NNP NP5 ccof CCP n sg o n * L * ccof
+H राज्यपालाद्वारे NP N__NN NP6 pk1 VGF m sg o n * H काढून VGF V__VM VGF nmod NP8 NULL NULL NULL v * R * pk1
+H वटहुकूम NP N__NN NP7 k2 VGF m sg d n * H काढून VGF V__VM VGF nmod NP8 NULL NULL NULL v * R * k2
+H काढून VGF V__VM VGF nmod NP8 NULL NULL NULL v * H ज्याची NP PR__PRP NP8 r6 NP12 n sg o pn * R * nmod
+H ज्याची NP PR__PRP NP8 r6 NP12 n sg o pn * H पुष्टी NP N__NN NP12 k2 VGF2 f sg d n * R * r6
+H १९८८मध्ये NP N__NN NP9 k7t VGF2 NULL NULL NULL num * H केली VGF V__VM VGF2 NULL ROOT f sg d v * R * k7t
+H राज्याच्या NP N__NN NP10 r6 NP11 n sg o n * H विधानसभेद्वारे NP N__NN NP11 k1 VGF2 f sg o n * R * r6
+H विधानसभेद्वारे NP N__NN NP11 k1 VGF2 f sg o n * H केली VGF V__VM VGF2 NULL ROOT f sg d v * R * k1
+H पुष्टी NP N__NN NP12 k2 VGF2 f sg d n * H केली VGF V__VM VGF2 NULL ROOT f sg d v * R * k2
+ROOT * H केली VGF V__VM VGF2 NULL ROOT f sg d v * L * ROOT
+H केली VGF V__VM VGF2 NULL ROOT f sg d v * H `` BLK RD__PUNC BLK rsym VGF2 NULL NULL NULL punc * L * rsym
+</Sentence>
+<Sentence id='910'>
+`` उच्च स्तराच्या सफाईची व्यवस्था करण्यासाठी हवेबरोबर कचरा खेचणारे ( शोषक ) यंत्र , धूर सोडणारे यंत्र आणि प्रवाश्यांना स्वच्छ घोंगड्या उपलब्ध करण्यासाठी स्वयंचलित कपडे धुणार्‍या यंत्राची व्यवस्था केली गेली आहे . ``
+CT NP NP2 NP3 VGNN NP4 NP5 VGNF NP6 NP7 VGNF2 NP8 CCP NP9 NP10 JJP VGNN2 JJP2 NP11 VGNF3 NP12 NP13 VGF BLK
+H स्तराच्या NP N__NN NP r6 NP2 m sg o n * H सफाईची NP N__NN NP2 r6 NP3 f sg o n * R * r6
+H सफाईची NP N__NN NP2 r6 NP3 f sg o n * H व्यवस्था NP N__NN NP3 k2 VGNN f sg d n * R * r6
+H व्यवस्था NP N__NN NP3 k2 VGNN f sg d n * H करण्यासाठी VGNN V__VM VGNN rt VGF NULL NULL NULL v * R * k2
+H करण्यासाठी VGNN V__VM VGNN rt VGF NULL NULL NULL v * H केली VGF V__VM VGF NULL ROOT f sg d v * R * rt
+H हवेबरोबर NP N__NN NP4 ras-k2 VGNF f sg o n * H खेचणारे VGNF V__VM VGNF nmod NP6 NULL NULL NULL NULL * R * ras-k2
+H कचरा NP N__NN NP5 k2 VGNF m sg d n * H खेचणारे VGNF V__VM VGNF nmod NP6 NULL NULL NULL NULL * R * k2
+H खेचणारे VGNF V__VM VGNF nmod NP6 NULL NULL NULL NULL * H यंत्र NP N__NN NP6 rs CCP n sg d n * R * nmod
+H यंत्र NP N__NN NP6 rs CCP n sg d n * H आणि CCP CC__CCD CCP r6 NP13 NULL NULL NULL avy * R * rs
+H धूर NP N__NN NP7 k2 VGNF2 m sg d n * H सोडणारे VGNF V__VM VGNF2 nmod NP8 n sg d v * R * k2
+H सोडणारे VGNF V__VM VGNF2 nmod NP8 n sg d v * H यंत्र NP N__NN NP8 rs CCP n sg d n * R * nmod
+H यंत्र NP N__NN NP8 rs CCP n sg d n * H आणि CCP CC__CCD CCP r6 NP13 NULL NULL NULL avy * R * rs
+H आणि CCP CC__CCD CCP r6 NP13 NULL NULL NULL avy * H व्यवस्था NP N__NN NP13 k2 VGF f sg d n * R * r6
+H प्रवाश्यांना NP N__NN NP9 k4 VGNN2 NULL pl o n * H करण्यासाठी VGNN V__VM VGNN2 rt VGF NULL NULL NULL v * R * k4
+H घोंगड्या NP N__NN NP10 k2 VGNN2 n sg o n * H करण्यासाठी VGNN V__VM VGNN2 rt VGF NULL NULL NULL v * R * k2
+H उपलब्ध JJP JJ JJP pof VGNN2 NULL NULL NULL adj * H करण्यासाठी VGNN V__VM VGNN2 rt VGF NULL NULL NULL v * R * pof
+H करण्यासाठी VGNN V__VM VGNN2 rt VGF NULL NULL NULL v * H केली VGF V__VM VGF NULL ROOT f sg d v * R * rt
+H स्वयंचलित JJP JJ JJP2 nmod NP12 NULL NULL NULL adj * H यंत्राची NP N__NN NP12 rs CCP n sg o n * R * nmod
+H कपडे NP N__NN NP11 k2 VGNF3 m pl d n * H धुणार्‍या VGNF V__VM VGNF3 nmod NP12 NULL NULL NULL NULL * R * k2
+H धुणार्‍या VGNF V__VM VGNF3 nmod NP12 NULL NULL NULL NULL * H यंत्राची NP N__NN NP12 rs CCP n sg o n * R * nmod
+H आणि CCP CC__CCD CCP r6 NP13 NULL NULL NULL avy * H यंत्राची NP N__NN NP12 rs CCP n sg o n * L * rs
+H व्यवस्था NP N__NN NP13 k2 VGF f sg d n * H केली VGF V__VM VGF NULL ROOT f sg d v * R * k2
+ROOT * H केली VGF V__VM VGF NULL ROOT f sg d v * L * ROOT
+H केली VGF V__VM VGF NULL ROOT f sg d v * H `` BLK RD__PUNC BLK rsym VGF NULL NULL NULL punc * L * rsym
+</Sentence>
+<Sentence id='916'>
+ह्याच्या व्यतिरिक्‍त स्थापन बोर्डाने जनसेवेचे कामसुद्धा सुरू केले आहे तसेच आठ शाळा खंड व दोन कार्यकेंद्रे बनवली गेली आहेत ज्यांचा उद्देश्य त्या क्षेत्रातील स्त्रियांना दक्षता प्रदान करणे आणि काम देणे आहे .
+CT NP RBP NP2 NP3 NP4 JJP VGF CCP NP5 CCP2 NP6 VGF2 NP7 NP8 NP9 NP10 NP11 NP12 VGNN CCP3 NP13 VGNN2 VGF3 BLK
+H ह्याच्या NP PR__PRP NP r6 RBP n sg o pn * H व्यतिरिक्‍त RBP RB RBP ras-k2 VGF NULL NULL NULL adj * R * r6
+H व्यतिरिक्‍त RBP RB RBP ras-k2 VGF NULL NULL NULL adj * H केले VGF V__VM VGF ccof CCP n sg d v * R * ras-k2
+H बोर्डाने NP N__NN NP2 UNDEF VGF m sg o n * H केले VGF V__VM VGF ccof CCP n sg d v * R * UNDEF
+H जनसेवेचे NP N__NN NP3 r6 NP4 f sg o n * H कामसुद्धा NP N__NN NP4 UNDEF VGF n sg o n * R * r6
+H कामसुद्धा NP N__NN NP4 UNDEF VGF n sg o n * H केले VGF V__VM VGF ccof CCP n sg d v * R * UNDEF
+H सुरू JJP JJ JJP pof VGF NULL NULL NULL adj * H केले VGF V__VM VGF ccof CCP n sg d v * R * pof
+H केले VGF V__VM VGF ccof CCP n sg d v * H तसेच CCP CC__CCD CCP NULL ROOT NULL NULL NULL avy * R * ccof
+ROOT * H तसेच CCP CC__CCD CCP NULL ROOT NULL NULL NULL avy * L * ROOT
+H खंड NP N__NN NP5 ccof CCP2 m sg d n * H व CCP CC__CCD CCP2 k2 VGF2 NULL NULL NULL avy * R * ccof
+H व CCP CC__CCD CCP2 k2 VGF2 NULL NULL NULL avy * H बनवली VGF V__VM VGF2 ccof CCP n pl d v * R * k2
+H व CCP CC__CCD CCP2 k2 VGF2 NULL NULL NULL avy * H कार्यकेंद्रे NP N__NN NP6 ccof CCP2 n pl o n * L * ccof
+H तसेच CCP CC__CCD CCP NULL ROOT NULL NULL NULL avy * H बनवली VGF V__VM VGF2 ccof CCP n pl d v * L * ccof
+H ज्यांचा NP PR__PRP NP7 r6 NP8 n pl o pn * H उद्देश्य NP N__NN NP8 k1 VGF3 m sg d n * R * r6
+H उद्देश्य NP N__NN NP8 k1 VGF3 m sg d n * H आहे VGF V__VM VGF3 vmod VGF2 NULL sg NULL v * R * k1
+H क्षेत्रातील NP N__NN NP9 k7p VGF3 n sg o n * H आहे VGF V__VM VGF3 vmod VGF2 NULL sg NULL v * R * k7p
+H स्त्रियांना NP N__NN NP10 k4 VGNN f pl o n * H करणे VGNN V__VM VGNN ccof CCP3 n sg d v * R * k4
+H दक्षता NP N__NN NP11 k2 VGNN f sg d n * H करणे VGNN V__VM VGNN ccof CCP3 n sg d v * R * k2
+H प्रदान NP N__NN NP12 pof VGNN n sg d n * H करणे VGNN V__VM VGNN ccof CCP3 n sg d v * R * pof
+H करणे VGNN V__VM VGNN ccof CCP3 n sg d v * H आणि CCP CC__CCD CCP3 rs NP8 NULL NULL NULL avy * R * ccof
+H उद्देश्य NP N__NN NP8 k1 VGF3 m sg d n * H आणि CCP CC__CCD CCP3 rs NP8 NULL NULL NULL avy * L * rs
+H काम NP N__NN NP13 k2 VGNN2 n sg d n * H देणे VGNN V__VM VGNN2 ccof CCP3 NULL NULL NULL v * R * k2
+H आणि CCP CC__CCD CCP3 rs NP8 NULL NULL NULL avy * H देणे VGNN V__VM VGNN2 ccof CCP3 NULL NULL NULL v * L * ccof
+H बनवली VGF V__VM VGF2 ccof CCP n pl d v * H आहे VGF V__VM VGF3 vmod VGF2 NULL sg NULL v * L * vmod
+H आहे VGF V__VM VGF3 vmod VGF2 NULL sg NULL v * H . BLK RD__PUNC BLK rsym VGF3 NULL NULL NULL punc * L * rsym
+</Sentence>
+<Sentence id='1010'>
+फक्त अवकाश आहे तो त्यांना डोळ्यात साठवून घेण्याचा .
+CT NP VGF NP2 NP3 VGNN BLK
+H अवकाश NP N__NN NP k1 VGF m sg d n * H आहे VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * R * k1
+ROOT * H आहे VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * L * ROOT
+H त्यांना NP PR__PRP NP2 k1 VGNN n pl o pn * H घेण्याचा VGNN V__VM VGNN r6 NP NULL NULL NULL NULL * R * k1
+H डोळ्यात NP N__NN NP3 k7p VGNN m sg o n * H घेण्याचा VGNN V__VM VGNN r6 NP NULL NULL NULL NULL * R * k7p
+H अवकाश NP N__NN NP k1 VGF m sg d n * H घेण्याचा VGNN V__VM VGNN r6 NP NULL NULL NULL NULL * L * r6
+H आहे VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * H . BLK RD__PUNC BLK rsym VGF NULL NULL NULL punc * L * rsym
+</Sentence>
+<Sentence id='1016'>
+श्रीनगरमध्ये फिरण्याचा सर्वात चांगला काळ एप्रिल ते जून हा आहे .
+CT NP VGNN NP2 NP3 CCP NP4 NP5 VGF BLK
+H श्रीनगरमध्ये NP N__NNP NP k7p VGNN NULL NULL NULL n * H फिरण्याचा VGNN V__VM VGNN r6 NP2 NULL NULL NULL NULL * R * k7p
+H फिरण्याचा VGNN V__VM VGNN r6 NP2 NULL NULL NULL NULL * H काळ NP N__NN NP2 rs NP5 m sg d n * R * r6
+H काळ NP N__NN NP2 rs NP5 m sg d n * H हा NP DM__DMR NP5 k1 VGF m sg d pn * R * rs
+H एप्रिल NP N__NNP NP3 ccof CCP NULL NULL NULL n * H ते CCP CC__CCD CCP k7t VGF NULL NULL NULL avy * R * ccof
+H ते CCP CC__CCD CCP k7t VGF NULL NULL NULL avy * H आहे VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * R * k7t
+H ते CCP CC__CCD CCP k7t VGF NULL NULL NULL avy * H जून NP N__NNP NP4 ccof CCP NULL NULL NULL n * L * ccof
+H हा NP DM__DMR NP5 k1 VGF m sg d pn * H आहे VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * R * k1
+ROOT * H आहे VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * L * ROOT
+H आहे VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * H . BLK RD__PUNC BLK rsym VGF NULL NULL NULL punc * L * rsym
+</Sentence>
+<Sentence id='1021'>
+सरोवरात बदकांप्रमाणे पोहणारे शिकारे पर्यटकांना सरोवर आणि टापुंची सहल घडवून आणतात .
+CT NP NP2 VGNF NP3 NP4 NP5 CCP NP6 NP7 VGF BLK
+H सरोवरात NP N__NN NP k7p VGNF n sg o n * H पोहणारे VGNF V__VM VGNF nmod NP3 NULL NULL NULL NULL * R * k7p
+H बदकांप्रमाणे NP N__NN NP2 ras-k1 VGF n pl o n * H घडवून VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * R * ras-k1
+H पोहणारे VGNF V__VM VGNF nmod NP3 NULL NULL NULL NULL * H शिकारे NP N__NN NP3 k1 VGF m pl NULL n * R * nmod
+H शिकारे NP N__NN NP3 k1 VGF m pl NULL n * H घडवून VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * R * k1
+H पर्यटकांना NP N__NN NP4 k4 VGF NULL sg o n * H घडवून VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * R * k4
+H सरोवर NP N__NN NP5 ccof CCP n sg d n * H आणि CCP CC__CCD CCP r6 NP7 NULL NULL NULL avy * R * ccof
+H आणि CCP CC__CCD CCP r6 NP7 NULL NULL NULL avy * H सहल NP N__NN NP7 k2 VGF f sg d n * R * r6
+H आणि CCP CC__CCD CCP r6 NP7 NULL NULL NULL avy * H टापुंची NP N__NN NP6 ccof CCP m pl NULL n * L * ccof
+H सहल NP N__NN NP7 k2 VGF f sg d n * H घडवून VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * R * k2
+ROOT * H घडवून VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * L * ROOT
+H घडवून VGF V__VM VGF NULL ROOT NULL NULL NULL NULL * H . BLK RD__PUNC BLK rsym VGF NULL NULL NULL punc * L * rsym
+</Sentence>
+<Sentence id='1153'>
+असे म्हटले जाते रेल्वे अधिकार्‍यांच्या सुरक्षेसाठी मोर्टिलो टॉवर बांधला गेला .
+CT RBP VGF NP NP2 NP3 VGF2
+H असे RBP RB RBP k2 VGF n sg d pn * H म्हटले VGF V__VM VGF NULL ROOT n sg d v * R * k2
+ROOT * H म्हटले VGF V__VM VGF NULL ROOT n sg d v * L * ROOT
+H अधिकार्‍यांच्या NP N__NN NP r6 NP2 m sg o n * H सुरक्षेसाठी NP N__NN NP2 rt VGF2 f sg o n * R * r6
+H सुरक्षेसाठी NP N__NN NP2 rt VGF2 f sg o n * H बांधला VGF V__VM VGF2 rs RBP m sg d v * R * rt
+H टॉवर NP N__NN NP3 k2 VGF2 m sg d n * H बांधला VGF V__VM VGF2 rs RBP m sg d v * R * k2
+H असे RBP RB RBP k2 VGF n sg d pn * H बांधला VGF V__VM VGF2 rs RBP m sg d v * L * rs
+</Sentence>
+<Sentence id='1172'>
+आंजन धामच्या नैसर्गिक छटांचे अनुमान ह्या गोष्टींवरून लावता येते की ह्या ठिकाणाला तिन्ही बाजूंनी नेतरहाट पर्वत आपल्या पाट श्रृंखलांनी घेरून उभा आहे तर एका बाजूने खरवा नदी वाहते .
+CT NP NP2 NP3 NP4 VGF CCP NP5 NP6 NP7 NP8 NP9 VGNF JJP VGF2 CCP2 NP10 NP11 VGF3
+H धामच्या NP N__NN NP r6 NP2 n sg d n * H छटांचे NP N__NN NP2 r6 NP3 f pl o n * R * r6
+H छटांचे NP N__NN NP2 r6 NP3 f pl o n * H अनुमान NP N__NN NP3 k2 VGF n sg d n * R * r6
+H अनुमान NP N__NN NP3 k2 VGF n sg d n * H लावता VGF V__VM VGF ccof CCP2 NULL NULL NULL v * R * k2
+H गोष्टींवरून NP N__NN NP4 rh VGF f pl o n * H लावता VGF V__VM VGF ccof CCP2 NULL NULL NULL v * R * rh
+H लावता VGF V__VM VGF ccof CCP2 NULL NULL NULL v * H तर CCP CC__CCS CCP2 NULL ROOT NULL NULL NULL avy * R * ccof
+H लावता VGF V__VM VGF ccof CCP2 NULL NULL NULL v * H की CCP CC__CCS CCP k2s VGF NULL NULL NULL avy * L * k2s
+H ठिकाणाला NP N__NN NP5 k2 VGNF n sg o n * H घेरून VGNF V__VM VGNF vmod VGF2 NULL NULL NULL v * R * k2
+H बाजूंनी NP N__NN NP6 k3 VGNF f pl o n * H घेरून VGNF V__VM VGNF vmod VGF2 NULL NULL NULL v * R * k3
+H पर्वत NP N__NN NP7 k1 VGF2 m sg d n * H आहे VGF V__VM VGF2 ccof CCP m sg NULL v * R * k1
+H आपल्या NP PR__PRP NP8 r6 NP9 m sg o pn * H श्रृंखलांनी NP N__NN NP9 k3 VGNF f pl o n * R * r6
+H श्रृंखलांनी NP N__NN NP9 k3 VGNF f pl o n * H घेरून VGNF V__VM VGNF vmod VGF2 NULL NULL NULL v * R * k3
+H घेरून VGNF V__VM VGNF vmod VGF2 NULL NULL NULL v * H आहे VGF V__VM VGF2 ccof CCP m sg NULL v * R * vmod
+H उभा JJP JJ JJP k1s VGF2 m sg d adj * H आहे VGF V__VM VGF2 ccof CCP m sg NULL v * R * k1s
+H की CCP CC__CCS CCP k2s VGF NULL NULL NULL avy * H आहे VGF V__VM VGF2 ccof CCP m sg NULL v * L * ccof
+ROOT * H तर CCP CC__CCS CCP2 NULL ROOT NULL NULL NULL avy * L * ROOT
+H बाजूने NP N__NN NP10 k7p VGF3 f sg o n * H वाहते VGF V__VM VGF3 ccof CCP2 f sg NULL v * R * k7p
+H नदी NP N__NN NP11 k1 VGF3 f sg d n * H वाहते VGF V__VM VGF3 ccof CCP2 f sg NULL v * R * k1
+H तर CCP CC__CCS CCP2 NULL ROOT NULL NULL NULL avy * H वाहते VGF V__VM VGF3 ccof CCP2 f sg NULL v * L * ccof
+</Sentence>
+<Sentence id='1178'>
+" ह्या मंदिरात बळी देण्याची प्रथा आहे , असे वाटते की हे एक तांत्रिक पीठ सदृश देवी स्थळ आहे . "
+CT NP NP2 VGNN NP3 VGF CCP RBP VGF2 CCP2 NP4 NP5 NP6 VGF3
+H मंदिरात NP N__NN NP k7p VGF n sg o n * H आहे VGF V__VM VGF ccof CCP f sg NULL v * R * k7p
+H बळी NP N__NN NP2 k2 VGNN m sg d n * H देण्याची VGNN V__VM VGNN r6 NP3 NULL NULL NULL v * R * k2
+H देण्याची VGNN V__VM VGNN r6 NP3 NULL NULL NULL v * H प्रथा NP N__NN NP3 k1 VGF f sg d n * R * r6
+H प्रथा NP N__NN NP3 k1 VGF f sg d n * H आहे VGF V__VM VGF ccof CCP f sg NULL v * R * k1
+H आहे VGF V__VM VGF ccof CCP f sg NULL v * H , CCP RD__PUNC CCP NULL ROOT NULL NULL NULL punc * R * ccof
+ROOT * H , CCP RD__PUNC CCP NULL ROOT NULL NULL NULL punc * L * ROOT
+H असे RBP RB RBP k2 VGF2 n sg d pn * H वाटते VGF V__VM VGF2 ccof CCP n sg NULL v * R * k2
+H , CCP RD__PUNC CCP NULL ROOT NULL NULL NULL punc * H वाटते VGF V__VM VGF2 ccof CCP n sg NULL v * L * ccof
+H असे RBP RB RBP k2 VGF2 n sg d pn * H की CCP CC__CCS CCP2 ccof RBP NULL NULL NULL avy * L * ccof
+H हे NP DM__DMD NP4 k1 VGF3 n sg d pn * H आहे VGF V__VM VGF3 ccof CCP2 n sg NULL v * R * k1
+H पीठ NP N__NN NP5 ras-k1 VGF3 n sg d n * H आहे VGF V__VM VGF3 ccof CCP2 n sg NULL v * R * ras-k1
+H स्थळ NP N__NN NP6 k1s VGF3 n sg d n * H आहे VGF V__VM VGF3 ccof CCP2 n sg NULL v * R * k1s
+H की CCP CC__CCS CCP2 ccof RBP NULL NULL NULL avy * H आहे VGF V__VM VGF3 ccof CCP2 n sg NULL v * L * ccof
+</Sentence>
+<Sentence id='1199'>
+शुभ्र दगडांपासून बांधलेल्या दर्ग्यावर आजही सर्व धर्मांचे लोक दुरुन दुरुन येतात आणि येथील सुंदर जाळ्यांना निरखतात .
+CT NP VGNN NP2 NP3 NP4 NP5 NP6 VGF CCP NP7 VGF2 BLK
+H दगडांपासून NP N__NN NP k5 VGNN m pl o n * H बांधलेल्या VGNN V__VM VGNN nmod NP2 NULL NULL o v * R * k5
+H बांधलेल्या VGNN V__VM VGNN nmod NP2 NULL NULL o v * H दर्ग्यावर NP N__NN NP2 k7p VGF m sg NULL n * R * nmod
+H दर्ग्यावर NP N__NN NP2 k7p VGF m sg NULL n * H येतात VGF V__VM VGF ccof CCP NULL NULL NULL NULL * R * k7p
+H आजही NP N__NST NP3 k7t VGF NULL NULL NULL nst * H येतात VGF V__VM VGF ccof CCP NULL NULL NULL NULL * R * k7t
+H धर्मांचे NP N__NN NP4 r6 NP7 m pl o n * H जाळ्यांना NP N__NN NP7 k2 VGF2 n pl o n * R * r6
+H लोक NP N__NN NP5 k1 VGF m pl d n * H येतात VGF V__VM VGF ccof CCP NULL NULL NULL NULL * R * k1
+H दुरुन NP N__NN NP6 k7p VGF NULL NULL NULL nst * H येतात VGF V__VM VGF ccof CCP NULL NULL NULL NULL * R * k7p
+H येतात VGF V__VM VGF ccof CCP NULL NULL NULL NULL * H आणि CCP CC__CCD CCP ccof VGF2 NULL NULL NULL avy * R * ccof
+H आणि CCP CC__CCD CCP ccof VGF2 NULL NULL NULL avy * H निरखतात VGF V__VM VGF2 NULL ROOT NULL NULL NULL NULL * R * ccof
+H जाळ्यांना NP N__NN NP7 k2 VGF2 n pl o n * H निरखतात VGF V__VM VGF2 NULL ROOT NULL NULL NULL NULL * R * k2
+ROOT * H निरखतात VGF V__VM VGF2 NULL ROOT NULL NULL NULL NULL * L * ROOT
+H निरखतात VGF V__VM VGF2 NULL ROOT NULL NULL NULL NULL * H . BLK RD__PUNC BLK rsym VGF2 NULL NULL NULL punc * L * rsym
+</Sentence>
