@@ -118,10 +118,10 @@ print()
 print()
 
 score_SVM = SVM.score(X, Y)
-print(score_SVM)
+print(score_SVM * 100)
 
 score_LR = logisticRegr.score(X, Y)
-print(score_LR)
+print(score_LR * 100)
 
 # print(Y == Y_svm)
 # print(Y == Y_logisticRegr)

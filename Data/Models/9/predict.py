@@ -20,7 +20,7 @@ with open('../../pos_tags', 'rb') as fp:
 # print(chunk_tags)
 
 N = len(words) + len(pos_tags) + \
-    len(words) + len(pos_tags)
+    len(words) + len(pos_tags) + 2
 
 Y = []
 classes = set([])
@@ -45,6 +45,9 @@ for i in range(len(pos_tags)):
 # for i in range(len(chunk_tags)):
 #     chunk_index[chunk_tags[i]] = i
 
+lr_index = {}
+lr_index["L"] = 0
+lr_index["R"] = 1
 
 with open(sys.argv[1], "r") as f:
     for line in f:
@@ -52,6 +55,9 @@ with open(sys.argv[1], "r") as f:
             current = line.strip().split("*")
 
             # print(len(Y))
+
+            if current[2].strip() == "U":
+                continue
 
             if current[0].strip().split(" ")[0].strip() == "ROOT":
                 col_ind.append(word_index["ROOT"])
@@ -81,10 +87,13 @@ with open(sys.argv[1], "r") as f:
                 # col_ind.append(words_len + pos_len + chunk_len + words_len +
                 #                pos_len + chunk_index[(current[1].strip().split(" ")[3])])
 
-            row_ind.extend(repeat(len(Y), 4))
+            col_ind.append(2 * (words_len + pos_len) +
+                           lr_index[current[2].strip()])
 
-            Y.append(current[2].strip())
-            classes.add(current[2].strip())
+            row_ind.extend(repeat(len(Y), 5))
+
+            Y.append(current[3].strip())
+            classes.add(current[3].strip())
 
 M = len(Y)
 data = [1] * len(col_ind)
