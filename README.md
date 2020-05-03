@@ -27,7 +27,7 @@ Training.txt, Testing.txt, words, pos_tags, and chunk_tags.
 
 _Reading the output_ -
 
-5. The values print in the first two arrays are predictions from SVM and Logistic Regression Models respectively. (depending on what is the model's output, it would either be the arc direction or the arc label )
+5. The values printed in the first two arrays are predictions from SVM and Logistic Regression Models respectively. (depending on what is the model's output, it would either be the arc direction or the arc label)
 
 6. The numeric values are accuracies of the SVM and Logistic Regression models respectively.
 
@@ -39,18 +39,15 @@ We processed about 15K data from the gold labeled dependency from https://ltrc.i
 
 **Github Repository link**
 
-https://github.com/destinyson7/Dependency-Parser-Marathi
+Our project can be accessed by clicking    [this](https://github.com/destinyson7/Dependency-Parser-Marathi)
 
 
 **Work division**
 
-Tanish (2018114005) - 
+The work was done in such a way that each member contributed to each of the tasks.
 
-Mukund (2018114015) - 
+Tanish (2018114005) - Mostly Coding Part
 
+Mukund (2018114015) - Mostly Theoretical Part
 
-
-ToDo
-
-
-It will also contain a breakdown of which team member did which part of the project
+We both feel that we have contributed equally on this project.
