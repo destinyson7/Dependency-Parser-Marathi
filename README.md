@@ -31,7 +31,26 @@ _Reading the output_ -
 
 6. The numeric values are accuracies of the SVM and Logistic Regression models respectively.
 
+
+**Source of our Data** -
+
+We processed about 15K data from the gold labeled dependency from https://ltrc.iiit.ac.in/downloads/kolhi/ 's Marathi dataset.
+
+
+**Github Repository link**
+
+https://github.com/destinyson7/Dependency-Parser-Marathi
+
+
+**Work division**
+
+Tanish (2018114005) - 
+
+Mukund (2018114015) - 
+
+
+
 ToDo
 
 
-which contains the information of where you got your data, how to run your code and the link to your GitHub/GitLab or any other collaborative work environment repository, if any. It will also contain a breakdown of which team member did which part of the project
+It will also contain a breakdown of which team member did which part of the project
