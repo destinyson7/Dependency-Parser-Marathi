@@ -61,24 +61,16 @@ For Models 1 to 12
 
 3. cd into the Data folder
 4. Move all the three files Training.txt, Development.txt and Testing.txt into the Data folder.
-5. Run four python codes:
-   
-   1.  
-    ```python
-        python3 get_distinct_chunk_tags.py Training.txt Development.txt Testing.txt
-    ```
-   2. 
-    ```python
-        python3 get_distinct_pos_tags.py Training.txt Development.txt Testing.txt
-    ```
-   3. 
-    ```python
-        python3 get_distinct_words.py Training.txt Development.txt Testing.txt
-    ```
-   4.  
-    ```python
-        python3 get_distinct_morph_vectors.py Training.txt Development.txt Testing.txt
-    ``` 
+5. Run four python codes:  
+```python
+    python3 get_distinct_chunk_tags.py Training.txt Development.txt Testing.txt
+    python3 get_distinct_pos_tags.py Training.txt Development.txt Testing.txt
+    python3 get_distinct_words.py Training.txt Development.txt Testing.txt
+    python3 get_distinct_morph_vectors.py Training.txt Development.txt Testing.txt
+``` 
+
+These four files will extract all the distinct POS Tags, Word Tags, Words and Morphological Features' Vectors and store them into files in the same folder
+
 6. Append the data from Development.txt into the Training.txt file
 
 For Models 13 to 17
@@ -86,27 +78,16 @@ For Models 13 to 17
 3. Move all the files Training.txt, Development.txt and Testing.txt into the Morphological Features directory
 4. cd into the "Data/For Model 13 to 15" directory
 5. Run four python codes:
-   
-   1.  
-    ```python
-        python3 get_distinct_chunk_tags.py ../../Morphological Features/Training.txt ../../Morphological Features/Development.txt ../../Morphological Features/Testing.txt
-    ```
-   2. 
-    ```python
-        python3 get_distinct_pos_tags.py ../../Morphological Features/Training.txt ../../Morphological Features/Development.txt ../../Morphological Features/Testing.txt
-    ```
-   3. 
-    ```python
-        python3 get_distinct_words.py ../../Morphological Features/Training.txt ../../Morphological Features/Development.txt ../../Morphological Features/Testing.txt
-    ```
-   4.  
-    ```python
-        python3 get_distinct_morph_vectors.py ../../Morphological Features/Training.txt ../../Morphological Features/Development.txt ../../Morphological Features/Testing.txt
-    ``` 
+```python
+    python3 get_distinct_chunk_tags.py ../../Morphological Features/Training.txt ../../Morphological Features/Development.txt ../../Morphological Features/Testing.txt
+    python3 get_distinct_pos_tags.py ../../Morphological Features/Training.txt ../../Morphological Features/Development.txt ../../Morphological Features/Testing.txt
+    python3 get_distinct_words.py ../../Morphological Features/Training.txt ../../Morphological Features/Development.txt ../../Morphological Features/Testing.txt
+    python3 get_distinct_morph_vectors.py ../../Morphological Features/Training.txt ../../Morphological Features/Development.txt ../../Morphological Features/Testing.txt
+``` 
 
-    These four files will extract all the distinct POS Tags, Word Tags, Words and Morphological Features' Vectors and store them into files in the same folder
+These four files will extract all the distinct POS Tags, Word Tags, Words and Morphological Features' Vectors and store them into files in the same folder
 
-5. Append the data from Development.txt into the Training.txt file
+6. Append the data from Development.txt into the Training.txt file
     
      
 **Running the Models** - 
