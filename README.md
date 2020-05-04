@@ -47,7 +47,9 @@ For Models 1 to 12
 ``` 
 
 For Models 13 to 17
+
 1. cd into the Morphological Features directory
+
 2. Follow steps 2 to 9 above
 
 After preprocessing the corpus size falls down to 7.5K from 13K in the training data! The other 5.5K sentences either had insufficient data, or were wrongly chunked, or were non parsable due to projectivity issues.
@@ -98,24 +100,24 @@ These four files will extract all the distinct POS Tags, Word Tags, Words and Mo
 For Models 1 to 12
 
 3. Train the Model by running 
-    ```python
-        python3 train.py ../../Training.txt
-    ``` 
+```python
+    python3 train.py ../../Training.txt
+``` 
 4. Test the Model by running
-    ```python
-        python3 predict.py ../../Testing.txt
-    ``` 
+```python
+    python3 predict.py ../../Testing.txt
+``` 
 
 For Models 13 to 17
 
 3. Train the Model by running 
-    ```python
-        python3 train.py ../../../Morphological Features/Training.txt
-    ``` 
+```python
+    python3 train.py ../../../Morphological Features/Training.txt
+``` 
 4. Test the Model by running
-    ```python
-        python3 predict.py ../../../Morphological Features/Testing.txt
-    ``` 
+```python
+    python3 predict.py ../../../Morphological Features/Testing.txt
+``` 
 
 _Reading the output_ -
 
